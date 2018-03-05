@@ -1,0 +1,1833 @@
+SampleID,aerobic_status_corrected,common,Proportion,Counts
+Alpaca.0.Feces.1.1,aerobe,Alpaca,0.001029201057,102
+Alpaca.0.Feces.1.1,facultative anaerobe,Alpaca,0.006155025932,610
+Alpaca.0.Feces.1.1,microaerobe or anaerobe,Alpaca,0.002199665005,218
+Alpaca.0.Feces.1.1,no taxonomic assignment,Alpaca,0.1328375679,13165
+Alpaca.0.Feces.1.1,obligate anaerobe,Alpaca,0.8047343249,79754
+Alpaca.0.Feces.1.1,Streptophyta,Alpaca,1.01E-04,10
+Alpaca.0.Feces.1.1,NA,Alpaca,0.05294331322,5247
+AmericanGuineaPig.0.Feces.1.1,aerobe,Guinea Pig,3.68E-04,9
+AmericanGuineaPig.0.Feces.1.1,facultative anaerobe,Guinea Pig,0.001514407335,37
+AmericanGuineaPig.0.Feces.1.1,intracellular,Guinea Pig,4.09E-05,1
+AmericanGuineaPig.0.Feces.1.1,microaerobe or anaerobe,Guinea Pig,0.001719056974,42
+AmericanGuineaPig.0.Feces.1.1,no taxonomic assignment,Guinea Pig,0.268745907,6566
+AmericanGuineaPig.0.Feces.1.1,obligate anaerobe,Guinea Pig,0.6489030779,15854
+AmericanGuineaPig.0.Feces.1.1,Streptophyta,Guinea Pig,1.23E-04,3
+AmericanGuineaPig.0.Feces.1.1,NA,Guinea Pig,0.07858546169,1920
+BeardedDragon.0.Feces.1.1,aerobe,Bearded Dragon,0.001156718884,35
+BeardedDragon.0.Feces.1.1,facultative anaerobe,Bearded Dragon,0.001057571551,32
+BeardedDragon.0.Feces.1.1,no taxonomic assignment,Bearded Dragon,0.1101196378,3332
+BeardedDragon.0.Feces.1.1,obligate anaerobe,Bearded Dragon,0.8646969397,26164
+BeardedDragon.0.Feces.1.1,NA,Bearded Dragon,0.02296913213,695
+Bedbug.1.Gut.1.1,aerobe,Bedbug,0.1405006792,724
+Bedbug.1.Gut.1.1,facultative anaerobe,Bedbug,0.04521637881,233
+Bedbug.1.Gut.1.1,intracellular,Bedbug,0.8125363866,4187
+Bedbug.1.Gut.1.1,NA,Bedbug,0.001746555405,9
+Bedbug.3.Gut.1.1,aerobe,Bedbug,1.44E-04,5
+Bedbug.3.Gut.1.1,facultative anaerobe,Bedbug,6.05E-04,21
+Bedbug.3.Gut.1.1,intracellular,Bedbug,0.9979819529,34617
+Bedbug.3.Gut.1.1,no taxonomic assignment,Bedbug,5.77E-05,2
+Bedbug.3.Gut.1.1,obligate anaerobe,Bedbug,3.17E-04,11
+Bedbug.3.Gut.1.1,NA,Bedbug,8.94E-04,31
+Bedbug.6.Gut.1.1,aerobe,Bedbug,0.7442329227,3323
+Bedbug.6.Gut.1.1,facultative anaerobe,Bedbug,0.2517357223,1124
+Bedbug.6.Gut.1.1,microaerobe or anaerobe,Bedbug,4.48E-04,2
+Bedbug.6.Gut.1.1,obligate anaerobe,Bedbug,0.001343784994,6
+Bedbug.6.Gut.1.1,NA,Bedbug,0.002239641657,10
+Bee.M1.Gut.1.1,aerobe,Western Honey Bee,0.3664509121,24288
+Bee.M1.Gut.1.1,facultative anaerobe,Western Honey Bee,0.1686808793,11180
+Bee.M1.Gut.1.1,intracellular,Western Honey Bee,1.51E-05,1
+Bee.M1.Gut.1.1,no taxonomic assignment,Western Honey Bee,0.002625265921,174
+Bee.M1.Gut.1.1,obligate anaerobe,Western Honey Bee,8.75E-04,58
+Bee.M1.Gut.1.1,Streptophyta,Western Honey Bee,3.02E-05,2
+Bee.M1.Gut.1.1,NA,Western Honey Bee,0.4613225909,30576
+Bee.M2.Gut.1.1,aerobe,Long-horned Bee,0.6244429208,14572
+Bee.M2.Gut.1.1,facultative anaerobe,Long-horned Bee,0.01688378471,394
+Bee.M2.Gut.1.1,no taxonomic assignment,Long-horned Bee,0.001157010627,27
+Bee.M2.Gut.1.1,obligate anaerobe,Long-horned Bee,1.29E-04,3
+Bee.M2.Gut.1.1,Streptophyta,Long-horned Bee,0.30935036,7219
+Bee.M2.Gut.1.1,variable,Long-horned Bee,8.57E-05,2
+Bee.M2.Gut.1.1,NA,Long-horned Bee,0.04795166267,1119
+Bee.M3.Gut.1.1,aerobe,European Wool Carder Bee,0.7434654723,22243
+Bee.M3.Gut.1.1,facultative anaerobe,European Wool Carder Bee,5.01E-04,15
+Bee.M3.Gut.1.1,intracellular,European Wool Carder Bee,6.68E-05,2
+Bee.M3.Gut.1.1,no taxonomic assignment,European Wool Carder Bee,2.67E-04,8
+Bee.M3.Gut.1.1,obligate anaerobe,European Wool Carder Bee,3.34E-05,1
+Bee.M3.Gut.1.1,Streptophyta,European Wool Carder Bee,0.103716826,3103
+Bee.M3.Gut.1.1,NA,European Wool Carder Bee,0.1519486597,4546
+Bee.M4.Gut.1.1,aerobe,Two-spotted Bumble Bee,0.03362740739,1437
+Bee.M4.Gut.1.1,facultative anaerobe,Two-spotted Bumble Bee,0.01897830716,811
+Bee.M4.Gut.1.1,no taxonomic assignment,Two-spotted Bumble Bee,0.8873470152,37919
+Bee.M4.Gut.1.1,obligate anaerobe,Two-spotted Bumble Bee,7.02E-05,3
+Bee.M4.Gut.1.1,Streptophyta,Two-spotted Bumble Bee,2.34E-05,1
+Bee.M4.Gut.1.1,NA,Two-spotted Bumble Bee,0.05995366579,2562
+Bee.R2.Gut.1.1,aerobe,Two-spotted Bumble Bee,0.002712794817,85
+Bee.R2.Gut.1.1,facultative anaerobe,Two-spotted Bumble Bee,0.3626527942,11363
+Bee.R2.Gut.1.1,no taxonomic assignment,Two-spotted Bumble Bee,4.79E-04,15
+Bee.R2.Gut.1.1,obligate anaerobe,Two-spotted Bumble Bee,3.19E-05,1
+Bee.R2.Gut.1.1,Streptophyta,Two-spotted Bumble Bee,5.11E-04,16
+Bee.R2.Gut.1.1,NA,Two-spotted Bumble Bee,0.6336131235,19853
+Bonobo.IKpp3158.Feces.1.1,aerobe,Bonobo,2.33E-04,9
+Bonobo.IKpp3158.Feces.1.1,facultative anaerobe,Bonobo,4.40E-04,17
+Bonobo.IKpp3158.Feces.1.1,microaerobe or anaerobe,Bonobo,2.33E-04,9
+Bonobo.IKpp3158.Feces.1.1,no taxonomic assignment,Bonobo,0.09664801575,3731
+Bonobo.IKpp3158.Feces.1.1,obligate anaerobe,Bonobo,0.6228370117,24044
+Bonobo.IKpp3158.Feces.1.1,Streptophyta,Bonobo,0.003056678064,118
+Bonobo.IKpp3158.Feces.1.1,NA,Bonobo,0.2765516527,10676
+Bonobo.IKpp3276.Feces.1.1,aerobe,Bonobo,2.27E-05,1
+Bonobo.IKpp3276.Feces.1.1,facultative anaerobe,Bonobo,1.59E-04,7
+Bonobo.IKpp3276.Feces.1.1,microaerobe or anaerobe,Bonobo,5.67E-04,25
+Bonobo.IKpp3276.Feces.1.1,no taxonomic assignment,Bonobo,0.07688120833,3390
+Bonobo.IKpp3276.Feces.1.1,obligate anaerobe,Bonobo,0.825327709,36392
+Bonobo.IKpp3276.Feces.1.1,Streptophyta,Bonobo,0.008255091396,364
+Bonobo.IKpp3276.Feces.1.1,NA,Bonobo,0.08878759015,3915
+Bonobo.IKpp3358.Feces.1.1,aerobe,Bonobo,7.80E-05,3
+Bonobo.IKpp3358.Feces.1.1,facultative anaerobe,Bonobo,0.01566966374,603
+Bonobo.IKpp3358.Feces.1.1,microaerobe or anaerobe,Bonobo,0.002546645185,98
+Bonobo.IKpp3358.Feces.1.1,no taxonomic assignment,Bonobo,0.1479392963,5693
+Bonobo.IKpp3358.Feces.1.1,obligate anaerobe,Bonobo,0.6901148589,26557
+Bonobo.IKpp3358.Feces.1.1,Streptophyta,Bonobo,0.01863208773,717
+Bonobo.IKpp3358.Feces.1.1,variable,Bonobo,2.60E-05,1
+Bonobo.IKpp3358.Feces.1.1,NA,Bonobo,0.1249935035,4810
+Bonobo.IKpp3469.Feces.1.1,aerobe,Bonobo,0.08194536327,8423
+Bonobo.IKpp3469.Feces.1.1,facultative anaerobe,Bonobo,0.2167179048,22276
+Bonobo.IKpp3469.Feces.1.1,microaerobe or aerobe,Bonobo,1.95E-05,2
+Bonobo.IKpp3469.Feces.1.1,microaerobe or anaerobe,Bonobo,0.003103475114,319
+Bonobo.IKpp3469.Feces.1.1,no taxonomic assignment,Bonobo,0.09674281044,9944
+Bonobo.IKpp3469.Feces.1.1,obligate anaerobe,Bonobo,0.4206716737,43240
+Bonobo.IKpp3469.Feces.1.1,Streptophyta,Bonobo,0.005506479356,566
+Bonobo.IKpp3469.Feces.1.1,variable,Bonobo,1.95E-05,2
+Bonobo.IKpp3469.Feces.1.1,NA,Bonobo,0.1752733782,18016
+Bonobo.IKpp3513.Feces.1.1,aerobe,Bonobo,6.84E-04,46
+Bonobo.IKpp3513.Feces.1.1,facultative anaerobe,Bonobo,0.003254569773,219
+Bonobo.IKpp3513.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01410313568,949
+Bonobo.IKpp3513.Feces.1.1,no taxonomic assignment,Bonobo,0.1255164215,8446
+Bonobo.IKpp3513.Feces.1.1,obligate anaerobe,Bonobo,0.7241046218,48725
+Bonobo.IKpp3513.Feces.1.1,Streptophyta,Bonobo,0.002214296329,149
+Bonobo.IKpp3513.Feces.1.1,variable,Bonobo,5.94E-05,4
+Bonobo.IKpp3513.Feces.1.1,NA,Bonobo,0.1300639025,8752
+Bonobo.IKpp3650.Feces.1.1,aerobe,Bonobo,0.01032760111,430
+Bonobo.IKpp3650.Feces.1.1,facultative anaerobe,Bonobo,0.0325919877,1357
+Bonobo.IKpp3650.Feces.1.1,microaerobe or anaerobe,Bonobo,2.40E-05,1
+Bonobo.IKpp3650.Feces.1.1,no taxonomic assignment,Bonobo,0.1894994716,7890
+Bonobo.IKpp3650.Feces.1.1,obligate anaerobe,Bonobo,0.5561533289,23156
+Bonobo.IKpp3650.Feces.1.1,Streptophyta,Bonobo,0.05137381112,2139
+Bonobo.IKpp3650.Feces.1.1,variable,Bonobo,0.006004419253,250
+Bonobo.IKpp3650.Feces.1.1,NA,Bonobo,0.1540253627,6413
+Bonobo.IKpp3701.Feces.1.1,aerobe,Bonobo,0.1260999837,14688
+Bonobo.IKpp3701.Feces.1.1,facultative anaerobe,Bonobo,0.03017711347,3515
+Bonobo.IKpp3701.Feces.1.1,microaerobe or aerobe,Bonobo,1.72E-05,2
+Bonobo.IKpp3701.Feces.1.1,microaerobe or anaerobe,Bonobo,0.001382223405,161
+Bonobo.IKpp3701.Feces.1.1,no taxonomic assignment,Bonobo,0.1576163944,18359
+Bonobo.IKpp3701.Feces.1.1,obligate anaerobe,Bonobo,0.4659123104,54269
+Bonobo.IKpp3701.Feces.1.1,Streptophyta,Bonobo,0.002901810627,338
+Bonobo.IKpp3701.Feces.1.1,variable,Bonobo,7.90E-04,92
+Bonobo.IKpp3701.Feces.1.1,NA,Bonobo,0.2151031516,25055
+Bonobo.IKpp3777.Feces.1.1,aerobe,Bonobo,1.50E-04,5
+Bonobo.IKpp3777.Feces.1.1,facultative anaerobe,Bonobo,6.31E-04,21
+Bonobo.IKpp3777.Feces.1.1,microaerobe or anaerobe,Bonobo,0.003935352079,131
+Bonobo.IKpp3777.Feces.1.1,no taxonomic assignment,Bonobo,0.1354241769,4508
+Bonobo.IKpp3777.Feces.1.1,obligate anaerobe,Bonobo,0.5199471281,17308
+Bonobo.IKpp3777.Feces.1.1,Streptophyta,Bonobo,0.01820475847,606
+Bonobo.IKpp3777.Feces.1.1,variable,Bonobo,3.00E-05,1
+Bonobo.IKpp3777.Feces.1.1,NA,Bonobo,0.3216774814,10708
+Bonobo.IKpp4184.Feces.1.1,facultative anaerobe,Bonobo,1.19E-04,4
+Bonobo.IKpp4184.Feces.1.1,microaerobe or anaerobe,Bonobo,4.46E-04,15
+Bonobo.IKpp4184.Feces.1.1,no taxonomic assignment,Bonobo,0.2102945552,7068
+Bonobo.IKpp4184.Feces.1.1,obligate anaerobe,Bonobo,0.634126748,21313
+Bonobo.IKpp4184.Feces.1.1,Streptophyta,Bonobo,7.14E-04,24
+Bonobo.IKpp4184.Feces.1.1,NA,Bonobo,0.1542993157,5186
+Bonobo.IKpp4214.Feces.1.1,aerobe,Bonobo,5.03E-05,5
+Bonobo.IKpp4214.Feces.1.1,facultative anaerobe,Bonobo,6.94E-04,69
+Bonobo.IKpp4214.Feces.1.1,microaerobe or anaerobe,Bonobo,4.73E-04,47
+Bonobo.IKpp4214.Feces.1.1,no taxonomic assignment,Bonobo,0.1381560426,13741
+Bonobo.IKpp4214.Feces.1.1,obligate anaerobe,Bonobo,0.6106877137,60739
+Bonobo.IKpp4214.Feces.1.1,Streptophyta,Bonobo,3.02E-04,30
+Bonobo.IKpp4214.Feces.1.1,variable,Bonobo,2.01E-05,2
+Bonobo.IKpp4214.Feces.1.1,NA,Bonobo,0.2496179369,24827
+Bonobo.KRpp02.Feces.1.1,aerobe,Bonobo,3.09E-04,23
+Bonobo.KRpp02.Feces.1.1,facultative anaerobe,Bonobo,1.08E-04,8
+Bonobo.KRpp02.Feces.1.1,microaerobe or aerobe,Bonobo,1.35E-05,1
+Bonobo.KRpp02.Feces.1.1,microaerobe or anaerobe,Bonobo,4.57E-04,34
+Bonobo.KRpp02.Feces.1.1,no taxonomic assignment,Bonobo,0.2241806146,16662
+Bonobo.KRpp02.Feces.1.1,obligate anaerobe,Bonobo,0.684839352,50900
+Bonobo.KRpp02.Feces.1.1,Streptophyta,Bonobo,0.01128841289,839
+Bonobo.KRpp02.Feces.1.1,variable,Bonobo,4.04E-05,3
+Bonobo.KRpp02.Feces.1.1,NA,Bonobo,0.07876325279,5854
+Bonobo.KRpp05.Feces.1.1,aerobe,Bonobo,2.71E-05,2
+Bonobo.KRpp05.Feces.1.1,microaerobe or anaerobe,Bonobo,0.001583284842,117
+Bonobo.KRpp05.Feces.1.1,no taxonomic assignment,Bonobo,0.2417148193,17862
+Bonobo.KRpp05.Feces.1.1,obligate anaerobe,Bonobo,0.6484972326,47922
+Bonobo.KRpp05.Feces.1.1,Streptophyta,Bonobo,0.002368161089,175
+Bonobo.KRpp05.Feces.1.1,NA,Bonobo,0.1058094375,7819
+Bonobo.KRpp07.Feces.1.1,aerobe,Bonobo,9.84E-06,1
+Bonobo.KRpp07.Feces.1.1,facultative anaerobe,Bonobo,8.27E-04,84
+Bonobo.KRpp07.Feces.1.1,microaerobe or anaerobe,Bonobo,0.004644800677,472
+Bonobo.KRpp07.Feces.1.1,no taxonomic assignment,Bonobo,0.1635619323,16621
+Bonobo.KRpp07.Feces.1.1,obligate anaerobe,Bonobo,0.7210265797,73270
+Bonobo.KRpp07.Feces.1.1,Streptophyta,Bonobo,0.004014997195,408
+Bonobo.KRpp07.Feces.1.1,NA,Bonobo,0.1059152324,10763
+Bonobo.KRpp10.Feces.1.1,aerobe,Bonobo,1.35E-04,7
+Bonobo.KRpp10.Feces.1.1,facultative anaerobe,Bonobo,0.003769572782,195
+Bonobo.KRpp10.Feces.1.1,microaerobe or anaerobe,Bonobo,0.003769572782,195
+Bonobo.KRpp10.Feces.1.1,no taxonomic assignment,Bonobo,0.1513241833,7828
+Bonobo.KRpp10.Feces.1.1,obligate anaerobe,Bonobo,0.7448095882,38529
+Bonobo.KRpp10.Feces.1.1,Streptophyta,Bonobo,0.002203750242,114
+Bonobo.KRpp10.Feces.1.1,NA,Bonobo,0.09398801469,4862
+Bonobo.KRpp12.Feces.1.1,aerobe,Bonobo,2.54E-05,2
+Bonobo.KRpp12.Feces.1.1,facultative anaerobe,Bonobo,2.29E-04,18
+Bonobo.KRpp12.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01264840241,994
+Bonobo.KRpp12.Feces.1.1,no taxonomic assignment,Bonobo,0.1521625714,11958
+Bonobo.KRpp12.Feces.1.1,obligate anaerobe,Bonobo,0.7708017866,60575
+Bonobo.KRpp12.Feces.1.1,Streptophyta,Bonobo,2.80E-04,22
+Bonobo.KRpp12.Feces.1.1,variable,Bonobo,1.27E-05,1
+Bonobo.KRpp12.Feces.1.1,NA,Bonobo,0.06384007533,5017
+Bonobo.KRpp21.Feces.1.1,aerobe,Bonobo,1.20E-04,6
+Bonobo.KRpp21.Feces.1.1,facultative anaerobe,Bonobo,1.40E-04,7
+Bonobo.KRpp21.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01139641083,569
+Bonobo.KRpp21.Feces.1.1,no taxonomic assignment,Bonobo,0.3452771992,17239
+Bonobo.KRpp21.Feces.1.1,obligate anaerobe,Bonobo,0.5564412754,27782
+Bonobo.KRpp21.Feces.1.1,Streptophyta,Bonobo,0.006248998558,312
+Bonobo.KRpp21.Feces.1.1,NA,Bonobo,0.08037574107,4013
+Bonobo.KRpp33.Feces.1.1,aerobe,Bonobo,4.35E-05,2
+Bonobo.KRpp33.Feces.1.1,facultative anaerobe,Bonobo,0.01384565146,636
+Bonobo.KRpp33.Feces.1.1,microaerobe or anaerobe,Bonobo,0.06256667029,2874
+Bonobo.KRpp33.Feces.1.1,no taxonomic assignment,Bonobo,0.3687602046,16939
+Bonobo.KRpp33.Feces.1.1,obligate anaerobe,Bonobo,0.4198323718,19285
+Bonobo.KRpp33.Feces.1.1,Streptophyta,Bonobo,0.001415042996,65
+Bonobo.KRpp33.Feces.1.1,NA,Bonobo,0.133536519,6134
+Bonobo.KRpp35.Feces.1.1,aerobe,Bonobo,7.43E-05,5
+Bonobo.KRpp35.Feces.1.1,facultative anaerobe,Bonobo,1.49E-04,10
+Bonobo.KRpp35.Feces.1.1,microaerobe or anaerobe,Bonobo,0.02678836891,1802
+Bonobo.KRpp35.Feces.1.1,no taxonomic assignment,Bonobo,0.2315811381,15578
+Bonobo.KRpp35.Feces.1.1,obligate anaerobe,Bonobo,0.5803502408,39039
+Bonobo.KRpp35.Feces.1.1,Streptophyta,Bonobo,0.001798775049,121
+Bonobo.KRpp35.Feces.1.1,NA,Bonobo,0.1592584884,10713
+Bonobo.KRpp52.Feces.1.1,aerobe,Bonobo,1.23E-04,7
+Bonobo.KRpp52.Feces.1.1,facultative anaerobe,Bonobo,1.06E-04,6
+Bonobo.KRpp52.Feces.1.1,microaerobe or anaerobe,Bonobo,0.006118095104,347
+Bonobo.KRpp52.Feces.1.1,no taxonomic assignment,Bonobo,0.1973306063,11192
+Bonobo.KRpp52.Feces.1.1,obligate anaerobe,Bonobo,0.6282596047,35633
+Bonobo.KRpp52.Feces.1.1,Streptophyta,Bonobo,0.009997002662,567
+Bonobo.KRpp52.Feces.1.1,variable,Bonobo,7.05E-05,4
+Bonobo.KRpp52.Feces.1.1,NA,Bonobo,0.1579949574,8961
+Bonobo.KRpp57.Feces.1.1,aerobe,Bonobo,2.70E-04,6
+Bonobo.KRpp57.Feces.1.1,facultative anaerobe,Bonobo,4.51E-05,1
+Bonobo.KRpp57.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01067711853,237
+Bonobo.KRpp57.Feces.1.1,no taxonomic assignment,Bonobo,0.1675001126,3718
+Bonobo.KRpp57.Feces.1.1,obligate anaerobe,Bonobo,0.6571608776,14587
+Bonobo.KRpp57.Feces.1.1,Streptophyta,Bonobo,3.60E-04,8
+Bonobo.KRpp57.Feces.1.1,variable,Bonobo,4.51E-05,1
+Bonobo.KRpp57.Feces.1.1,NA,Bonobo,0.1639410731,3639
+Bonobo.KRpp67.Feces.1.1,aerobe,Bonobo,5.14E-05,6
+Bonobo.KRpp67.Feces.1.1,facultative anaerobe,Bonobo,3.42E-05,4
+Bonobo.KRpp67.Feces.1.1,microaerobe or anaerobe,Bonobo,0.008510784037,994
+Bonobo.KRpp67.Feces.1.1,no taxonomic assignment,Bonobo,0.2854451894,33338
+Bonobo.KRpp67.Feces.1.1,obligate anaerobe,Bonobo,0.6066459462,70852
+Bonobo.KRpp67.Feces.1.1,Streptophyta,Bonobo,0.01580574178,1846
+Bonobo.KRpp67.Feces.1.1,variable,Bonobo,8.56E-06,1
+Bonobo.KRpp67.Feces.1.1,NA,Bonobo,0.08349815486,9752
+Bonobo.LGpp4327.Feces.1.1,aerobe,Bonobo,0.01431353814,779
+Bonobo.LGpp4327.Feces.1.1,facultative anaerobe,Bonobo,0.007900926062,430
+Bonobo.LGpp4327.Feces.1.1,microaerobe or anaerobe,Bonobo,0.02616492724,1424
+Bonobo.LGpp4327.Feces.1.1,no taxonomic assignment,Bonobo,0.1249632515,6801
+Bonobo.LGpp4327.Feces.1.1,obligate anaerobe,Bonobo,0.608242687,33103
+Bonobo.LGpp4327.Feces.1.1,Streptophyta,Bonobo,2.39E-04,13
+Bonobo.LGpp4327.Feces.1.1,variable,Bonobo,1.84E-05,1
+Bonobo.LGpp4327.Feces.1.1,NA,Bonobo,0.2181574305,11873
+Bonobo.LKpp645.Feces.1.1,aerobe,Bonobo,6.72E-05,5
+Bonobo.LKpp645.Feces.1.1,facultative anaerobe,Bonobo,0.001827711329,136
+Bonobo.LKpp645.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01115441473,830
+Bonobo.LKpp645.Feces.1.1,no taxonomic assignment,Bonobo,0.1372127402,10210
+Bonobo.LKpp645.Feces.1.1,obligate anaerobe,Bonobo,0.7498320118,55795
+Bonobo.LKpp645.Feces.1.1,Streptophyta,Bonobo,3.36E-04,25
+Bonobo.LKpp645.Feces.1.1,NA,Bonobo,0.09956995028,7409
+Bonobo.LKpp647.Feces.1.1,aerobe,Bonobo,1.12E-04,10
+Bonobo.LKpp647.Feces.1.1,facultative anaerobe,Bonobo,0.001269934031,113
+Bonobo.LKpp647.Feces.1.1,microaerobe or anaerobe,Bonobo,0.0460884908,4101
+Bonobo.LKpp647.Feces.1.1,no taxonomic assignment,Bonobo,0.1196884728,10650
+Bonobo.LKpp647.Feces.1.1,obligate anaerobe,Bonobo,0.5586698284,49711
+Bonobo.LKpp647.Feces.1.1,Streptophyta,Bonobo,0.002416246165,215
+Bonobo.LKpp647.Feces.1.1,variable,Bonobo,1.12E-05,1
+Bonobo.LKpp647.Feces.1.1,NA,Bonobo,0.2717434059,24180
+Bonobo.LKpp653.Feces.1.1,aerobe,Bonobo,4.02E-04,33
+Bonobo.LKpp653.Feces.1.1,facultative anaerobe,Bonobo,0.003840105329,315
+Bonobo.LKpp653.Feces.1.1,microaerobe or aerobe,Bonobo,2.44E-05,2
+Bonobo.LKpp653.Feces.1.1,microaerobe or anaerobe,Bonobo,0.001182508625,97
+Bonobo.LKpp653.Feces.1.1,no taxonomic assignment,Bonobo,0.1477770057,12122
+Bonobo.LKpp653.Feces.1.1,obligate anaerobe,Bonobo,0.6747491741,55349
+Bonobo.LKpp653.Feces.1.1,Streptophyta,Bonobo,0.001182508625,97
+Bonobo.LKpp653.Feces.1.1,variable,Bonobo,3.66E-05,3
+Bonobo.LKpp653.Feces.1.1,NA,Bonobo,0.1708054469,14011
+Bonobo.LKpp661.Feces.1.1,aerobe,Bonobo,1.23E-04,12
+Bonobo.LKpp661.Feces.1.1,facultative anaerobe,Bonobo,7.19E-05,7
+Bonobo.LKpp661.Feces.1.1,microaerobe or aerobe,Bonobo,4.11E-05,4
+Bonobo.LKpp661.Feces.1.1,microaerobe or anaerobe,Bonobo,0.004766160262,464
+Bonobo.LKpp661.Feces.1.1,no taxonomic assignment,Bonobo,0.1193697164,11621
+Bonobo.LKpp661.Feces.1.1,obligate anaerobe,Bonobo,0.6534878227,63619
+Bonobo.LKpp661.Feces.1.1,Streptophyta,Bonobo,0.01845859912,1797
+Bonobo.LKpp661.Feces.1.1,variable,Bonobo,7.19E-05,7
+Bonobo.LKpp661.Feces.1.1,NA,Bonobo,0.2036095446,19822
+Bonobo.LKpp665.Feces.1.1,aerobe,Bonobo,5.10E-05,2
+Bonobo.LKpp665.Feces.1.1,facultative anaerobe,Bonobo,2.55E-05,1
+Bonobo.LKpp665.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01215193743,477
+Bonobo.LKpp665.Feces.1.1,no taxonomic assignment,Bonobo,0.1463072886,5743
+Bonobo.LKpp665.Feces.1.1,obligate anaerobe,Bonobo,0.7568593483,29709
+Bonobo.LKpp665.Feces.1.1,Streptophyta,Bonobo,0.002292818383,90
+Bonobo.LKpp665.Feces.1.1,NA,Bonobo,0.08231217996,3231
+Bonobo.LKpp668.Feces.1.1,aerobe,Bonobo,2.81E-04,9
+Bonobo.LKpp668.Feces.1.1,facultative anaerobe,Bonobo,0.006843963874,219
+Bonobo.LKpp668.Feces.1.1,microaerobe or anaerobe,Bonobo,9.06E-04,29
+Bonobo.LKpp668.Feces.1.1,no taxonomic assignment,Bonobo,0.1131285353,3620
+Bonobo.LKpp668.Feces.1.1,obligate anaerobe,Bonobo,0.6679583737,21374
+Bonobo.LKpp668.Feces.1.1,Streptophyta,Bonobo,0.00265633301,85
+Bonobo.LKpp668.Feces.1.1,variable,Bonobo,1.56E-04,5
+Bonobo.LKpp668.Feces.1.1,NA,Bonobo,0.2080690022,6658
+Bonobo.LKpp670.Feces.1.1,aerobe,Bonobo,8.83E-05,8
+Bonobo.LKpp670.Feces.1.1,facultative anaerobe,Bonobo,2.54E-04,23
+Bonobo.LKpp670.Feces.1.1,microaerobe or aerobe,Bonobo,1.10E-05,1
+Bonobo.LKpp670.Feces.1.1,microaerobe or anaerobe,Bonobo,0.005607497268,508
+Bonobo.LKpp670.Feces.1.1,no taxonomic assignment,Bonobo,0.130970384,11865
+Bonobo.LKpp670.Feces.1.1,obligate anaerobe,Bonobo,0.7696510768,69725
+Bonobo.LKpp670.Feces.1.1,Streptophyta,Bonobo,0.003090746526,280
+Bonobo.LKpp670.Feces.1.1,variable,Bonobo,4.42E-05,4
+Bonobo.LKpp670.Feces.1.1,NA,Bonobo,0.09028291369,8179
+Bonobo.LKpp682.Feces.1.1,aerobe,Bonobo,3.14E-05,2
+Bonobo.LKpp682.Feces.1.1,facultative anaerobe,Bonobo,5.03E-04,32
+Bonobo.LKpp682.Feces.1.1,microaerobe or anaerobe,Bonobo,7.70E-04,49
+Bonobo.LKpp682.Feces.1.1,no taxonomic assignment,Bonobo,0.1410594778,8979
+Bonobo.LKpp682.Feces.1.1,obligate anaerobe,Bonobo,0.6507053759,41420
+Bonobo.LKpp682.Feces.1.1,Streptophyta,Bonobo,0.008530492978,543
+Bonobo.LKpp682.Feces.1.1,variable,Bonobo,3.14E-05,2
+Bonobo.LKpp682.Feces.1.1,NA,Bonobo,0.1983693091,12627
+Bonobo.LKpp685.Feces.1.1,aerobe,Bonobo,4.09E-04,19
+Bonobo.LKpp685.Feces.1.1,facultative anaerobe,Bonobo,2.15E-05,1
+Bonobo.LKpp685.Feces.1.1,microaerobe or aerobe,Bonobo,2.15E-05,1
+Bonobo.LKpp685.Feces.1.1,microaerobe or anaerobe,Bonobo,8.62E-05,4
+Bonobo.LKpp685.Feces.1.1,no taxonomic assignment,Bonobo,0.1026712624,4766
+Bonobo.LKpp685.Feces.1.1,obligate anaerobe,Bonobo,0.7185911245,33357
+Bonobo.LKpp685.Feces.1.1,Streptophyta,Bonobo,0.001034037053,48
+Bonobo.LKpp685.Feces.1.1,variable,Bonobo,5.60E-04,26
+Bonobo.LKpp685.Feces.1.1,NA,Bonobo,0.1766049117,8198
+Bonobo.LKpp686.Feces.1.1,facultative anaerobe,Bonobo,4.66E-05,3
+Bonobo.LKpp686.Feces.1.1,microaerobe or anaerobe,Bonobo,0.004300641215,277
+Bonobo.LKpp686.Feces.1.1,no taxonomic assignment,Bonobo,0.1334906612,8598
+Bonobo.LKpp686.Feces.1.1,obligate anaerobe,Bonobo,0.7278330668,46879
+Bonobo.LKpp686.Feces.1.1,Streptophyta,Bonobo,0.003788290456,244
+Bonobo.LKpp686.Feces.1.1,NA,Bonobo,0.1305407629,8408
+Bonobo.TLpp3793.Feces.1.1,facultative anaerobe,Bonobo,7.85E-04,14
+Bonobo.TLpp3793.Feces.1.1,microaerobe or anaerobe,Bonobo,8.41E-04,15
+Bonobo.TLpp3793.Feces.1.1,no taxonomic assignment,Bonobo,0.1071488646,1911
+Bonobo.TLpp3793.Feces.1.1,obligate anaerobe,Bonobo,0.7226801234,12889
+Bonobo.TLpp3793.Feces.1.1,Streptophyta,Bonobo,1.12E-04,2
+Bonobo.TLpp3793.Feces.1.1,NA,Bonobo,0.1684328567,3004
+Bonobo.TLpp3797.Feces.1.1,aerobe,Bonobo,2.40E-05,2
+Bonobo.TLpp3797.Feces.1.1,facultative anaerobe,Bonobo,4.79E-05,4
+Bonobo.TLpp3797.Feces.1.1,microaerobe or anaerobe,Bonobo,0.001270450051,106
+Bonobo.TLpp3797.Feces.1.1,no taxonomic assignment,Bonobo,0.1083238449,9038
+Bonobo.TLpp3797.Feces.1.1,obligate anaerobe,Bonobo,0.7841673159,65427
+Bonobo.TLpp3797.Feces.1.1,Streptophyta,Bonobo,2.40E-04,20
+Bonobo.TLpp3797.Feces.1.1,variable,Bonobo,1.20E-05,1
+Bonobo.TLpp3797.Feces.1.1,NA,Bonobo,0.105914784,8837
+Bonobo.TLpp3814.Feces.1.1,aerobe,Bonobo,6.63E-05,7
+Bonobo.TLpp3814.Feces.1.1,facultative anaerobe,Bonobo,6.63E-05,7
+Bonobo.TLpp3814.Feces.1.1,microaerobe or anaerobe,Bonobo,0.005590562373,590
+Bonobo.TLpp3814.Feces.1.1,no taxonomic assignment,Bonobo,0.1561756763,16482
+Bonobo.TLpp3814.Feces.1.1,obligate anaerobe,Bonobo,0.7575685791,79950
+Bonobo.TLpp3814.Feces.1.1,Streptophyta,Bonobo,0.003809162837,402
+Bonobo.TLpp3814.Feces.1.1,variable,Bonobo,3.79E-05,4
+Bonobo.TLpp3814.Feces.1.1,NA,Bonobo,0.0766854598,8093
+Bonobo.TLpp3816.Feces.1.1,aerobe,Bonobo,1.03E-04,7
+Bonobo.TLpp3816.Feces.1.1,facultative anaerobe,Bonobo,1.47E-04,10
+Bonobo.TLpp3816.Feces.1.1,microaerobe or anaerobe,Bonobo,0.002788213196,190
+Bonobo.TLpp3816.Feces.1.1,no taxonomic assignment,Bonobo,0.2139586757,14580
+Bonobo.TLpp3816.Feces.1.1,obligate anaerobe,Bonobo,0.7193296548,49018
+Bonobo.TLpp3816.Feces.1.1,Streptophyta,Bonobo,0.004417116694,301
+Bonobo.TLpp3816.Feces.1.1,NA,Bonobo,0.05925686781,4038
+Bonobo.TLpp3820.Feces.1.1,aerobe,Bonobo,1.79E-05,1
+Bonobo.TLpp3820.Feces.1.1,facultative anaerobe,Bonobo,2.14E-04,12
+Bonobo.TLpp3820.Feces.1.1,microaerobe or anaerobe,Bonobo,0.005379130404,301
+Bonobo.TLpp3820.Feces.1.1,no taxonomic assignment,Bonobo,0.1806923173,10111
+Bonobo.TLpp3820.Feces.1.1,obligate anaerobe,Bonobo,0.7452686885,41703
+Bonobo.TLpp3820.Feces.1.1,Streptophyta,Bonobo,0.001590506996,89
+Bonobo.TLpp3820.Feces.1.1,variable,Bonobo,1.79E-05,1
+Bonobo.TLpp3820.Feces.1.1,NA,Bonobo,0.06681916472,3739
+Bonobo.TLpp3821.Feces.1.1,aerobe,Bonobo,5.06E-05,2
+Bonobo.TLpp3821.Feces.1.1,facultative anaerobe,Bonobo,4.56E-04,18
+Bonobo.TLpp3821.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01268322321,501
+Bonobo.TLpp3821.Feces.1.1,no taxonomic assignment,Bonobo,0.1041998937,4116
+Bonobo.TLpp3821.Feces.1.1,obligate anaerobe,Bonobo,0.7467659047,29498
+Bonobo.TLpp3821.Feces.1.1,Streptophyta,Bonobo,2.53E-04,10
+Bonobo.TLpp3821.Feces.1.1,NA,Bonobo,0.135591504,5356
+Bonobo.TLpp3824.Feces.1.1,aerobe,Bonobo,8.10E-05,4
+Bonobo.TLpp3824.Feces.1.1,facultative anaerobe,Bonobo,8.10E-05,4
+Bonobo.TLpp3824.Feces.1.1,microaerobe or anaerobe,Bonobo,0.007071218722,349
+Bonobo.TLpp3824.Feces.1.1,no taxonomic assignment,Bonobo,0.2528416574,12479
+Bonobo.TLpp3824.Feces.1.1,obligate anaerobe,Bonobo,0.6893729105,34024
+Bonobo.TLpp3824.Feces.1.1,Streptophyta,Bonobo,9.73E-04,48
+Bonobo.TLpp3824.Feces.1.1,NA,Bonobo,0.04957957654,2447
+Bonobo.TLpp3826.Feces.1.1,aerobe,Bonobo,2.44E-05,1
+Bonobo.TLpp3826.Feces.1.1,facultative anaerobe,Bonobo,2.44E-05,1
+Bonobo.TLpp3826.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01186820685,487
+Bonobo.TLpp3826.Feces.1.1,no taxonomic assignment,Bonobo,0.2870790077,11780
+Bonobo.TLpp3826.Feces.1.1,obligate anaerobe,Bonobo,0.6302334649,25861
+Bonobo.TLpp3826.Feces.1.1,Streptophyta,Bonobo,0.00248574353,102
+Bonobo.TLpp3826.Feces.1.1,NA,Bonobo,0.06828483696,2802
+Bonobo.TLpp3838.Feces.1.1,aerobe,Bonobo,4.18E-05,3
+Bonobo.TLpp3838.Feces.1.1,facultative anaerobe,Bonobo,9.74E-05,7
+Bonobo.TLpp3838.Feces.1.1,microaerobe or anaerobe,Bonobo,0.008949075169,643
+Bonobo.TLpp3838.Feces.1.1,no taxonomic assignment,Bonobo,0.2395930467,17215
+Bonobo.TLpp3838.Feces.1.1,obligate anaerobe,Bonobo,0.6386410767,45887
+Bonobo.TLpp3838.Feces.1.1,Streptophyta,Bonobo,8.07E-04,58
+Bonobo.TLpp3838.Feces.1.1,NA,Bonobo,0.1118703985,8038
+Bonobo.TLpp3842.Feces.1.1,aerobe,Bonobo,3.01E-05,2
+Bonobo.TLpp3842.Feces.1.1,facultative anaerobe,Bonobo,3.01E-05,2
+Bonobo.TLpp3842.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01246522818,829
+Bonobo.TLpp3842.Feces.1.1,no taxonomic assignment,Bonobo,0.2293511766,15253
+Bonobo.TLpp3842.Feces.1.1,obligate anaerobe,Bonobo,0.6234719194,41464
+Bonobo.TLpp3842.Feces.1.1,Streptophyta,Bonobo,0.00171415683,114
+Bonobo.TLpp3842.Feces.1.1,variable,Bonobo,3.01E-05,2
+Bonobo.TLpp3842.Feces.1.1,NA,Bonobo,0.1329073002,8839
+Bonobo.TLpp3856.Feces.1.1,aerobe,Bonobo,8.76E-05,4
+Bonobo.TLpp3856.Feces.1.1,microaerobe or aerobe,Bonobo,2.19E-05,1
+Bonobo.TLpp3856.Feces.1.1,microaerobe or anaerobe,Bonobo,0.0128162997,585
+Bonobo.TLpp3856.Feces.1.1,no taxonomic assignment,Bonobo,0.1478365648,6748
+Bonobo.TLpp3856.Feces.1.1,obligate anaerobe,Bonobo,0.6893416585,31465
+Bonobo.TLpp3856.Feces.1.1,Streptophyta,Bonobo,7.45E-04,34
+Bonobo.TLpp3856.Feces.1.1,NA,Bonobo,0.1491510571,6808
+Bonobo.TLpp3862.Feces.1.1,aerobe,Bonobo,6.60E-05,3
+Bonobo.TLpp3862.Feces.1.1,facultative anaerobe,Bonobo,4.40E-05,2
+Bonobo.TLpp3862.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01911192241,869
+Bonobo.TLpp3862.Feces.1.1,no taxonomic assignment,Bonobo,0.2885482417,13120
+Bonobo.TLpp3862.Feces.1.1,obligate anaerobe,Bonobo,0.650113264,29560
+Bonobo.TLpp3862.Feces.1.1,Streptophyta,Bonobo,0.001649475467,75
+Bonobo.TLpp3862.Feces.1.1,NA,Bonobo,0.04046713145,1840
+Bonobo.TLpp3882.Feces.1.1,aerobe,Bonobo,1.42E-04,11
+Bonobo.TLpp3882.Feces.1.1,facultative anaerobe,Bonobo,1.16E-04,9
+Bonobo.TLpp3882.Feces.1.1,microaerobe or anaerobe,Bonobo,0.003330665358,258
+Bonobo.TLpp3882.Feces.1.1,no taxonomic assignment,Bonobo,0.2526270946,19569
+Bonobo.TLpp3882.Feces.1.1,obligate anaerobe,Bonobo,0.6743693682,52238
+Bonobo.TLpp3882.Feces.1.1,Streptophyta,Bonobo,0.001265136454,98
+Bonobo.TLpp3882.Feces.1.1,variable,Bonobo,3.87E-05,3
+Bonobo.TLpp3882.Feces.1.1,NA,Bonobo,0.06811081563,5276
+Bonobo.TLpp3889.Feces.1.1,aerobe,Bonobo,1.41E-05,1
+Bonobo.TLpp3889.Feces.1.1,facultative anaerobe,Bonobo,1.41E-05,1
+Bonobo.TLpp3889.Feces.1.1,microaerobe or anaerobe,Bonobo,0.006446971193,457
+Bonobo.TLpp3889.Feces.1.1,no taxonomic assignment,Bonobo,0.258259741,18307
+Bonobo.TLpp3889.Feces.1.1,obligate anaerobe,Bonobo,0.6507067686,46126
+Bonobo.TLpp3889.Feces.1.1,Streptophyta,Bonobo,4.80E-04,34
+Bonobo.TLpp3889.Feces.1.1,NA,Bonobo,0.08407866151,5960
+Bonobo.TLpp3905.Feces.1.1,aerobe,Bonobo,5.90E-04,33
+Bonobo.TLpp3905.Feces.1.1,facultative anaerobe,Bonobo,0.001270329749,71
+Bonobo.TLpp3905.Feces.1.1,microaerobe or anaerobe,Bonobo,0.007478842747,418
+Bonobo.TLpp3905.Feces.1.1,no taxonomic assignment,Bonobo,0.3133599327,17514
+Bonobo.TLpp3905.Feces.1.1,obligate anaerobe,Bonobo,0.5349161761,29897
+Bonobo.TLpp3905.Feces.1.1,Streptophyta,Bonobo,3.40E-04,19
+Bonobo.TLpp3905.Feces.1.1,NA,Bonobo,0.1420443363,7939
+Bonobo.TLpp3910.Feces.1.1,facultative anaerobe,Bonobo,0.001361171486,62
+Bonobo.TLpp3910.Feces.1.1,microaerobe or anaerobe,Bonobo,0.002414981668,110
+Bonobo.TLpp3910.Feces.1.1,no taxonomic assignment,Bonobo,0.1269402182,5782
+Bonobo.TLpp3910.Feces.1.1,obligate anaerobe,Bonobo,0.7596654153,34602
+Bonobo.TLpp3910.Feces.1.1,Streptophyta,Bonobo,0.001207490834,55
+Bonobo.TLpp3910.Feces.1.1,variable,Bonobo,4.39E-05,2
+Bonobo.TLpp3910.Feces.1.1,NA,Bonobo,0.1083668138,4936
+Bonobo.TLpp3911.Feces.1.1,aerobe,Bonobo,2.28E-05,1
+Bonobo.TLpp3911.Feces.1.1,facultative anaerobe,Bonobo,6.15E-04,27
+Bonobo.TLpp3911.Feces.1.1,microaerobe or anaerobe,Bonobo,0.005765593309,253
+Bonobo.TLpp3911.Feces.1.1,no taxonomic assignment,Bonobo,0.293247647,12868
+Bonobo.TLpp3911.Feces.1.1,obligate anaerobe,Bonobo,0.5982771587,26253
+Bonobo.TLpp3911.Feces.1.1,Streptophyta,Bonobo,0.004489414553,197
+Bonobo.TLpp3911.Feces.1.1,NA,Bonobo,0.09758209704,4282
+Bonobo.TLpp3915.Feces.1.1,aerobe,Bonobo,2.27E-05,2
+Bonobo.TLpp3915.Feces.1.1,facultative anaerobe,Bonobo,3.40E-04,30
+Bonobo.TLpp3915.Feces.1.1,microaerobe or anaerobe,Bonobo,0.002640406147,233
+Bonobo.TLpp3915.Feces.1.1,no taxonomic assignment,Bonobo,0.2022460451,17847
+Bonobo.TLpp3915.Feces.1.1,obligate anaerobe,Bonobo,0.6859049907,60527
+Bonobo.TLpp3915.Feces.1.1,Streptophyta,Bonobo,0.002889714881,255
+Bonobo.TLpp3915.Feces.1.1,NA,Bonobo,0.1059562123,9350
+Bonobo.TLpp3916.Feces.1.1,aerobe,Bonobo,3.07E-05,2
+Bonobo.TLpp3916.Feces.1.1,facultative anaerobe,Bonobo,1.84E-04,12
+Bonobo.TLpp3916.Feces.1.1,microaerobe or anaerobe,Bonobo,1.84E-04,12
+Bonobo.TLpp3916.Feces.1.1,no taxonomic assignment,Bonobo,0.1387993244,9040
+Bonobo.TLpp3916.Feces.1.1,obligate anaerobe,Bonobo,0.6354368187,41386
+Bonobo.TLpp3916.Feces.1.1,Streptophyta,Bonobo,0.00328573622,214
+Bonobo.TLpp3916.Feces.1.1,NA,Bonobo,0.2220789191,14464
+Bonobo.TLpp3918.Feces.1.1,aerobe,Bonobo,5.92E-05,5
+Bonobo.TLpp3918.Feces.1.1,facultative anaerobe,Bonobo,1.89E-04,16
+Bonobo.TLpp3918.Feces.1.1,microaerobe or anaerobe,Bonobo,2.25E-04,19
+Bonobo.TLpp3918.Feces.1.1,no taxonomic assignment,Bonobo,0.1468322981,12411
+Bonobo.TLpp3918.Feces.1.1,obligate anaerobe,Bonobo,0.5762555457,48708
+Bonobo.TLpp3918.Feces.1.1,Streptophyta,Bonobo,0.00248447205,210
+Bonobo.TLpp3918.Feces.1.1,NA,Bonobo,0.2739544513,23156
+Bonobo.TLpp3925.Feces.1.1,aerobe,Bonobo,5.43E-05,3
+Bonobo.TLpp3925.Feces.1.1,facultative anaerobe,Bonobo,0.008143911973,450
+Bonobo.TLpp3925.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01996163313,1103
+Bonobo.TLpp3925.Feces.1.1,no taxonomic assignment,Bonobo,0.1434233386,7925
+Bonobo.TLpp3925.Feces.1.1,obligate anaerobe,Bonobo,0.6498117851,35906
+Bonobo.TLpp3925.Feces.1.1,Streptophyta,Bonobo,0.002207905024,122
+Bonobo.TLpp3925.Feces.1.1,variable,Bonobo,3.62E-05,2
+Bonobo.TLpp3925.Feces.1.1,NA,Bonobo,0.1763609382,9745
+Bonobo.TLpp3926.Feces.1.1,aerobe,Bonobo,4.21E-05,2
+Bonobo.TLpp3926.Feces.1.1,facultative anaerobe,Bonobo,0.003223427789,153
+Bonobo.TLpp3926.Feces.1.1,microaerobe or anaerobe,Bonobo,0.02382808385,1131
+Bonobo.TLpp3926.Feces.1.1,no taxonomic assignment,Bonobo,0.1151164016,5464
+Bonobo.TLpp3926.Feces.1.1,obligate anaerobe,Bonobo,0.5713473085,27119
+Bonobo.TLpp3926.Feces.1.1,Streptophyta,Bonobo,0.002464974192,117
+Bonobo.TLpp3926.Feces.1.1,NA,Bonobo,0.2839776678,13479
+Bonobo.TLpp3927.Feces.1.1,aerobe,Bonobo,7.08E-04,19
+Bonobo.TLpp3927.Feces.1.1,facultative anaerobe,Bonobo,0.01845775226,495
+Bonobo.TLpp3927.Feces.1.1,microaerobe or anaerobe,Bonobo,0.03441718249,923
+Bonobo.TLpp3927.Feces.1.1,no taxonomic assignment,Bonobo,0.1661197703,4455
+Bonobo.TLpp3927.Feces.1.1,obligate anaerobe,Bonobo,0.5856887165,15707
+Bonobo.TLpp3927.Feces.1.1,Streptophyta,Bonobo,2.24E-04,6
+Bonobo.TLpp3927.Feces.1.1,variable,Bonobo,2.98E-04,8
+Bonobo.TLpp3927.Feces.1.1,NA,Bonobo,0.1940860616,5205
+Bonobo.TLpp3929.Feces.1.1,aerobe,Bonobo,0.001638789897,63
+Bonobo.TLpp3929.Feces.1.1,facultative anaerobe,Bonobo,4.16E-04,16
+Bonobo.TLpp3929.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01188772989,457
+Bonobo.TLpp3929.Feces.1.1,no taxonomic assignment,Bonobo,0.1561532659,6003
+Bonobo.TLpp3929.Feces.1.1,obligate anaerobe,Bonobo,0.6502354135,24997
+Bonobo.TLpp3929.Feces.1.1,Streptophyta,Bonobo,1.56E-04,6
+Bonobo.TLpp3929.Feces.1.1,variable,Bonobo,0.00119657675,46
+Bonobo.TLpp3929.Feces.1.1,NA,Bonobo,0.1783159483,6855
+Bonobo.TLpp3932.Feces.1.1,aerobe,Bonobo,1.16E-04,9
+Bonobo.TLpp3932.Feces.1.1,facultative anaerobe,Bonobo,0.001175801742,91
+Bonobo.TLpp3932.Feces.1.1,microaerobe or anaerobe,Bonobo,0.02868439414,2220
+Bonobo.TLpp3932.Feces.1.1,no taxonomic assignment,Bonobo,0.1268186164,9815
+Bonobo.TLpp3932.Feces.1.1,obligate anaerobe,Bonobo,0.596906737,46197
+Bonobo.TLpp3932.Feces.1.1,Streptophyta,Bonobo,0.002558337856,198
+Bonobo.TLpp3932.Feces.1.1,variable,Bonobo,1.29E-05,1
+Bonobo.TLpp3932.Feces.1.1,NA,Bonobo,0.2437269039,18863
+Bonobo.TLpp3936.Feces.1.1,aerobe,Bonobo,1.48E-04,8
+Bonobo.TLpp3936.Feces.1.1,facultative anaerobe,Bonobo,8.15E-04,44
+Bonobo.TLpp3936.Feces.1.1,microaerobe or anaerobe,Bonobo,0.01304355882,704
+Bonobo.TLpp3936.Feces.1.1,no taxonomic assignment,Bonobo,0.1457210087,7865
+Bonobo.TLpp3936.Feces.1.1,obligate anaerobe,Bonobo,0.7251774035,39140
+Bonobo.TLpp3936.Feces.1.1,Streptophyta,Bonobo,0.001648972634,89
+Bonobo.TLpp3936.Feces.1.1,variable,Bonobo,1.85E-05,1
+Bonobo.TLpp3936.Feces.1.1,NA,Bonobo,0.1134270839,6122
+Bonobo.TLpp3939.Feces.1.1,aerobe,Bonobo,3.49E-05,2
+Bonobo.TLpp3939.Feces.1.1,facultative anaerobe,Bonobo,0.01614648792,925
+Bonobo.TLpp3939.Feces.1.1,microaerobe or aerobe,Bonobo,1.75E-05,1
+Bonobo.TLpp3939.Feces.1.1,microaerobe or anaerobe,Bonobo,0.02176721128,1247
+Bonobo.TLpp3939.Feces.1.1,no taxonomic assignment,Bon1687264349,9666
+Bonobo.TLpp3939.Feces.1.1,obligate anaerobe,Bonobo,0.5982230135,34271
+Bonobo.TLpp3939.Feces.1.1,Streptophyta,Bonobo,0.002775450356,159
+Bonobo.TLpp3939.Feces.1.1,NA,Bonobo,0.1923090351,11017
+Bonobo.TLpp3940.Feces.1.1,aerobe,Bonobo,5.63E-04,33
+Bonobo.TLpp3940.Feces.1.1,facultative anaerobe,Bonobo,0.01114087319,653
+Bonobo.TLpp3940.Feces.1.1,microaerobe or anaerobe,Bonobo,0.007387439646,433
+Bonobo.TLpp3940.Feces.1.1,no taxonomic assignment,Bonobo,0.2359715421,13831
+Bonobo.TLpp3940.Feces.1.1,obligate anaerobe,Bonobo,0.6848992544,40144
+Bonobo.TLpp3940.Feces.1.1,Streptophyta,Bonobo,0.001962022077,115
+Bonobo.TLpp3940.Feces.1.1,NA,Bonobo,0.05807585348,3404
+Bonobo.TLpp3942.Feces.1.1,aerobe,Bonobo,4.55E-04,27
+Bonobo.TLpp3942.Feces.1.1,facultative anaerobe,Bonobo,0.01191820772,707
+Bonobo.TLpp3942.Feces.1.1,microaerobe or anaerobe,Bonobo,0.0131993729,783
+Bonobo.TLpp3942.Feces.1.1,no taxonomic assignment,Bonobo,0.1972488663,11701
+Bonobo.TLpp3942.Feces.1.1,obligate anaerobe,Bonobo,0.6104414963,36212
+Bonobo.TLpp3942.Feces.1.1,Streptophyta,Bonobo,0.002258896512,134
+Bonobo.TLpp3942.Feces.1.1,variable,Bonobo,2.02E-04,12
+Bonobo.TLpp3942.Feces.1.1,NA,Bonobo,0.1642757202,9745
+Bonobo.TLpp3943.Feces.1.1,aerobe,Bonobo,0.001898085077,124
+Bonobo.TLpp3943.Feces.1.1,facultative anaerobe,Bonobo,1.38E-04,9
+Bonobo.TLpp3943.Feces.1.1,microaerobe or aerobe,Bonobo,1.53E-05,1
+Bonobo.TLpp3943.Feces.1.1,microaerobe or anaerobe,Bonobo,0.006888211973,450
+Bonobo.TLpp3943.Feces.1.1,no taxonomic assignment,Bonobo,0.1434278804,9370
+Bonobo.TLpp3943.Feces.1.1,obligate anaerobe,Bonobo,0.6372973718,41634
+Bonobo.TLpp3943.Feces.1.1,Streptophyta,Bonobo,0.006061626536,396
+Bonobo.TLpp3943.Feces.1.1,variable,Bonobo,0.001392949532,91
+Bonobo.TLpp3943.Feces.1.1,NA,Bonobo,0.2028808033,13254
+Bonobo.TLpp3944.Feces.1.1,aerobe,Bonobo,3.22E-04,22
+Bonobo.TLpp3944.Feces.1.1,facultative anaerobe,Bonobo,3.37E-04,23
+Bonobo.TLpp3944.Feces.1.1,microaerobe or anaerobe,Bonobo,0.005404930351,369
+Bonobo.TLpp3944.Feces.1.1,no taxonomic assignment,Bonobo,0.06560618711,4479
+Bonobo.TLpp3944.Feces.1.1,obligate anaerobe,Bonobo,0.8130978014,55511
+Bonobo.TLpp3944.Feces.1.1,Streptophyta,Bonobo,0.004570022411,312
+Bonobo.TLpp3944.Feces.1.1,variable,Bonobo,5.86E-05,4
+Bonobo.TLpp3944.Feces.1.1,NA,Bonobo,0.1106033308,7551
+Bonobo.TLpp3945.Feces.1.1,aerobe,Bonobo,1.51E-04,6
+Bonobo.TLpp3945.Feces.1.1,facultative anaerobe,Bonobo,2.27E-04,9
+Bonobo.TLpp3945.Feces.1.1,microaerobe or anaerobe,Bonobo,0.005958091391,236
+Bonobo.TLpp3945.Feces.1.1,no taxonomic assignment,Bonobo,0.1762938652,6983
+Bonobo.TLpp3945.Feces.1.1,obligate anaerobe,Bonobo,0.5154001515,20415
+Bonobo.TLpp3945.Feces.1.1,Streptophyta,Bonobo,5.05E-04,20
+Bonobo.TLpp3945.Feces.1.1,variable,Bonobo,1.01E-04,4
+Bonobo.TLpp3945.Feces.1.1,NA,Bonobo,0.3013632921,11937
+Bonobo.TLpp3946.Feces.1.1,aerobe,Bonobo,4.45E-04,17
+Bonobo.TLpp3946.Feces.1.1,facultative anaerobe,Bonobo,2.35E-04,9
+Bonobo.TLpp3946.Feces.1.1,microaerobe or anaerobe,Bonobo,0.004995945699,191
+Bonobo.TLpp3946.Feces.1.1,no taxonomic assignment,Bonobo,0.1207135571,4615
+Bonobo.TLpp3946.Feces.1.1,obligate anaerobe,Bonobo,0.7150479977,27337
+Bonobo.TLpp3946.Feces.1.1,Streptophyta,Bonobo,0.001020114567,39
+Bonobo.TLpp3946.Feces.1.1,variable,Bonobo,2.62E-05,1
+Bonobo.TLpp3946.Feces.1.1,NA,Bonobo,0.1575161518,6022
+Bonobo.TLpp3948.Feces.1.1,aerobe,Bonobo,2.66E-04,12
+Bonobo.TLpp3948.Feces.1.1,facultative anaerobe,Bonobo,0.002952144189,133
+Bonobo.TLpp3948.Feces.1.1,microaerobe or anaerobe,Bonobo,0.008323714818,375
+Bonobo.TLpp3948.Feces.1.1,no taxonomic assignment,Bonobo,0.2808088431,12651
+Bonobo.TLpp3948.Feces.1.1,obligate anaerobe,Bonobo,0.5185119418,23360
+Bonobo.TLpp3948.Feces.1.1,Streptophyta,Bonobo,0.01369528545,617
+Bonobo.TLpp3948.Feces.1.1,variable,Bonobo,1.55E-04,7
+Bonobo.TLpp3948.Feces.1.1,NA,Bonobo,0.1752863358,7897
+BoxElder.1.Gut.1.1,aerobe,Box elder,0.971476406,62668
+BoxElder.1.Gut.1.1,facultative anaerobe,Box elder,0.01407577355,908
+BoxElder.1.Gut.1.1,no taxonomic assignment,Box elder,0.003689464873,238
+BoxElder.1.Gut.1.1,obligate anaerobe,Box elder,8.53E-04,55
+BoxElder.1.Gut.1.1,NA,Box elder,0.009905748124,639
+BoxElder.2.Gut.1.1,aerobe,Box elder,0.4893686165,10541
+BoxElder.2.Gut.1.1,facultative anaerobe,Box elder,0.5041318477,10859
+BoxElder.2.Gut.1.1,intracellular,Box elder,4.64E-05,1
+BoxElder.2.Gut.1.1,no taxonomic assignment,Box elder,0.005803156917,125
+BoxElder.2.Gut.1.1,obligate anaerobe,Box elder,1.86E-04,4
+BoxElder.2.Gut.1.1,Streptophyta,Box elder,4.64E-05,1
+BoxElder.2.Gut.1.1,NA,Box elder,4.18E-04,9
+CaliforniaRabbit.0.Feces.1.1,aerobe,Rabbit,1.90E-04,8
+CaliforniaRabbit.0.Feces.1.1,facultative anaerobe,Rabbit,0.002227277035,94
+CaliforniaRabbit.0.Feces.1.1,no taxonomic assignment,Rabbit,0.1571178087,6631
+CaliforniaRabbit.0.Feces.1.1,obligate anaerobe,Rabbit,0.7560420813,31908
+CaliforniaRabbit.0.Feces.1.1,NA,Rabbit,0.08442327741,3563
+Cat.0.Feces.1.1,facultative anaerobe,Cat,0.1343431411,15734
+Cat.0.Feces.1.1,microaerobe or anaerobe,Cat,6.32E-04,74
+Cat.0.Feces.1.1,no taxonomic assignment,Cat,0.01680356563,1968
+Cat.0.Feces.1.1,obligate anaerobe,Cat,0.8452586281,98995
+Cat.0.Feces.1.1,NA,Cat,0.002962823819,347
+CentralChimpanzee.BQptt481.Feces.1.1,aerobe,Central Chimpanzee,3.13E-04,11
+CentralChimpanzee.BQptt481.Feces.1.1,facultative anaerobe,Central Chimpanzee,0.005939524838,209
+CentralChimpanzee.BQptt481.Feces.1.1,microaerobe or anaerobe,Central Chimpanzee,0.007133113561,251
+CentralChimpanzee.BQptt481.Feces.1.1,no taxonomic assignment,Central Chimpanzee,0.1311810845,4616
+CentralChimpanzee.BQptt481.Feces.1.1,obligate anaerobe,Central Chimpanzee,0.7563942253,26616
+CentralChimpanzee.BQptt481.Feces.1.1,Streptophyta,Central Chimpanzee,5.40E-04,19
+CentralChimpanzee.BQptt481.Feces.1.1,variable,Central Chimpanzee,2.84E-05,1
+CentralChimpanzee.BQptt481.Feces.1.1,NA,Central Chimpanzee,0.09847106968,3465
+CentralChimpanzee.GTptt306.Feces.1.1,aerobe,Central Chimpanzee,8.71E-04,14
+CentralChimpanzee.GTptt306.Feces.1.1,facultative anaerobe,Central Chimpanzee,0.1073073572,1724
+CentralChimpanzee.GTptt306.Feces.1.1,microaerobe or anaerobe,Central Chimpanzee,4.98E-04,8
+CentralChimpanzee.GTptt306.Feces.1.1,no taxonomic assignment,Central Chimpanzee,0.06989916594,1123
+CentralChimpanzee.GTptt306.Feces.1.1,obligate anaerobe,Central Chimpanzee,0.7284949583,11704
+CentralChimpanzee.GTptt306.Feces.1.1,Streptophyta,Central Chimpanzee,0.02912983941,468
+CentralChimpanzee.GTptt306.Feces.1.1,variable,Central Chimpanzee,2.49E-04,4
+CentralChimpanzee.GTptt306.Feces.1.1,NA,Central Chimpanzee,0.06355035479,1021
+CentralChimpanzee.MTptt350.Feces.1.1,aerobe,Central Chimpanzee,3.02E-04,6
+CentralChimpanzee.MTptt350.Feces.1.1,facultative anaerobe,Central Chimpanzee,0.002570305413,51
+CentralChimpanzee.MTptt350.Feces.1.1,microaerobe or aerobe,Central Chimpanzee,5.04E-05,1
+CentralChimpanzee.MTptt350.Feces.1.1,microaerobe or anaerobe,Central Chimpanzee,0.008366092128,166
+CentralChimpanzee.MTptt350.Feces.1.1,no taxonomic assignment,Central Chimpanzee,0.1427275476,2832
+CentralChimpanzee.MTptt350.Feces.1.1,obligate anaerobe,Central Chimpanzee,0.774266707,15363
+CentralChimpanzee.MTptt350.Feces.1.1,Streptophyta,Central Chimpanzee,0.001814333233,36
+CentralChimpanzee.MTptt350.Feces.1.1,NA,Central Chimpanzee,0.0699022276,1387
+CentralChimpanzee.SYptt43.Feces.1.1,aerobe,Central Chimpanzee,4.99E-05,3
+CentralChimpanzee.SYptt43.Feces.1.1,facultative anaerobe,Central Chimpanzee,0.08343738035,5012
+CentralChimpanzee.SYptt43.Feces.1.1,microaerobe or anaerobe,Central Chimpanzee,0.002530423346,152
+CentralChimpanzee.SYptt43.Feces.1.1,no taxonomic assignment,Central Chimpanzee,0.2177995305,13083
+CentralChimpanzee.SYptt43.Feces.1.1,obligate anaerobe,Central Chimpanzee,0.627961178,37721
+CentralChimpanzee.SYptt43.Feces.1.1,Streptophyta,Central Chimpanzee,0.001265211673,76
+CentralChimpanzee.SYptt43.Feces.1.1,NA,Central Chimpanzee,0.06695633355,4022
+CentralChimpanzee.TCptt98.Feces.1.1,aerobe,Central Chimpanzee,5.08E-04,39
+CentralChimpanzee.TCptt98.Feces.1.1,facultative anaerobe,Central Chimpanzee,0.01239179954,952
+CentralChimpanzee.TCptt98.Feces.1.1,microaerobe or anaerobe,Central Chimpanzee,0.01494305239,1148
+CentralChimpanzee.TCptt98.Feces.1.1,no taxonomic assignment,Central Chimpanzee,0.1799153921,13822
+CentralChimpanzee.TCptt98.Feces.1.1,obligate anaerobe,Central Chimpanzee,0.6961926456,53485
+CentralChimpanzee.TCptt98.Feces.1.1,NA,Central Chimpanzee,0.09604946307,7379
+Cockatiel.1.Feces.1.1,aerobe,Cockatiel,5.10E-04,20
+Cockatiel.1.Feces.1.1,facultative anaerobe,Cockatiel,0.09216872081,3612
+Cockatiel.1.Feces.1.1,microaerobe or anaerobe,Cockatiel,2.55E-05,1
+Cockatiel.1.Feces.1.1,no taxonomic assignment,Cockatiel,0.007017275256,275
+Cockatiel.1.Feces.1.1,obligate anaerobe,Cockatiel,0.8948939754,35070
+Cockatiel.1.Feces.1.1,Streptophyta,Cockatiel,0.001582076603,62
+Cockatiel.1.Feces.1.1,variable,Cockatiel,5.10E-05,2
+Cockatiel.1.Feces.1.1,NA,Cockatiel,0.003751052591,147
+Cockatiel.2.Feces.1.1,aerobe,Cockatiel,8.55E-05,3
+Cockatiel.2.Feces.1.1,facultative anaerobe,Cockatiel,0.3498631231,12269
+Cockatiel.2.Feces.1.1,no taxonomic assignment,Cockatiel,0.6376468575,22361
+Cockatiel.2.Feces.1.1,obligate anaerobe,Cockatiel,0.003193794913,112
+Cockatiel.2.Feces.1.1,Streptophyta,Cockatiel,0.009011064218,316
+Cockatiel.2.Feces.1.1,NA,Cockatiel,2.00E-04,7
+Cow.cvs1.Feces.1.1,aerobe,Cow,0.001064945278,65
+Cow.cvs1.Feces.1.1,facultative anaerobe,Cow,8.85E-04,54
+Cow.cvs1.Feces.1.1,microaerobe or anaerobe,Cow,0.001048561505,64
+Cow.cvs1.Feces.1.1,no taxonomic assignment,Cow,0.07973982568,4867
+Cow.cvs1.Feces.1.1,obligate anaerobe,Cow,0.8531030867,52070
+Cow.cvs1.Feces.1.1,Streptophyta,Cow,3.28E-05,2
+Cow.cvs1.Feces.1.1,NA,Cow,0.06412608952,3914
+Cow.cvs3.Feces.1.1,aerobe,Cow,2.30E-04,13
+Cow.cvs3.Feces.1.1,facultative anaerobe,Cow,1.41E-04,8
+Cow.cvs3.Feces.1.1,microaerobe or anaerobe,Cow,0.00215593412,122
+Cow.cvs3.Feces.1.1,no taxonomic assignment,Cow,0.08644942391,4892
+Cow.cvs3.Feces.1.1,obligate anaerobe,Cow,0.8515232912,48186
+Cow.cvs3.Feces.1.1,NA,Cow,0.0595002474,3367
+Cow.cvs4.Feces.1.1,aerobe,Cow,8.68E-04,14
+Cow.cvs4.Feces.1.1,facultative anaerobe,Cow,1.24E-04,2
+Cow.cvs4.Feces.1.1,microaerobe or anaerobe,Cow,0.001177783288,19
+Cow.cvs4.Feces.1.1,no taxonomic assignment,Cow,0.08151500124,1315
+Cow.cvs4.Feces.1.1,obligate anaerobe,Cow,0.8588519712,13855
+Cow.cvs4.Feces.1.1,Streptophyta,Cow,6.20E-05,1
+Cow.cvs4.Feces.1.1,NA,Cow,0.05740143814,926
+Cow.vsc2.Feces.1.1,aerobe,Cow,1.86E-04,10
+Cow.vsc2.Feces.1.1,facultative anaerobe,Cow,5.58E-05,3
+Cow.vsc2.Feces.1.1,microaerobe or anaerobe,Cow,7.43E-04,40
+Cow.vsc2.Feces.1.1,no taxonomic assignment,Cow,0.07042489127,3789
+Cow.vsc2.Feces.1.1,obligate anaerobe,Cow,0.8701906992,46818
+Cow.vsc2.Feces.1.1,NA,Cow,0.05839931601,3142
+Crab.1.Gut.1.1,aerobe,Crab,0.04234194123,1902
+Crab.1.Gut.1.1,facultative anaerobe,Crab,0.1448575245,6507
+Crab.1.Gut.1.1,no taxonomic assignment,Crab,0.2610863758,11728
+Crab.1.Gut.1.1,obligate anaerobe,Crab,0.5038290294,22632
+Crab.1.Gut.1.1,NA,Crab,0.04788512912,2151
+Crab.8.Gut.1.1,aerobe,Crab,0.002320368113,59
+Crab.8.Gut.1.1,facultative anaerobe,Crab,0.03071538129,781
+Crab.8.Gut.1.1,no taxonomic assignment,Crab,0.5737601762,14589
+Crab.8.Gut.1.1,obligate anaerobe,Crab,0.304872773,7752
+Crab.8.Gut.1.1,variable,Crab,0.005191332049,132
+Crab.8.Gut.1.1,NA,Crab,0.08313996932,2114
+Cricket.1.Gut.1.1,aerobe,Cricket,0.02200094194,654
+Cricket.1.Gut.1.1,facultative anaerobe,Cricket,0.1448227141,4305
+Cricket.1.Gut.1.1,no taxonomic assignment,Cricket,0.0195451793,581
+Cricket.1.Gut.1.1,obligate anaerobe,Cricket,0.5754221893,17105
+Cricket.1.Gut.1.1,variable,Cricket,0.01278342192,380
+Cricket.1.Gut.1.1,NA,Cricket,0.2254255534,6701
+Cricket.2.Gut.1.1,aerobe,Cricket,0.01546705639,889
+Cricket.2.Gut.1.1,facultative anaerobe,Cricket,0.04774083546,2744
+Cricket.2.Gut.1.1,intracellular,Cricket,3.48E-05,2
+Cricket.2.Gut.1.1,no taxonomic assignment,Cricket,0.03368303843,1936
+Cricket.2.Gut.1.1,obligate anaerobe,Cricket,0.8421281556,48403
+Cricket.2.Gut.1.1,variable,Cricket,8.00E-04,46
+Cricket.2.Gut.1.1,NA,Cricket,0.06014579745,3457
+Cricket.4.Gut.1.1,aerobe,Cricket,0.02121797155,1132
+Cricket.4.Gut.1.1,facultative anaerobe,Cricket,0.06256677476,3338
+Cricket.4.Gut.1.1,no taxonomic assignment,Cricket,0.2328541171,12423
+Cricket.4.Gut.1.1,obligate anaerobe,Cricket,0.5847500515,31197
+Cricket.4.Gut.1.1,variable,Cricket,1.87E-04,10
+Cricket.4.Gut.1.1,NA,Cricket,0.09842364717,5251
+DaggerMoth.0.Gut.1.1,aerobe,DaggerMoth,0.5535590565,36753
+DaggerMoth.0.Gut.1.1,facultative anaerobe,DaggerMoth,0.4455974937,29585
+DaggerMoth.0.Gut.1.1,intracellular,DaggerMoth,1.51E-05,1
+DaggerMoth.0.Gut.1.1,no taxonomic assignment,DaggerMoth,6.78E-04,45
+DaggerMoth.0.Gut.1.1,obligate anaerobe,DaggerMoth,3.01E-05,2
+DaggerMoth.0.Gut.1.1,NA,DaggerMoth,1.20E-04,8
+Dog.G.Feces.2.1,aerobe,Dog,0.001011423132,51
+Dog.G.Feces.2.1,facultative anaerobe,Dog,0.006187529748,312
+Dog.G.Feces.2.1,microaerobe or anaerobe,Dog,0.005652070443,285
+Dog.G.Feces.2.1,no taxonomic assignment,Dog,0.004858797398,245
+Dog.G.Feces.2.1,obligate anaerobe,Dog,0.9777090274,49300
+Dog.G.Feces.2.1,NA,Dog,0.004581151832,231
+Dog.O.Feces.1.1,aerobe,Dog,5.68E-04,29
+Dog.O.Feces.1.1,facultative anaerobe,Dog,0.06619302057,3382
+Dog.O.Feces.1.1,microaerobe or anaerobe,Dog,1.57E-04,8
+Dog.O.Feces.1.1,no taxonomic assignment,Dog,0.004442878672,227
+Dog.O.Feces.1.1,obligate anaerobe,Dog,0.9153112951,46766
+Dog.O.Feces.1.1,Streptophyta,Dog,1.57E-04,8
+Dog.O.Feces.1.1,NA,Dog,0.01317205879,673
+Dog.O.Feces.2.1,aerobe,Dog,0.001174942799,57
+Dog.O.Feces.2.1,facultative anaerobe,Dog,0.9678024447,46951
+Dog.O.Feces.2.1,microaerobe or anaerobe,Dog,0.001958237998,95
+Dog.O.Feces.2.1,no taxonomic assignment,Dog,0.001381073114,67
+Dog.O.Feces.2.1,obligate anaerobe,Dog,0.02539525488,1232
+Dog.O.Feces.2.1,Streptophyta,Dog,5.15E-04,25
+Dog.O.Feces.2.1,NA,Dog,0.001772720714,86
+Drosophila.PSWD11_fall.Gut.1.1,aerobe,Drosophila,0.02107036057,613
+Drosophila.PSWD11_fall.Gut.1.1,facultative anaerobe,Drosophila,0.008043171897,234
+Drosophila.PSWD11_fall.Gut.1.1,intracellular,Drosophila,0.9693740762,28202
+Drosophila.PSWD11_fall.Gut.1.1,no taxonomic assignment,Drosophila,3.44E-05,1
+Drosophila.PSWD11_fall.Gut.1.1,obligate anaerobe,Drosophila,2.06E-04,6
+Drosophila.PSWD11_fall.Gut.1.1,NA,Drosophila,0.001271783591,37
+Drosophila.PSWD13_2016.Gut.1.1,aerobe,Drosophila,0.003202062627,77
+Drosophila.PSWD13_2016.Gut.1.1,facultative anaerobe,Drosophila,0.00311889217,75
+Drosophila.PSWD13_2016.Gut.1.1,intracellular,Drosophila,0.8666777561,20841
+Drosophila.PSWD13_2016.Gut.1.1,obligate anaerobe,Drosophila,7.49E-04,18
+Drosophila.PSWD13_2016.Gut.1.1,Streptophyta,Drosophila,4.16E-05,1
+Drosophila.PSWD13_2016.Gut.1.1,NA,Drosophila,0.1262111698,3035
+Drosophila.PSWD14_2016.Gut.1.1,aerobe,Drosophila,0.07771460689,3595
+Drosophila.PSWD14_2016.Gut.1.1,facultative anaerobe,Drosophila,0.2475194016,11450
+Drosophila.PSWD14_2016.Gut.1.1,intracellular,Drosophila,0.4604509393,21300
+Drosophila.PSWD14_2016.Gut.1.1,no taxonomic assignment,Drosophila,0.001405131974,65
+Drosophila.PSWD14_2016.Gut.1.1,NA,Drosophila,0.2129099202,9849
+Drosophila.PSWD2_spring.Gut.1.1,aerobe,Drosophila,0.04867085174,1256
+Drosophila.PSWD2_spring.Gut.1.1,facultative anaerobe,Drosophila,0.01681779431,434
+Drosophila.PSWD2_spring.Gut.1.1,intracellular,Drosophila,0.9294737658,23986
+Drosophila.PSWD2_spring.Gut.1.1,microaerobe or anaerobe,Drosophila,1.94E-04,5
+Drosophila.PSWD2_spring.Gut.1.1,no taxonomic assignment,Drosophila,3.88E-05,1
+Drosophila.PSWD2_spring.Gut.1.1,obligate anaerobe,Drosophila,3.88E-05,1
+Drosophila.PSWD2_spring.Gut.1.1,Streptophyta,Drosophila,3.88E-05,1
+Drosophila.PSWD2_spring.Gut.1.1,NA,Drosophila,0.004727582733,122
+EagleOwl.2.Feces.1.1,aerobe,Eagle Owl,0.002987206961,46
+EagleOwl.2.Feces.1.1,facultative anaerobe,Eagle Owl,0.1657899864,2553
+EagleOwl.2.Feces.1.1,microaerobe or anaerobe,Eagle Owl,0.004285992597,66
+EagleOwl.2.Feces.1.1,no taxonomic assignment,Eagle Owl,0.01701409182,262
+EagleOwl.2.Feces.1.1,obligate anaerobe,Eagle Owl,0.7525163972,11588
+EagleOwl.2.Feces.1.1,NA,Eagle Owl,0.05740632509,884
+EagleOwl.3.Feces.1.1,aerobe,Eagle Owl,0.005167785235,77
+EagleOwl.3.Feces.1.1,facultative anaerobe,Eagle Owl,0.1923489933,2866
+EagleOwl.3.Feces.1.1,microaerobe or anaerobe,Eagle Owl,4.70E-04,7
+EagleOwl.3.Feces.1.1,no taxonomic assignment,Eagle Owl,0.01879194631,280
+EagleOwl.3.Feces.1.1,obligate anaerobe,Eagle Owl,0.7134899329,10631
+EagleOwl.3.Feces.1.1,NA,Eagle Owl,0.06973154362,1039
+EasternChimpanzee.BIpts0054.Feces.1.1,aerobe,Eastern Chimpanzee,2.82E-04,17
+EasternChimpanzee.BIpts0054.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02025131551,1220
+EasternChimpanzee.BIpts0054.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,1.66E-05,1
+EasternChimpanzee.BIpts0054.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,1.49E-04,9
+EasternChimpanzee.BIpts0054.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.08067327324,4860
+EasternChimpanzee.BIpts0054.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6530053284,39339
+EasternChimpanzee.BIpts0054.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.01087263251,655
+EasternChimpanzee.BIpts0054.Feces.1.1,variable,Eastern Chimpanzee,1.83E-04,11
+EasternChimpanzee.BIpts0054.Feces.1.1,NA,Eastern Chimpanzee,0.2345666716,14131
+EasternChimpanzee.BIpts0055.Feces.1.1,aerobe,Eastern Chimpanzee,3.89E-04,22
+EasternChimpanzee.BIpts0055.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.007384637128,418
+EasternChimpanzee.BIpts0055.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,3.53E-05,2
+EasternChimpanzee.BIpts0055.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.008974630768,508
+EasternChimpanzee.BIpts0055.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1154335383,6534
+EasternChimpanzee.BIpts0055.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7330400678,41493
+EasternChimpanzee.BIpts0055.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.00936329588,530
+EasternChimpanzee.BIpts0055.Feces.1.1,variable,Eastern Chimpanzee,8.83E-05,5
+EasternChimpanzee.BIpts0055.Feces.1.1,NA,Eastern Chimpanzee,0.1252914988,7092
+EasternChimpanzee.BIpts0093.Feces.1.1,aerobe,Eastern Chimpanzee,3.23E-04,20
+EasternChimpanzee.BIpts0093.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.002339577585,145
+EasternChimpanzee.BIpts0093.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.008293399164,514
+EasternChimpanzee.BIpts0093.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1153331074,7148
+EasternChimpanzee.BIpts0093.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7379834455,45738
+EasternChimpanzee.BIpts0093.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.004372589832,271
+EasternChimpanzee.BIpts0093.Feces.1.1,variable,Eastern Chimpanzee,3.23E-05,2
+EasternChimpanzee.BIpts0093.Feces.1.1,NA,Eastern Chimpanzee,0.1313229101,8139
+EasternChimpanzee.BIpts0097.Feces.1.1,aerobe,Eastern Chimpanzee,4.76E-04,18
+EasternChimpanzee.BIpts0097.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02799587596,1059
+EasternChimpanzee.BIpts0097.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,5.29E-05,2
+EasternChimpanzee.BIpts0097.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001771221614,67
+EasternChimpanzee.BIpts0097.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.09802522008,3708
+EasternChimpanzee.BIpts0097.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6918074391,26169
+EasternChimpanzee.BIpts0097.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.007217067174,273
+EasternChimpanzee.BIpts0097.Feces.1.1,variable,Eastern Chimpanzee,1.32E-04,5
+EasternChimpanzee.BIpts0097.Feces.1.1,NA,Eastern Chimpanzee,0.1725222725,6526
+EasternChimpanzee.BIpts0246.Feces.1.1,aerobe,Eastern Chimpanzee,8.24E-04,16
+EasternChimpanzee.BIpts0246.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.001184407024,23
+EasternChimpanzee.BIpts0246.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,3.60E-04,7
+EasternChimpanzee.BIpts0246.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001287398939,25
+EasternChimpanzee.BIpts0246.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.09964467789,1935
+EasternChimpanzee.BIpts0246.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6460682836,12546
+EasternChimpanzee.BIpts0246.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.2113909058,4105
+EasternChimpanzee.BIpts0246.Feces.1.1,NA,Eastern Chimpanzee,0.03923991967,762
+EasternChimpanzee.BIpts0248.Feces.1.1,aerobe,Eastern Chimpanzee,2.46E-05,1
+EasternChimpanzee.BIpts0248.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,2.21E-04,9
+EasternChimpanzee.BIpts0248.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.002703300484,110
+EasternChimpanzee.BIpts0248.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.105649898,4299
+EasternChimpanzee.BIpts0248.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7234523605,29438
+EasternChimpanzee.BIpts0248.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.007544665897,307
+EasternChimpanzee.BIpts0248.Feces.1.1,NA,Eastern Chimpanzee,0.1604040205,6527
+EasternChimpanzee.BIpts0257.Feces.1.1,aerobe,Eastern Chimpanzee,1.42E-04,10
+EasternChimpanzee.BIpts0257.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,7.11E-05,5
+EasternChimpanzee.BIpts0257.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.002916820808,205
+EasternChimpanzee.BIpts0257.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.09453345095,6644
+EasternChimpanzee.BIpts0257.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7195298939,50570
+EasternChimpanzee.BIpts0257.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.00949033892,667
+EasternChimpanzee.BIpts0257.Feces.1.1,variable,Eastern Chimpanzee,2.85E-05,2
+EasternChimpanzee.BIpts0257.Feces.1.1,NA,Eastern Chimpanzee,0.1732876128,12179
+EasternChimpanzee.BIpts0260.Feces.1.1,aerobe,Eastern Chimpanzee,1.85E-04,10
+EasternChimpanzee.BIpts0260.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,3.71E-04,20
+EasternChimpanzee.BIpts0260.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.002019528283,109
+EasternChimpanzee.BIpts0260.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1373835066,7415
+EasternChimpanzee.BIpts0260.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6732440294,36337
+EasternChimpanzee.BIpts0260.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.005169251292,279
+EasternChimpanzee.BIpts0260.Feces.1.1,variable,Eastern Chimpanzee,1.85E-05,1
+EasternChimpanzee.BIpts0260.Feces.1.1,NA,Eastern Chimpanzee,0.1816093232,9802
+EasternChimpanzee.BIpts2414.Feces.1.1,aerobe,Eastern Chimpanzee,1.83E-04,14
+EasternChimpanzee.BIpts2414.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,7.34E-04,56
+EasternChimpanzee.BIpts2414.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,1.31E-05,1
+EasternChimpanzee.BIpts2414.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.003576200582,273
+EasternChimpanzee.BIpts2414.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.2276192722,17376
+EasternChimpanzee.BIpts2414.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.5829075952,44498
+EasternChimpanzee.BIpts2414.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.09244413005,7057
+EasternChimpanzee.BIpts2414.Feces.1.1,NA,Eastern Chimpanzee,0.09252272787,7063
+EasternChimpanzee.BIpts2415.Feces.1.1,aerobe,Eastern Chimpanzee,9.48E-04,37
+EasternChimpanzee.BIpts2415.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.1229409504,4799
+EasternChimpanzee.BIpts2415.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001844498527,72
+EasternChimpanzee.BIpts2415.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1178685795,4601
+EasternChimpanzee.BIpts2415.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6926091969,27036
+EasternChimpanzee.BIpts2415.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.01485846036,580
+EasternChimpanzee.BIpts2415.Feces.1.1,variable,Eastern Chimpanzee,2.05E-04,8
+EasternChimpanzee.BIpts2415.Feces.1.1,NA,Eastern Chimpanzee,0.04872550275,1902
+EasternChimpanzee.PApts0367.Feces.1.1,aerobe,Eastern Chimpanzee,0.04281701056,884
+EasternChimpanzee.PApts0367.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.01075268817,222
+EasternChimpanzee.PApts0367.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,9.69E-05,2
+EasternChimpanzee.PApts0367.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,2.42E-04,5
+EasternChimpanzee.PApts0367.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.01138235009,235
+EasternChimpanzee.PApts0367.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.01763053376,364
+EasternChimpanzee.PApts0367.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.7982660079,16481
+EasternChimpanzee.PApts0367.Feces.1.1,variable,Eastern Chimpanzee,0.004940424295,102
+EasternChimpanzee.PApts0367.Feces.1.1,NA,Eastern Chimpanzee,0.1138719365,2351
+EasternChimpanzee.PApts0370.Feces.1.1,aerobe,Eastern Chimpanzee,1.39E-04,11
+EasternChimpanzee.PApts0370.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.005535990271,437
+EasternChimpanzee.PApts0370.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.00291367909,230
+EasternChimpanzee.PApts0370.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1808381261,14275
+EasternChimpanzee.PApts0370.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6970153792,55021
+EasternChimpanzee.PApts0370.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.01806481036,1426
+EasternChimpanzee.PApts0370.Feces.1.1,NA,Eastern Chimpanzee,0.09549266513,7538
+EasternChimpanzee.PApts1038.Feces.1.1,aerobe,Eastern Chimpanzee,0.1471379011,6786
+EasternChimpanzee.PApts1038.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02064180399,952
+EasternChimpanzee.PApts1038.Feces.1.1,microaerobe,Eastern Chimpanzee,2.17E-05,1
+EasternChimpanzee.PApts1038.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001864700781,86
+EasternChimpanzee.PApts1038.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.03768430182,1738
+EasternChimpanzee.PApts1038.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.5704032958,26307
+EasternChimpanzee.PApts1038.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.1083694709,4998
+EasternChimpanzee.PApts1038.Feces.1.1,variable,Eastern Chimpanzee,3.47E-04,16
+EasternChimpanzee.PApts1038.Feces.1.1,NA,Eastern Chimpanzee,0.1135299219,5236
+EasternChimpanzee.PApts1039.Feces.1.1,aerobe,Eastern Chimpanzee,0.1672926508,8641
+EasternChimpanzee.PApts1039.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02323240146,1200
+EasternChimpanzee.PApts1039.Feces.1.1,microaerobe,Eastern Chimpanzee,9.68E-05,5
+EasternChimpanzee.PApts1039.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001897312786,98
+EasternChimpanzee.PApts1039.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.04104390924,2120
+EasternChimpanzee.PApts1039.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.5639084643,29127
+EasternChimpanzee.PApts1039.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.07159451715,3698
+EasternChimpanzee.PApts1039.Feces.1.1,variable,Eastern Chimpanzee,5.81E-04,30
+EasternChimpanzee.PApts1039.Feces.1.1,NA,Eastern Chimpanzee,0.1303531325,6733
+EasternChimpanzee.PApts1044.Feces.1.1,aerobe,Eastern Chimpanzee,3.13E-05,3
+EasternChimpanzee.PApts1044.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.002075597647,199
+EasternChimpanzee.PApts1044.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.004568400851,438
+EasternChimpanzee.PApts1044.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.08726897242,8367
+EasternChimpanzee.PApts1044.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.8441215737,80931
+EasternChimpanzee.PApts1044.Feces.1.1,Streptophyta,Eastern Chimpanzee,4.48E-04,43
+EasternChimpanzee.PApts1044.Feces.1.1,NA,Eastern Chimpanzee,0.06148566899,5895
+EasternChimpanzee.PApts1049.Feces.1.1,aerobe,Eastern Chimpanzee,0.2546591011,19882
+EasternChimpanzee.PApts1049.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02680824357,2093
+EasternChimpanzee.PApts1049.Feces.1.1,microaerobe,Eastern Chimpanzee,0.002945960832,230
+EasternChimpanzee.PApts1049.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,7.17E-04,56
+EasternChimpanzee.PApts1049.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.09154253071,7147
+EasternChimpanzee.PApts1049.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.3560898134,27801
+EasternChimpanzee.PApts1049.Feces.1.1,Streptophyta,Eastern Chimpanzee,5.76E-04,45
+EasternChimpanzee.PApts1049.Feces.1.1,variable,Eastern Chimpanzee,0.004098728113,320
+EasternChimpanzee.PApts1049.Feces.1.1,NA,Eastern Chimpanzee,0.2625619612,20499
+EasternChimpanzee.PApts1059.Feces.1.1,aerobe,Eastern Chimpanzee,0.1767243763,9585
+EasternChimpanzee.PApts1059.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02494607003,1353
+EasternChimpanzee.PApts1059.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.00153032063,83
+EasternChimpanzee.PApts1059.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.0377970758,2050
+EasternChimpanzee.PApts1059.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.5737042978,31116
+EasternChimpanzee.PApts1059.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.06034625809,3273
+EasternChimpanzee.PApts1059.Feces.1.1,variable,Eastern Chimpanzee,5.53E-04,30
+EasternChimpanzee.PApts1059.Feces.1.1,NA,Eastern Chimpanzee,0.1243984734,6747
+EasternChimpanzee.PApts1065.Feces.1.1,aerobe,Eastern Chimpanzee,0.3004235156,14329
+EasternChimpanzee.PApts1065.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.01832438779,874
+EasternChimpanzee.PApts1065.Feces.1.1,microaerobe,Eastern Chimpanzee,0.003354579,160
+EasternChimpanzee.PApts1065.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,4.19E-04,20
+EasternChimpanzee.PApts1065.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.06499496813,3100
+EasternChimpanzee.PApts1065.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.2420957732,11547
+EasternChimpanzee.PApts1065.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.002264340825,108
+EasternChimpanzee.PApts1065.Feces.1.1,variable,Eastern Chimpanzee,0.004004528682,191
+EasternChimpanzee.PApts1065.Feces.1.1,NA,Eastern Chimpanzee,0.3641185844,17367
+EasternChimpanzee.UBpts0439.Feces.1.1,aerobe,Eastern Chimpanzee,0.08431400973,6398
+EasternChimpanzee.UBpts0439.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.02418196434,1835
+EasternChimpanzee.UBpts0439.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,7.91E-05,6
+EasternChimpanzee.UBpts0439.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,7.91E-04,60
+EasternChimpanzee.UBpts0439.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1250082364,9486
+EasternChimpanzee.UBpts0439.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6544680627,49663
+EasternChimpanzee.UBpts0439.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.003900741932,296
+EasternChimpanzee.UBpts0439.Feces.1.1,variable,Eastern Chimpanzee,1.32E-04,10
+EasternChimpanzee.UBpts0439.Feces.1.1,NA,Eastern Chimpanzee,0.1071254431,8129
+EasternChimpanzee.UBpts0445.Feces.1.1,aerobe,Eastern Chimpanzee,0.008016123339,704
+EasternChimpanzee.UBpts0445.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.01292372158,1135
+EasternChimpanzee.UBpts0445.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,1.02E-04,9
+EasternChimpanzee.UBpts0445.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.00634230213,557
+EasternChimpanzee.UBpts0445.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.03857759357,3388
+EasternChimpanzee.UBpts0445.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.5237238537,45995
+EasternChimpanzee.UBpts0445.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.1789850039,15719
+EasternChimpanzee.UBpts0445.Feces.1.1,variable,Eastern Chimpanzee,2.28E-04,20
+EasternChimpanzee.UBpts0445.Feces.1.1,NA,Eastern Chimpanzee,0.2311011922,20296
+EasternChimpanzee.UBpts0599.Feces.1.1,aerobe,Eastern Chimpanzee,6.19E-05,7
+EasternChimpanzee.UBpts0599.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.00249425084,282
+EasternChimpanzee.UBpts0599.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,4.42E-05,5
+EasternChimpanzee.UBpts0599.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.008685653635,982
+EasternChimpanzee.UBpts0599.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1164779763,13169
+EasternChimpanzee.UBpts0599.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7109057138,80375
+EasternChimpanzee.UBpts0599.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.01286042809,1454
+EasternChimpanzee.UBpts0599.Feces.1.1,variable,Eastern Chimpanzee,8.84E-06,1
+EasternChimpanzee.UBpts0599.Feces.1.1,NA,Eastern Chimpanzee,0.1484609942,16785
+EasternChimpanzee.UBpts1430.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.006721046648,337
+EasternChimpanzee.UBpts1430.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.0168125885,843
+EasternChimpanzee.UBpts1430.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1160726751,5820
+EasternChimpanzee.UBpts1430.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7056101793,35380
+EasternChimpanzee.UBpts1430.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.00271235117,136
+EasternChimpanzee.UBpts1430.Feces.1.1,NA,Eastern Chimpanzee,0.1520711593,7625
+EasternChimpanzee.UBpts1435.Feces.1.1,aerobe,Eastern Chimpanzee,0.02753613709,2947
+EasternChimpanzee.UBpts1435.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.25,31775
+EasternChimpanzee.UBpts1435.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,9.34E-06,1
+EasternChimpanzee.UBpts1435.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.002289227549,245
+EasternChimpanzee.UBpts1435.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.07588088542,8121
+EasternChimpanzee.UBpts1435.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.4656662587,49837
+EasternChimpanzee.UBpts1435.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.01290376835,1381
+EasternChimpanzee.UBpts1435.Feces.1.1,NA,Eastern Chimpanzee,0.1188155817,12716
+EasternChimpanzee.UBpts1446.Feces.1.1,aerobe,Eastern Chimpanzee,4.79E-05,2
+EasternChimpanzee.UBpts1446.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.003927673333,164
+EasternChimpanzee.UBpts1446.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,7.18E-05,3
+EasternChimpanzee.UBpts1446.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.05182612861,2164
+EasternChimpanzee.UBpts1446.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6450005987,26932
+EasternChimpanzee.UBpts1446.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.0200215543,836
+EasternChimpanzee.UBpts1446.Feces.1.1,variable,Eastern Chimpanzee,2.39E-05,1
+EasternChimpanzee.UBpts1446.Feces.1.1,NA,Eastern Chimpanzee,0.2790803497,11653
+EasternChimpanzee.UBpts1452.Feces.1.1,aerobe,Eastern Chimpanzee,9.41E-05,3
+EasternChimpanzee.UBpts1452.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.009695942766,309
+EasternChimpanzee.UBpts1452.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,6.28E-05,2
+EasternChimpanzee.UBpts1452.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.04644011422,1480
+EasternChimpanzee.UBpts1452.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.592299727,18876
+EasternChimpanzee.UBpts1452.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.03272772914,1043
+EasternChimpanzee.UBpts1452.Feces.1.1,variable,Eastern Chimpanzee,1.57E-04,5
+EasternChimpanzee.UBpts1452.Feces.1.1,NA,Eastern Chimpanzee,0.3185227023,10151
+EasternChimpanzee.UBpts1454.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.001955113845,96
+EasternChimpanzee.UBpts1454.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,2.04E-05,1
+EasternChimpanzee.UBpts1454.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.002138405768,105
+EasternChimpanzee.UBpts1454.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.09622825954,4725
+EasternChimpanzee.UBpts1454.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6699727099,32897
+EasternChimpanzee.UBpts1454.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.02333917152,1146
+EasternChimpanzee.UBpts1454.Feces.1.1,variable,Eastern Chimpanzee,4.07E-05,2
+EasternChimpanzee.UBpts1454.Feces.1.1,NA,Eastern Chimpanzee,0.2063052421,10130
+EasternChimpanzee.UBpts2037.Feces.1.1,aerobe,Eastern Chimpanzee,2.40E-04,12
+EasternChimpanzee.UBpts2037.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,6.80E-04,34
+EasternChimpanzee.UBpts2037.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.0104185414,521
+EasternChimpanzee.UBpts2037.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.09102725618,4552
+EasternChimpanzee.UBpts2037.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7526746256,37639
+EasternChimpanzee.UBpts2037.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.01817745516,909
+EasternChimpanzee.UBpts2037.Feces.1.1,variable,Eastern Chimpanzee,2.00E-04,10
+EasternChimpanzee.UBpts2037.Feces.1.1,NA,Eastern Chimpanzee,0.1265822785,6330
+EasternChimpanzee.UBpts2041.Feces.1.1,aerobe,Eastern Chimpanzee,0.009182581263,815
+EasternChimpanzee.UBpts2041.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.4654047659,41307
+EasternChimpanzee.UBpts2041.Feces.1.1,intracellular,Eastern Chimpanzee,1.13E-05,1
+EasternChimpanzee.UBpts2041.Feces.1.1,microaerobe or aerobe,Eastern Chimpanzee,0.004022308602,357
+EasternChimpanzee.UBpts2041.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001746380486,155
+EasternChimpanzee.UBpts2041.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.01764407639,1566
+EasternChimpanzee.UBpts2041.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.1327925187,11786
+EasternChimpanzee.UBpts2041.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.3255140555,28891
+EasternChimpanzee.UBpts2041.Feces.1.1,variable,Eastern Chimpanzee,0.001183031942,105
+EasternChimpanzee.UBpts2041.Feces.1.1,NA,Eastern Chimpanzee,0.04249901414,3772
+Ferret.2.Feces.1.1,aerobe,Ferret,0.006830601093,35
+Ferret.2.Feces.1.1,facultative anaerobe,Ferret,0.2441451991,1251
+Ferret.2.Feces.1.1,microaerobe or anaerobe,Ferret,1.95E-04,1
+Ferret.2.Feces.1.1,no taxonomic assignment,Ferret,9.76E-04,5
+Ferret.2.Feces.1.1,obligate anaerobe,Ferret,0.6022638564,3086
+Ferret.2.Feces.1.1,Streptophyta,Ferret,0.003512880562,18
+Ferret.2.Feces.1.1,NA,Ferret,0.1420765027,728
+Ferret.3.Feces.1.1,aerobe,Ferret,0.01136507937,179
+Ferret.3.Feces.1.1,facultative anaerobe,Ferret,0.9014603175,14198
+Ferret.3.Feces.1.1,microaerobe or aerobe,Ferret,6.35E-05,1
+Ferret.3.Feces.1.1,no taxonomic assignment,Ferret,0.003492063492,55
+Ferret.3.Feces.1.1,obligate anaerobe,Ferret,0.0286984127,452
+Ferret.3.Feces.1.1,Streptophyta,Ferret,0.001968253968,31
+Ferret.3.Feces.1.1,variable,Ferret,3.81E-04,6
+Ferret.3.Feces.1.1,NA,Ferret,0.05257142857,828
+FlemishGiantRabbit.0.Feces.1.1,aerobe,Rabbit,1.01E-04,10
+FlemishGiantRabbit.0.Feces.1.1,facultative anaerobe,Rabbit,4.02E-05,4
+FlemishGiantRabbit.0.Feces.1.1,no taxonomic assignment,Rabbit,0.2220601989,22081
+FlemishGiantRabbit.0.Feces.1.1,obligate anaerobe,Rabbit,0.6960990376,69218
+FlemishGiantRabbit.0.Feces.1.1,Streptophyta,Rabbit,4.12E-04,41
+FlemishGiantRabbit.0.Feces.1.1,NA,Rabbit,0.08128764947,8083
+Fluke.0.Feces.1.1,aerobe,Fluke,0.007169811321,133
+Fluke.0.Feces.1.1,facultative anaerobe,Fluke,0.5567654987,10328
+Fluke.0.Feces.1.1,microaerobe or anaerobe,Fluke,5.93E-04,11
+Fluke.0.Feces.1.1,no taxonomic assignment,Fluke,0.03660377358,679
+Fluke.0.Feces.1.1,obligate anaerobe,Fluke,0.3082479784,5718
+Fluke.0.Feces.1.1,variable,Fluke,2.16E-04,4
+Fluke.0.Feces.1.1,NA,Fluke,0.09040431267,1677
+Fly.SH0.Gut.1.1,aerobe,Fly,4.10E-04,11
+Fly.SH0.Gut.1.1,facultative anaerobe,Fly,0.001081887708,29
+Fly.SH0.Gut.1.1,no taxonomic assignment,Fly,0.07539638127,2021
+Fly.SH0.Gut.1.1,obligate anaerobe,Fly,0.8083566499,21668
+Fly.SH0.Gut.1.1,NA,Fly,0.1147547099,3076
+Gerbil.1.Feces.1.1,facultative anaerobe,Gerbil,0.3495325628,8861
+Gerbil.1.Feces.1.1,microaerobe or anaerobe,Gerbil,0.004339079326,110
+Gerbil.1.Feces.1.1,no taxonomic assignment,Gerbil,0.04374580884,1109
+Gerbil.1.Feces.1.1,obligate anaerobe,Gerbil,0.5719301014,14499
+Gerbil.1.Feces.1.1,Streptophyta,Gerbil,2.37E-04,6
+Gerbil.1.Feces.1.1,NA,Gerbil,0.03021577058,766
+Gerbil.2.Feces.1.1,aerobe,Gerbil,3.54E-05,1
+Gerbil.2.Feces.1.1,facultative anaerobe,Gerbil,0.1519130712,4292
+Gerbil.2.Feces.1.1,microaerobe or anaerobe,Gerbil,0.001309595441,37
+Gerbil.2.Feces.1.1,no taxonomic assignment,Gerbil,0.04183626518,1182
+Gerbil.2.Feces.1.1,obligate anaerobe,Gerbil,0.7757406293,21917
+Gerbil.2.Feces.1.1,Streptophyta,Gerbil,7.08E-05,2
+Gerbil.2.Feces.1.1,NA,Gerbil,0.02909425548,822
+Gerbil.3.Feces.1.1,facultative anaerobe,Gerbil,0.136824051,4228
+Gerbil.3.Feces.1.1,microaerobe or anaerobe,Gerbil,0.002912527103,90
+Gerbil.3.Feces.1.1,no taxonomic assignment,Gerbil,0.04585612116,1417
+Gerbil.3.Feces.1.1,obligate anaerobe,Gerbil,0.787191353,24325
+Gerbil.3.Feces.1.1,NA,Gerbil,0.0272159477,841
+GiantMillipede.0.Feces.1.2,aerobe,Giant Millipede,0.003245730895,134
+GiantMillipede.0.Feces.1.2,facultative anaerobe,Giant Millipede,0.00402083081,166
+GiantMillipede.0.Feces.1.2,microaerobe,Giant Millipede,2.42E-05,1
+GiantMillipede.0.Feces.1.2,no taxonomic assignment,Giant Millipede,0.5491340681,22671
+GiantMillipede.0.Feces.1.2,obligate anaerobe,Giant Millipede,0.4206370352,17366
+GiantMillipede.0.Feces.1.2,Streptophyta,Giant Millipede,2.42E-05,1
+GiantMillipede.0.Feces.1.2,NA,Giant Millipede,0.02291389124,946
+Gorilla.BQgor0640.Feces.1.1,aerobe,Gorilla,0.5348396106,25660
+Gorilla.BQgor0640.Feces.1.1,facultative anaerobe,Gorilla,0.03655918461,1754
+Gorilla.BQgor0640.Feces.1.1,microaerobe or anaerobe,Gorilla,2.71E-04,13
+Gorilla.BQgor0640.Feces.1.1,no taxonomic assignment,Gorilla,0.02747149676,1318
+Gorilla.BQgor0640.Feces.1.1,obligate anaerobe,Gorilla,0.1642245243,7879
+Gorilla.BQgor0640.Feces.1.1,Streptophyta,Gorilla,0.006586489359,316
+Gorilla.BQgor0640.Feces.1.1,variable,Gorilla,2.08E-05,1
+Gorilla.BQgor0640.Feces.1.1,NA,Gorilla,0.2300268879,11036
+Gorilla.DGgor0408.Feces.1.1,aerobe,Gorilla,0.4638505548,28133
+Gorilla.DGgor0408.Feces.1.1,facultative anaerobe,Gorilla,0.04535786714,2751
+Gorilla.DGgor0408.Feces.1.1,microaerobe or anaerobe,Gorilla,4.95E-05,3
+Gorilla.DGgor0408.Feces.1.1,no taxonomic assignment,Gorilla,0.0360752502,2188
+Gorilla.DGgor0408.Feces.1.1,obligate anaerobe,Gorilla,0.04149972795,2517
+Gorilla.DGgor0408.Feces.1.1,Streptophyta,Gorilla,8.24E-04,50
+Gorilla.DGgor0408.Feces.1.1,variable,Gorilla,4.29E-04,26
+Gorilla.DGgor0408.Feces.1.1,NA,Gorilla,0.4119140657,24983
+Gorilla.GTgor145.Feces.1.1,aerobe,Gorilla,1.35E-04,7
+Gorilla.GTgor145.Feces.1.1,facultative anaerobe,Gorilla,0.02464931017,1281
+Gorilla.GTgor145.Feces.1.1,microaerobe or anaerobe,Gorilla,0.002886336085,150
+Gorilla.GTgor145.Feces.1.1,no taxonomic assignment,Gorilla,0.1531874771,7961
+Gorilla.GTgor145.Feces.1.1,obligate anaerobe,Gorilla,0.644615059,33500
+Gorilla.GTgor145.Feces.1.1,Streptophyta,Gorilla,0.109026535,5666
+Gorilla.GTgor145.Feces.1.1,NA,Gorilla,0.06550058689,3404
+Gorilla.KEgor1471.Feces.1.1,aerobe,Gorilla,0.6028302724,40767
+Gorilla.KEgor1471.Feces.1.1,facultative anaerobe,Gorilla,0.1284269364,8685
+Gorilla.KEgor1471.Feces.1.1,microaerobe,Gorilla,1.33E-04,9
+Gorilla.KEgor1471.Feces.1.1,microaerobe or anaerobe,Gorilla,1.48E-05,1
+Gorilla.KEgor1471.Feces.1.1,no taxonomic assignment,Gorilla,0.05250938988,3551
+Gorilla.KEgor1471.Feces.1.1,obligate anaerobe,Gorilla,0.05027652086,3400
+Gorilla.KEgor1471.Feces.1.1,Streptophyta,Gorilla,0.003105314524,210
+Gorilla.KEgor1471.Feces.1.1,variable,Gorilla,1.48E-05,1
+Gorilla.KEgor1471.Feces.1.1,NA,Gorilla,0.1626889066,11002
+Gorilla.OPgor1909.Feces.1.1,aerobe,Gorilla,0.4354058412,34020
+Gorilla.OPgor1909.Feces.1.1,facultative anaerobe,Gorilla,0.1068804874,8351
+Gorilla.OPgor1909.Feces.1.1,microaerobe or aerobe,Gorilla,1.28E-05,1
+Gorilla.OPgor1909.Feces.1.1,microaerobe or anaerobe,Gorilla,2.56E-04,20
+Gorilla.OPgor1909.Feces.1.1,no taxonomic assignment,Gorilla,0.03703893311,2894
+Gorilla.OPgor1909.Feces.1.1,obligate anaerobe,Gorilla,0.1635779558,12781
+Gorilla.OPgor1909.Feces.1.1,Streptophyta,Gorilla,9.34E-04,73
+Gorilla.OPgor1909.Feces.1.1,variable,Gorilla,0.00303325057,237
+Gorilla.OPgor1909.Feces.1.1,NA,Gorilla,0.2528604705,19757
+GuineaPig.1.Feces.1.1,aerobe,Guinea Pig,2.94E-05,1
+GuineaPig.1.Feces.1.1,facultative anaerobe,Guinea Pig,1.47E-04,5
+GuineaPig.1.Feces.1.1,microaerobe or anaerobe,Guinea Pig,2.94E-05,1
+GuineaPig.1.Feces.1.1,no taxonomic assignment,Guinea Pig,0.363604313,12376
+GuineaPig.1.Feces.1.1,obligate anaerobe,Guinea Pig,0.5431442254,18487
+GuineaPig.1.Feces.1.1,NA,Guinea Pig,0.0930458031,3167
+GuineaPig.2.Feces.1.1,aerobe,Guinea Pig,5.84E-05,2
+GuineaPig.2.Feces.1.1,facultative anaerobe,Guinea Pig,1.17E-04,4
+GuineaPig.2.Feces.1.1,microaerobe or anaerobe,Guinea Pig,2.92E-05,1
+GuineaPig.2.Feces.1.1,no taxonomic assignment,Guinea Pig,0.2558832117,8764
+GuineaPig.2.Feces.1.1,obligate anaerobe,Guinea Pig,0.6463941606,22139
+GuineaPig.2.Feces.1.1,NA,Guinea Pig,0.09751824818,3340
+Hamster.1.Feces.1.1,aerobe,Hamster,2.15E-05,1
+Hamster.1.Feces.1.1,facultative anaerobe,Hamster,0.01502210395,700
+Hamster.1.Feces.1.1,microaerobe or anaerobe,Hamster,0.008283617323,386
+Hamster.1.Feces.1.1,no taxonomic assignment,Hamster,0.2547105026,11869
+Hamster.1.Feces.1.1,obligate anaerobe,Hamster,0.4217133783,19651
+Hamster.1.Feces.1.1,NA,Hamster,0.3002489377,13991
+Hamster.2.Feces.1.1,aerobe,Hamster,7.19E-05,2
+Hamster.2.Feces.1.1,facultative anaerobe,Hamster,0.02231004131,621
+Hamster.2.Feces.1.1,microaerobe or anaerobe,Hamster,0.003125561344,87
+Hamster.2.Feces.1.1,no taxonomic assignment,Hamster,0.1875696066,5221
+Hamster.2.Feces.1.1,obligate anaerobe,Hamster,0.5053350099,14066
+Hamster.2.Feces.1.1,Streptophyta,Hamster,3.59E-05,1
+Hamster.2.Feces.1.1,NA,Hamster,0.2815520029,7837
+Hamster.3.Feces.1.1,facultative anaerobe,Hamster,0.0279213166,1286
+Hamster.3.Feces.1.1,microaerobe or anaerobe,Hamster,0.01178948283,543
+Hamster.3.Feces.1.1,no omic assignment,Hamster,0.1906943419,8783
+Hamster.3.Feces.1.1,obligate anaerobe,Hamster,0.5874115246,27055
+Hamster.3.Feces.1.1,NA,Hamster,0.1821833341,8391
+HermitCrab.0.Feces.1.1,aerobe,Hermit Crab,0.05886627907,243
+HermitCrab.0.Feces.1.1,facultative anaerobe,Hermit Crab,0.3217054264,1328
+HermitCrab.0.Feces.1.1,no taxonomic assignment,Hermit Crab,0.1654554264,683
+HermitCrab.0.Feces.1.1,obligate anaerobe,Hermit Crab,0.0484496124,200
+HermitCrab.0.Feces.1.1,variable,Hermit Crab,0.001695736434,7
+HermitCrab.0.Feces.1.1,NA,Hermit Crab,0.4038275194,1667
+HissingCockroach.0.Feces.1.1,aerobe,Hissing Cockroach,9.24E-04,88
+HissingCockroach.0.Feces.1.1,facultative anaerobe,Hissing Cockroach,0.07900426086,7528
+HissingCockroach.0.Feces.1.1,no taxonomic assignment,Hissing Cockroach,0.2382511597,22702
+HissingCockroach.0.Feces.1.1,obligate anaerobe,Hissing Cockroach,0.6034359717,57499
+HissingCockroach.0.Feces.1.1,NA,Hissing Cockroach,0.07838507231,7469
+HissingCockroach.0.Feces.2.1,aerobe,Hissing Cockroach,0.001361035498,49
+HissingCockroach.0.Feces.2.1,facultative anaerobe,Hissing Cockroach,0.09388367313,3380
+HissingCockroach.0.Feces.2.1,no taxonomic assignment,Hissing Cockroach,0.2609855008,9396
+HissingCockroach.0.Feces.2.1,obligate anaerobe,Hissing Cockroach,0.4858618966,17492
+HissingCockroach.0.Feces.2.1,NA,Hissing Cockroach,0.157907894,5685
+HolsteinCow.0.Feces.1.1,aerobe,Cow,5.88E-04,29
+HolsteinCow.0.Feces.1.1,facultative anaerobe,Cow,2.84E-04,14
+HolsteinCow.0.Feces.1.1,no taxonomic assignment,Cow,0.07039253474,3470
+HolsteinCow.0.Feces.1.1,obligate anaerobe,Cow,0.9123034791,44972
+HolsteinCow.0.Feces.1.1,NA,Cow,0.01643168678,810
+Hornworm.1.Gut.1.1,aerobe,Hornworm,2.85E-05,1
+Hornworm.1.Gut.1.1,facultative anaerobe,Hornworm,0.9447466606,33171
+Hornworm.1.Gut.1.1,microaerobe or anaerobe,Hornworm,2.85E-05,1
+Hornworm.1.Gut.1.1,no taxonomic assignment,Hornworm,9.11E-04,32
+Hornworm.1.Gut.1.1,obligate anaerobe,Hornworm,2.85E-05,1
+Hornworm.1.Gut.1.1,Streptophyta,Hornworm,2.85E-05,1
+Hornworm.1.Gut.1.1,NA,Hornworm,0.05422801971,1904
+Hornworm.2.Gut.1.1,aerobe,Hornworm,3.39E-05,1
+Hornworm.2.Gut.1.1,facultative anaerobe,Hornworm,0.6274934805,18528
+Hornworm.2.Gut.1.1,no taxonomic assignment,Hornworm,6.77E-04,20
+Hornworm.2.Gut.1.1,obligate anaerobe,Hornworm,3.39E-05,1
+Hornworm.2.Gut.1.1,Streptophyta,Hornworm,1.35E-04,4
+Hornworm.2.Gut.1.1,NA,Hornworm,0.3716259695,10973
+Horse.AH0.Feces.1.1,aerobe,Horse,1.44E-04,6
+Horse.AH0.Feces.1.1,facultative anaerobe,Horse,0.05619111709,2338
+Horse.AH0.Feces.1.1,microaerobe or anaerobe,Horse,1.68E-04,7
+Horse.AH0.Feces.1.1,no taxonomic assignment,Horse,0.1456210344,6059
+Horse.AH0.Feces.1.1,obligate anaerobe,Horse,0.733512786,30520
+Horse.AH0.Feces.1.1,Streptophyta,Horse,0.001802537973,75
+Horse.AH0.Feces.1.1,NA,Horse,0.0625600846,2603
+HouseCricket.1.Gut.1.1,aerobe,Cricket,0.02002098007,668
+HouseCricket.1.Gut.1.1,facultative anaerobe,Cricket,0.001588490934,53
+HouseCricket.1.Gut.1.1,intracellular,Cricket,0.1320545482,4406
+HouseCricket.1.Gut.1.1,microaerobe or anaerobe,Cricket,3.00E-05,1
+HouseCricket.1.Gut.1.1,no taxonomic assignment,Cricket,0.2648883561,8838
+HouseCricket.1.Gut.1.1,obligate anaerobe,Cricket,0.5702382736,19026
+HouseCricket.1.Gut.1.1,variable,Cricket,0.00650382137,217
+HouseCricket.1.Gut.1.1,NA,Cricket,0.00467555822,156
+HouseMouse.1.Feces.1.1,aerobe,Mouse,3.44E-04,8
+HouseMouse.1.Feces.1.1,facultative anaerobe,Mouse,0.01162390219,270
+HouseMouse.1.Feces.1.1,microaerobe or anaerobe,Mouse,0.001248493198,29
+HouseMouse.1.Feces.1.1,no taxonomic assignment,Mouse,0.06332874117,1471
+HouseMouse.1.Feces.1.1,obligate anaerobe,Mouse,0.9085155846,21103
+HouseMouse.1.Feces.1.1,NA,Mouse,0.01493886688,347
+HouseMouse.2.Feces.1.1,aerobe,Mouse,9.83E-05,4
+HouseMouse.2.Feces.1.1,facultative anaerobe,Mouse,0.007398667748,301
+HouseMouse.2.Feces.1.1,microaerobe or anaerobe,Mouse,0.003047956149,124
+HouseMouse.2.Feces.1.1,no taxonomic assignment,Mouse,0.08566231596,3485
+HouseMouse.2.Feces.1.1,obligate anaerobe,Mouse,0.889290367,36179
+HouseMouse.2.Feces.1.1,NA,Mouse,0.014502372,590
+Human.2011.Feces.1.1,facultative anaerobe,Human,0.004438058748,278
+Human.2011.Feces.1.1,microaerobe or anaerobe,Human,2.39E-04,15
+Human.2011.Feces.1.1,no taxonomic assignment,Human,0.005922733078,371
+Human.2011.Feces.1.1,obligate anaerobe,Human,0.977458493,61228
+Human.2011.Feces.1.1,Streptophyta,Human,1.60E-05,1
+Human.2011.Feces.1.1,NA,Human,0.01192528736,747
+Human.2011.Feces.2.1,aerobe,Human,2.07E-05,2
+Human.2011.Feces.2.1,facultative anaerobe,Human,0.006832697412,659
+Human.2011.Feces.2.1,microaerobe or aerobe,Human,2.07E-05,2
+Human.2011.Feces.2.1,microaerobe or anaerobe,Human,5.18E-05,5
+Human.2011.Feces.2.1,no taxonomic assignment,Human,0.01102148308,1063
+Human.2011.Feces.2.1,obligate anaerobe,Human,0.9653284672,93104
+Human.2011.Feces.2.1,NA,Human,0.01672403782,1613
+Human.2012.Feces.1.1,facultative anaerobe,Human,0.001027611474,46
+Human.2012.Feces.1.1,microaerobe or aerobe,Human,2.23E-05,1
+Human.2012.Feces.1.1,microaerobe or anaerobe,Human,4.47E-05,2
+Human.2012.Feces.1.1,no taxonomic assignment,Human,0.007059244035,316
+Human.2012.Feces.1.1,obligate anaerobe,Human,0.880439639,39412
+Human.2012.Feces.1.1,Streptophyta,Human,7.15E-04,32
+Human.2012.Feces.1.1,NA,Human,0.1106916272,4955
+Human.2016.Feces.1.1,aerobe,Human,3.67E-05,2
+Human.2016.Feces.1.1,facultative anaerobe,Human,0.001850935547,101
+Human.2016.Feces.1.1,microaerobe or anaerobe,Human,1.10E-04,6
+Human.2016.Feces.1.1,no taxonomic assignment,Human,0.002254109627,123
+Human.2016.Feces.1.1,obligate anaerobe,Human,0.9861271464,53810
+Human.2016.Feces.1.1,NA,Human,0.009621199626,525
+Human.2019.Feces.1.1,aerobe,Human,0.004946314393,82
+Human.2019.Feces.1.1,facultative anaerobe,Human,8.44E-04,14
+Human.2019.Feces.1.1,microaerobe or anaerobe,Human,0.004885993485,81
+Human.2019.Feces.1.1,no taxonomic assignment,Human,0.005670165279,94
+Human.2019.Feces.1.1,obligate anaerobe,Human,0.9092773555,15074
+Human.2019.Feces.1.1,NA,Human,0.07437567861,1233
+Human.2200.Feces.1.1,aerobe,Human,3.58E-05,2
+Human.2200.Feces.1.1,facultative anaerobe,Human,0.003079843143,172
+Human.2200.Feces.1.1,microaerobe or aerobe,Human,1.61E-04,9
+Human.2200.Feces.1.1,microaerobe or anaerobe,Human,4.83E-04,27
+Human.2200.Feces.1.1,no taxonomic assignment,Human,0.01969667126,1100
+Human.2200.Feces.1.1,obligate anaerobe,Human,0.9483947213,52965
+Human.2200.Feces.1.1,Streptophyta,Human,7.16E-05,4
+Human.2200.Feces.1.1,NA,Human,0.02807670958,1568
+Human.2202.Feces.1.1,facultative anaerobe,Human,4.55E-04,19
+Human.2202.Feces.1.1,no taxonomic assignment,Human,0.003545504636,148
+Human.2202.Feces.1.1,obligate anaerobe,Human,0.9858179815,41151
+Human.2202.Feces.1.1,NA,Human,0.01018134777,425
+Human.2203.Feces.1.1,aerobe,Human,6.06E-04,16
+Human.2203.Feces.1.1,facultative anaerobe,Human,0.01253170787,331
+Human.2203.Feces.1.1,microaerobe or anaerobe,Human,9.09E-04,24
+Human.2203.Feces.1.1,no taxonomic assignment,Human,0.006966266611,184
+Human.2203.Feces.1.1,obligate anaerobe,Human,0.9342369288,24676
+Human.2203.Feces.1.1,NA,Human,0.04475069095,1182
+Human.2203.Feces.2.1,aerobe,Human,9.21E-04,22
+Human.2203.Feces.2.1,facultative anaerobe,Human,0.02336487731,558
+Human.2203.Feces.2.1,microaerobe or anaerobe,Human,4.19E-04,10
+Human.2203.Feces.2.1,no taxonomic assignment,Human,0.001884264299,45
+Human.2203.Feces.2.1,obligate anaerobe,Human,0.952390922,22745
+Human.2203.Feces.2.1,NA,Human,0.02102001507,502
+Human.2204.Feces.1.1,aerobe,Human,1.52E-05,2
+Human.2204.Feces.1.1,facultative anaerobe,Human,0.004530037105,597
+Human.2204.Feces.1.1,microaerobe or aerobe,Human,3.79E-05,5
+Human.2204.Feces.1.1,microaerobe or anaerobe,Human,0.005668237383,747
+Human.2204.Feces.1.1,no taxonomic assignment,Human,0.005266073285,694
+Human.2204.Feces.1.1,obligate anaerobe,Human,0.8903533732,117337
+Human.2204.Feces.1.1,Streptophyta,Human,1.52E-05,2
+Human.2204.Feces.1.1,NA,Human,0.09411398696,12403
+Human.2207.Feces.1.1,facultative anaerobe,Human,0.003708046778,234
+Human.2207.Feces.1.1,microaerobe or aerobe,Human,6.34E-05,4
+Human.2207.Feces.1.1,microaerobe or anaerobe,Human,0.007717174278,487
+Human.2207.Feces.1.1,no taxonomic assignment,Human,0.002963268152,187
+Human.2207.Feces.1.1,obligate anaerobe,Human,0.9781954172,61730
+Human.2207.Feces.1.1,Streptophyta,Human,1.58E-05,1
+Human.2207.Feces.1.1,NA,Human,0.007336861788,463
+Human.2207.Feces.2.1,facultative anaerobe,Human,0.006681006388,205
+Human.2207.Feces.2.1,microaerobe or aerobe,Human,6.52E-05,2
+Human.2207.Feces.2.1,microaerobe or anaerobe,Human,6.52E-04,20
+Human.2207.Feces.2.1,no taxonomic assignment,Human,0.005312214835,163
+Human.2207.Feces.2.1,obligate anaerobe,Human,0.9775778908,29996
+Human.2207.Feces.2.1,NA,Human,0.009711901968,298
+Human.2209.Feces.1.1,aerobe,Human,1.36E-05,1
+Human.2209.Feces.1.1,facultative anaerobe,Human,0.02294728805,1683
+Human.2209.Feces.1.1,microaerobe or anaerobe,Human,0.01203948624,883
+Human.2209.Feces.1.1,no taxonomic assignment,Human,0.006612854844,485
+Human.2209.Feces.1.1,obligate anaerobe,Human,0.9507103706,69727
+Human.2209.Feces.1.1,NA,Human,0.00767636552,563
+Human.2209.Feces.1.2,aerobe,Human,1.16E-05,1
+Human.2209.Feces.1.2,facultative anaerobe,Human,0.06768038853,5853
+Human.2209.Feces.1.2,microaerobe or aerobe,Human,2.31E-05,2
+Human.2209.Feces.1.2,microaerobe or anaerobe,Human,0.002474560592,214
+Human.2209.Feces.1.2,no taxonomic assignment,Human,0.006140148011,531
+Human.2209.Feces.1.2,obligate anaerobe,Human,0.8941258094,77324
+Human.2209.Feces.1.2,Streptophyta,Human,3.47E-05,3
+Human.2209.Feces.1.2,NA,Human,0.02950971323,2552
+Human.2209.Feces.2.1,aerobe,Human,3.57E-04,20
+Human.2209.Feces.2.1,facultative anaerobe,Human,0.05076114923,2841
+Human.2209.Feces.2.1,microaerobe or anaerobe,Human,0.008361921098,468
+Human.2209.Feces.2.1,no taxonomic assignment,Human,0.01534805603,859
+Human.2209.Feces.2.1,obligate anaerobe,Human,0.9110205832,50988
+Human.2209.Feces.2.1,NA,Human,0.0141509434,792
+Human.2210.Feces.1.1,aerobe,Human,1.94E-04,8
+Human.2210.Feces.1.1,facultative anaerobe,Human,0.02295280844,946
+Human.2210.Feces.1.1,microaerobe or aerobe,Human,1.94E-04,8
+Human.2210.Feces.1.1,microaerobe or anaerobe,Human,3.15E-04,13
+Human.2210.Feces.1.1,no taxonomic assignment,Human,0.01053014679,434
+Human.2210.Feces.1.1,obligate anaerobe,Human,0.9508188766,39188
+Human.2210.Feces.1.1,Streptophyta,Human,4.85E-05,2
+Human.2210.Feces.1.1,NA,Human,0.0149460148,616
+Human.B201601.Feces.1.1,aerobe,Human,7.80E-04,3
+Human.B201601.Feces.1.1,facultative anaerobe,Human,0.004678970626,18
+Human.B201601.Feces.1.1,microaerobe or anaerobe,Human,2.60E-04,1
+Human.B201601.Feces.1.1,obligate anaerobe,Human,0.9789446322,3766
+Human.B201601.Feces.1.1,NA,Human,0.01533662594,59
+Human.S1.Feces.1.1,aerobe,Human,7.03E-04,37
+Human.S1.Feces.1.1,facultative anaerobe,Human,0.004121948903,217
+Human.S1.Feces.1.1,microaerobe or aerobe,Human,1.90E-05,1
+Human.S1.Feces.1.1,microaerobe or anaerobe,Human,0.003020229841,159
+Human.S1.Feces.1.1,no taxonomic assignment,Human,0.008053946244,424
+Human.S1.Feces.1.1,obligate anaerobe,Human,0.976408016,51403
+Human.S1.Feces.1.1,NA,Human,0.007674043119,404
+Isopod.2.Gut.1.1,aerobe,Woodlouse,0.1640280667,4652
+Isopod.2.Gut.1.1,facultative anaerobe,Woodlouse,0.2483339798,7043
+Isopod.2.Gut.1.1,no taxonomic assignment,Woodlouse,0.1978068474,5610
+Isopod.2.Gut.1.1,obligate anaerobe,Woodlouse,0.01145939847,325
+Isopod.2.Gut.1.1,Streptophyta,Woodlouse,3.53E-05,1
+Isopod.2.Gut.1.1,variable,Woodlouse,3.17E-04,9
+Isopod.2.Gut.1.1,NA,Woodlouse,0.3780191108,10721
+JerseyCow.0.Feces.1.1,aerobe,Cow,5.21E-04,55
+JerseyCow.0.Feces.1.1,facultative anaerobe,Cow,0.001080363912,114
+JerseyCow.0.Feces.1.1,microaerobe or anaerobe,Cow,9.10E-04,96
+JerseyCow.0.Feces.1.1,no taxonomic assignment,Cow,0.09724222896,10261
+JerseyCow.0.Feces.1.1,obligate anaerobe,Cow,0.8632297195,91088
+JerseyCow.0.Feces.1.1,Streptophyta,Cow,1.90E-05,2
+JerseyCow.0.Feces.1.1,NA,Cow,0.03699772555,3904
+LabMosquito.AS15.Gut.1.1,aerobe,Lab Mosquito (stephensi),0.4973887093,2.00E+03
+LabMosquito.AS15.Gut.1.1,facultative anaerobe,Lab Mosquito (stephensi),0.0537179806,216
+LabMosquito.AS15.Gut.1.1,no taxonomic assignment,Lab Mosquito (stephensi),0.1158915693,466
+LabMosquito.AS15.Gut.1.1,obligate anaerobe,Lab Mosquito (stephensi),0.1857746829,747
+LabMosquito.AS15.Gut.1.1,variable,Lab Mosquito (stephensi),0.001243471773,5
+LabMosquito.AS15.Gut.1.1,NA,osquito (stephensi),0.1459835862,587
+LabMouse.65L1.Feces.1.1,aerobe,Mouse,4.80E-05,2
+LabMouse.65L1.Feces.1.1,facultative anaerobe,Mouse,0.1129713134,4710
+LabMouse.65L1.Feces.1.1,no taxonomic assignment,Mouse,0.01158495635,483
+LabMouse.65L1.Feces.1.1,obligate anaerobe,Mouse,0.7822364003,32613
+LabMouse.65L1.Feces.1.1,Streptophyta,Mouse,4.80E-05,2
+LabMouse.65L1.Feces.1.1,NA,Mouse,0.09311138828,3882
+LabMouse.65R1.Feces.1.1,facultative anaerobe,Mouse,0.2506436468,4965
+LabMouse.65R1.Feces.1.1,no taxonomic assignment,Mouse,0.01156040184,229
+LabMouse.65R1.Feces.1.1,obligate anaerobe,Mouse,0.5013882579,9932
+LabMouse.65R1.Feces.1.1,Streptophyta,Mouse,5.05E-05,1
+LabMouse.65R1.Feces.1.1,NA,Mouse,0.2363572114,4682
+LabMouse.65R2.Feces.1.1,facultative anaerobe,Mouse,0.06159474766,2458
+LabMouse.65R2.Feces.1.1,no taxonomic assignment,Mouse,0.01731569188,691
+LabMouse.65R2.Feces.1.1,obligate anaerobe,Mouse,0.7724402346,30825
+LabMouse.65R2.Feces.1.1,NA,Mouse,0.1486493259,5932
+LargePetstoreMealworm.2.Gut.1.1,aerobe,Petstore Mealworm,0.02772877856,1289
+LargePetstoreMealworm.2.Gut.1.1,facultative anaerobe,Petstore Mealworm,0.4631717076,21531
+LargePetstoreMealworm.2.Gut.1.1,no taxonomic assignment,Petstore Mealworm,0.06662220884,3097
+LargePetstoreMealworm.2.Gut.1.1,obligate anaerobe,Petstore Mealworm,0.2180441423,10136
+LargePetstoreMealworm.2.Gut.1.1,NA,Petstore Mealworm,0.2244331627,10433
+LargePetstoreMealworm.3.Gut.1.1,aerobe,Petstore Mealworm,0.4510195806,31142
+LargePetstoreMealworm.3.Gut.1.1,facultative anaerobe,Petstore Mealworm,0.2402241919,16587
+LargePetstoreMealworm.3.Gut.1.1,intracellular,Petstore Mealworm,5.79E-05,4
+LargePetstoreMealworm.3.Gut.1.1,no taxonomic assignment,Petstore Mealworm,0.02505503418,1730
+LargePetstoreMealworm.3.Gut.1.1,obligate anaerobe,Petstore Mealworm,0.1198876144,8278
+LargePetstoreMealworm.3.Gut.1.1,NA,Petstore Mealworm,0.1637556482,11307
+LargePetstoreMealworm.4.Gut.1.1,aerobe,Petstore Mealworm,0.1275071111,6993
+LargePetstoreMealworm.4.Gut.1.1,facultative anaerobe,Petstore Mealworm,0.6628619357,36354
+LargePetstoreMealworm.4.Gut.1.1,intracellular,Petstore Mealworm,1.82E-05,1
+LargePetstoreMealworm.4.Gut.1.1,no taxonomic assignment,Petstore Mealworm,0.06423674422,3523
+LargePetstoreMealworm.4.Gut.1.1,obligate anaerobe,Petstore Mealworm,0.09063890307,4971
+LargePetstoreMealworm.4.Gut.1.1,NA,Petstore Mealworm,0.05473707242,3002
+LargePetstoreMealworm.5.Gut.1.1,aerobe,Petstore Mealworm,0.01498833859,874
+LargePetstoreMealworm.5.Gut.1.1,facultative anaerobe,Petstore Mealworm,0.4596995473,26806
+LargePetstoreMealworm.5.Gut.1.1,no taxonomic assignment,Petstore Mealworm,0.03961448758,2310
+LargePetstoreMealworm.5.Gut.1.1,obligate anaerobe,Petstore Mealworm,0.1649574702,9619
+LargePetstoreMealworm.5.Gut.1.1,NA,Petstore Mealworm,0.3207401564,18703
+LemonShark.LI10.Feces.1.1,aerobe,LemonShark,2.00E-04,3
+LemonShark.LI10.Feces.1.1,facultative anaerobe,LemonShark,0.8878367565,13314
+LemonShark.LI10.Feces.1.1,no taxonomic assignment,LemonShark,0.05528140838,829
+LemonShark.LI10.Feces.1.1,obligate anaerobe,LemonShark,0.03327554014,499
+LemonShark.LI10.Feces.1.1,NA,LemonShark,0.02340624166,351
+LionheadRabbit.DayFeces.Feces.1.1,facultative anaerobe,Rabbit,1.55E-04,9
+LionheadRabbit.DayFeces.Feces.1.1,intracellular,Rabbit,3.46E-05,2
+LionheadRabbit.DayFeces.Feces.1.1,no taxonomic assignment,Rabbit,0.1158258466,6704
+LionheadRabbit.DayFeces.Feces.1.1,obligate anaerobe,Rabbit,0.8406876296,48659
+LionheadRabbit.DayFeces.Feces.1.1,Streptophyta,Rabbit,1.73E-05,1
+LionheadRabbit.DayFeces.Feces.1.1,NA,Rabbit,0.04327919834,2505
+LionheadRabbit.NightFeces.Feces.1.1,facultative anaerobe,Rabbit,1.41E-05,1
+LionheadRabbit.NightFeces.Feces.1.1,intracellular,Rabbit,1.41E-05,1
+LionheadRabbit.NightFeces.Feces.1.1,no taxonomic assignment,Rabbit,0.1629299776,11562
+LionheadRabbit.NightFeces.Feces.1.1,obligate anaerobe,Rabbit,0.8225272325,58369
+LionheadRabbit.NightFeces.Feces.1.1,NA,Rabbit,0.0145146062,1030
+Macaque.mt1.Feces.1.1,aerobe,Macaque,2.87E-05,1
+Macaque.mt1.Feces.1.1,facultative anaerobe,Macaque,0.2088469698,7285
+Macaque.mt1.Feces.1.1,microaerobe or anaerobe,Macaque,5.73E-05,2
+Macaque.mt1.Feces.1.1,no taxonomic assignment,Macaque,0.02866808096,1.00E+03
+Macaque.mt1.Feces.1.1,obligate anaerobe,Macaque,0.6513674675,22721
+Macaque.mt1.Feces.1.1,Streptophyta,Macaque,0.00149074021,52
+Macaque.mt1.Feces.1.1,NA,Macaque,0.1095407373,3821
+Macaque.mt2.Feces.1.1,aerobe,Macaque,6.57E-05,4
+Macaque.mt2.Feces.1.1,facultative anaerobe,Macaque,0.09975361367,6073
+Macaque.mt2.Feces.1.1,no taxonomic assignment,Macaque,0.02335742444,1422
+Macaque.mt2.Feces.1.1,obligate anaerobe,Macaque,0.8499178712,51743
+Macaque.mt2.Feces.1.1,Streptophyta,Macaque,5.75E-04,35
+Macaque.mt2.Feces.1.1,NA,Macaque,0.0263304862,1603
+Macaque.mt3.Feces.1.1,facultative anaerobe,Macaque,0.2069689873,14582
+Macaque.mt3.Feces.1.1,microaerobe or anaerobe,Macaque,0.001092896175,77
+Macaque.mt3.Feces.1.1,no taxonomic assignment,Macaque,0.05464480874,3850
+Macaque.mt3.Feces.1.1,obligate anaerobe,Macaque,0.6546022284,46120
+Macaque.mt3.Feces.1.1,Streptophyta,Macaque,1.99E-04,14
+Macaque.mt3.Feces.1.1,NA,Macaque,0.08249237102,5812
+Macaque.mt4.Feces.1.1,aerobe,Macaque,1.52E-05,1
+Macaque.mt4.Feces.1.1,facultative anaerobe,Macaque,0.1971492828,12974
+Macaque.mt4.Feces.1.1,microaerobe or anaerobe,Macaque,2.58E-04,17
+Macaque.mt4.Feces.1.1,no taxonomic assignment,Macaque,0.02542244104,1673
+Macaque.mt4.Feces.1.1,obligate anaerobe,Macaque,0.6729273037,44284
+Macaque.mt4.Feces.1.1,Streptophyta,Macaque,4.56E-05,3
+Macaque.mt4.Feces.1.1,NA,Macaque,0.1041818624,6856
+Macaque.mt5.Feces.1.1,facultative anaerobe,Macaque,0.07130690891,4019
+Macaque.mt5.Feces.1.1,microaerobe or anaerobe,Macaque,1.77E-05,1
+Macaque.mt5.Feces.1.1,no taxonomic assignment,Macaque,0.02696852489,1520
+Macaque.mt5.Feces.1.1,obligate anaerobe,Macaque,0.814538164,45909
+Macaque.mt5.Feces.1.1,Streptophyta,Macaque,9.58E-04,54
+Macaque.mt5.Feces.1.1,NA,Macaque,0.0862105674,4859
+Macaque.mt6.Feces.1.1,aerobe,Macaque,1.61E-05,1
+Macaque.mt6.Feces.1.1,facultative anaerobe,Macaque,0.2391171455,14864
+Macaque.mt6.Feces.1.1,no taxonomic assignment,Macaque,0.02081657604,1294
+Macaque.mt6.Feces.1.1,obligate anaerobe,Macaque,0.7037740098,43748
+Macaque.mt6.Feces.1.1,Streptophyta,Macaque,6.60E-04,41
+Macaque.mt6.Feces.1.1,NA,Macaque,0.03561661465,2214
+Mandrill.george.Feces.1.1,aerobe,Mandrill,1.10E-04,6
+Mandrill.george.Feces.1.1,facultative anaerobe,Mandrill,0.0100895424,551
+Mandrill.george.Feces.1.1,microaerobe or anaerobe,Mandrill,7.87E-04,43
+Mandrill.george.Feces.1.1,no taxonomic assignment,Mandrill,0.1044295105,5703
+Mandrill.george.Feces.1.1,obligate anaerobe,Mandrill,0.7722070645,42171
+Mandrill.george.Feces.1.1,NA,Mandrill,0.1123766274,6137
+Mandrill.madol.Feces.1.1,aerobe,Mandrill,1.62E-05,1
+Mandrill.madol.Feces.1.1,facultative anaerobe,Mandrill,0.009319378493,577
+Mandrill.madol.Feces.1.1,microaerobe or anaerobe,Mandrill,8.56E-04,53
+Mandrill.madol.Feces.1.1,no taxonomic assignment,Mandrill,0.1875181704,11610
+Mandrill.madol.Feces.1.1,obligate anaerobe,Mandrill,0.7217592144,44687
+Mandrill.madol.Feces.1.1,Streptophyta,Mandrill,1.62E-05,1
+Mandrill.madol.Feces.1.1,NA,Mandrill,0.08051490778,4985
+MiniRex.0.Feces.1.1,aerobe,Rabbit,5.53E-04,6
+MiniRex.0.Feces.1.1,facultative anaerobe,Rabbit,3.69E-04,4
+MiniRex.0.Feces.1.1,no taxonomic assignment,Rabbit,0.1778863888,1929
+MiniRex.0.Feces.1.1,obligate anaerobe,Rabbit,0.7465879749,8096
+MiniRex.0.Feces.1.1,Streptophyta,Rabbit,1.84E-04,2
+MiniRex.0.Feces.1.1,NA,Rabbit,0.07441903357,807
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,aerobe,Nigeria-Cameroon Chimpanzee,0.001302257246,39
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,facultative anaerobe,Nigeria-Cameroon Chimpanzee,0.0706891946,2117
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,microaerobe or aerobe,Nigeria-Cameroon Chimpanzee,6.68E-05,2
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,microaerobe or anaerobe,Nigeria-Cameroon Chimpanzee,0.00303860024,91
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,no taxonomic assignment,Nigeria-Cameroon Chimpanzee,0.1317283291,3945
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,obligate anaerobe,Nigeria-Cameroon Chimpanzee,0.6557366101,19638
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,Streptophyta,Nigeria-Cameroon Chimpanzee,2.34E-04,7
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,variable,Nigeria-Cameroon Chimpanzee,7.68E-04,23
+NigeriaCameroonChimpanzee.GApte65.Feces.1.1,NA,Nigeria-Cameroon Chimpanzee,0.1364364899,4086
+NigerianDesertGoat.0.Feces.1.1,facultative anaerobe,Goat,3.14E-04,33
+NigerianDesertGoat.0.Feces.1.1,microaerobe or anaerobe,Goat,5.71E-05,6
+NigerianDesertGoat.0.Feces.1.1,no taxonomic assignment,Goat,0.1266631794,13318
+NigerianDesertGoat.0.Feces.1.1,obligate anaerobe,Goat,0.8356745447,87867
+NigerianDesertGoat.0.Feces.1.1,Streptophyta,Goat,4.76E-05,5
+NigerianDesertGoat.0.Feces.1.1,NA,Goat,0.03724380617,3916
+Parakeet.1.Feces.1.1,aerobe,Parakeet,1.67E-04,4
+Parakeet.1.Feces.1.1,facultative anaerobe,Parakeet,0.09174005593,2198
+Parakeet.1.Feces.1.1,no taxonomic assignment,Parakeet,3.76E-04,9
+Parakeet.1.Feces.1.1,obligate anaerobe,Parakeet,0.74393756,17824
+Parakeet.1.Feces.1.1,Streptophyta,Parakeet,0.1474185066,3532
+Parakeet.1.Feces.1.1,NA,Parakeet,0.01636128386,392
+Parakeet.2.Feces.1.1,aerobe,Parakeet,0.00205497046,64
+Parakeet.2.Feces.1.1,facultative anaerobe,Parakeet,0.2441240688,7603
+Parakeet.2.Feces.1.1,microaerobe or anaerobe,Parakeet,3.21E-04,10
+Parakeet.2.Feces.1.1,no taxonomic assignment,Parakeet,0.001316465451,41
+Parakeet.2.Feces.1.1,obligate anaerobe,Parakeet,0.3885820704,12102
+Parakeet.2.Feces.1.1,Streptophyta,Parakeet,0.004623683535,144
+Parakeet.2.Feces.1.1,variable,Parakeet,6.42E-05,2
+Parakeet.2.Feces.1.1,NA,Parakeet,0.3589134344,11178
+PetstoreMouse.1.Feces.1.1,aerobe,Mouse,0.001455263637,56
+PetstoreMouse.1.Feces.1.1,facultative anaerobe,Mouse,0.2370780385,9123
+PetstoreMouse.1.Feces.1.1,microaerobe or anaerobe,Mouse,0.04222863231,1625
+PetstoreMouse.1.Feces.1.1,no taxonomic assignment,Mouse,0.01457862322,561
+PetstoreMouse.1.Feces.1.1,obligate anaerobe,Mouse,0.6696811413,25770
+PetstoreMouse.1.Feces.1.1,Streptophyta,Mouse,0.001221381981,47
+PetstoreMouse.1.Feces.1.1,NA,Mouse,0.033756919,1299
+PetstoreMouse.2.Feces.1.1,aerobe,Mouse,0.002018941341,55
+PetstoreMouse.2.Feces.1.1,facultative anaerobe,Mouse,0.1299464063,3540
+PetstoreMouse.2.Feces.1.1,microaerobe or anaerobe,Mouse,0.01795022392,489
+PetstoreMouse.2.Feces.1.1,no taxonomic assignment,Mouse,0.03982820645,1085
+PetstoreMouse.2.Feces.1.1,obligate anaerobe,Mouse,0.7398869393,20156
+PetstoreMouse.2.Feces.1.1,Streptophyta,Mouse,5.87E-04,16
+PetstoreMouse.2.Feces.1.1,NA,Mouse,0.06978195434,1901
+PetstoreMouse.3.Feces.1.1,aerobe,Mouse,7.41E-04,12
+PetstoreMouse.3.Feces.1.1,facultative anaerobe,Mouse,0.02641975309,428
+PetstoreMouse.3.Feces.1.1,microaerobe or anaerobe,Mouse,0.05703703704,924
+PetstoreMouse.3.Feces.1.1,no taxonomic assignment,Mouse,0.006111111111,99
+PetstoreMouse.3.Feces.1.1,obligate anaerobe,Mouse,0.8812962963,14277
+PetstoreMouse.3.Feces.1.1,Streptophyta,Mouse,0.002283950617,37
+PetstoreMouse.3.Feces.1.1,NA,Mouse,0.02611111111,423
+PetstoreRat.1.Feces.1.1,aerobe,Rat,7.63E-05,4
+PetstoreRat.1.Feces.1.1,facultative anaerobe,Rat,0.1487332112,7796
+PetstoreRat.1.Feces.1.1,microaerobe or anaerobe,Rat,0.004922161172,258
+PetstoreRat.1.Feces.1.1,no taxonomic assignment,Rat,0.03689713065,1934
+PetstoreRat.1.Feces.1.1,obligate anaerobe,Rat,0.7912278694,41473
+PetstoreRat.1.Feces.1.1,Streptophyta,Rat,1.14E-04,6
+PetstoreRat.1.Feces.1.1,NA,Rat,0.01802884615,945
+PetstoreRat.3.Feces.1.1,facultative anaerobe,Rat,0.07015586058,1886
+PetstoreRat.3.Feces.1.1,microaerobe or anaerobe,Rat,0.003831417625,103
+PetstoreRat.3.Feces.1.1,no taxonomic assignment,Rat,0.04114124168,1106
+PetstoreRat.3.Feces.1.1,obligate anaerobe,Rat,0.8708849459,23412
+PetstoreRat.3.Feces.1.1,Streptophyta,Rat,3.72E-05,1
+PetstoreRat.3.Feces.1.1,NA,Rat,0.01394933601,375
+Pig.BI0331.Feces.1.1,aerobe,Pig,0.04791580472,1853
+Pig.BI0331.Feces.1.1,facultative anaerobe,Pig,0.02490173769,963
+Pig.BI0331.Feces.1.1,microaerobe or anaerobe,Pig,7.76E-05,3
+Pig.BI0331.Feces.1.1,no taxonomic assignment,Pig,0.06273272652,2426
+Pig.BI0331.Feces.1.1,obligate anaerobe,Pig,0.8097072818,31313
+Pig.BI0331.Feces.1.1,Streptophyta,Pig,5.17E-05,2
+Pig.BI0331.Feces.1.1,variable,Pig,2.59E-05,1
+Pig.BI0331.Feces.1.1,NA,Pig,0.0543,2111
+Pig.LP1.Feces.1.1,aerobe,Pig,0.001219197338,85
+Pig.LP1.Feces.1.1,facultative anaerobe,Pig,0.1399925414,9760
+Pig.LP1.Feces.1.1,microaerobe or anaerobe,Pig,1.29E-04,9
+Pig.LP1.Feces.1.1,no taxonomic assignment,Pig,0.04181129694,2915
+Pig.LP1.Feces.1.1,obligate anaerobe,Pig,0.7768868872,54163
+Pig.LP1.Feces.1.1,NA,Pig,0.03996098569,2786
+Pig.LP2.Feces.1.1,aerobe,Pig,1.30E-04,9
+Pig.LP2.Feces.1.1,facultative anaerobe,Pig,0.4630787404,32146
+Pig.LP2.Feces.1.1,no taxonomic assignment,Pig,0.03038116915,2109
+Pig.LP2.Feces.1.1,obligate anaerobe,Pig,0.4402028292,30558
+Pig.LP2.Feces.1.1,NA,Pig,0.06620761186,4596
+Pig.WA0337.Feces.1.1,aerobe,Pig,0.06834006202,2336
+Pig.WA0337.Feces.1.1,facultative anaerobe,Pig,0.01571002282,537
+Pig.WA0337.Feces.1.1,microaerobe or anaerobe,Pig,1.17E-04,4
+Pig.WA0337.Feces.1.1,no taxonomic assignment,Pig,0.03472587912,1187
+Pig.WA0337.Feces.1.1,obligate anaerobe,Pig,0.7798256392,26656
+Pig.WA0337.Feces.1.1,Streptophyta,Pig,2.34E-04,8
+Pig.WA0337.Feces.1.1,variable,Pig,8.78E-05,3
+Pig.WA0337.Feces.1.1,NA,Pig,0.1009595694,3451
+Pig.WB0706.Feces.1.1,aerobe,Pig,0.1428571429,6842
+Pig.WB0706.Feces.1.1,facultative anaerobe,Pig,0.05044473212,2416
+Pig.WB0706.Feces.1.1,no taxonomic assignment,Pig,0.0186453418,893
+Pig.WB0706.Feces.1.1,obligate anaerobe,Pig,0.7232012361,34637
+Pig.WB0706.Feces.1.1,variable,Pig,1.04E-04,5
+Pig.WB0706.Feces.1.1,NA,Pig,0.06474714996,3101
+PolishRabit.0.Feces.1.1,aerobe,Rabbit,1.92E-05,4
+PolishRabit.0.Feces.1.1,facultative anaerobe,Rabbit,2.88E-05,6
+PolishRabit.0.Feces.1.1,intracellular,Rabbit,4.80E-06,1
+PolishRabit.0.Feces.1.1,no taxonomic assignment,Rabbit,0.1534715752,31958
+PolishRabit.0.Feces.1.1,obligate anaerobe,Rabbit,0.8179355917,170322
+PolishRabit.0.Feces.1.1,Streptophyta,Rabbit,1.44E-05,3
+PolishRabit.0.Feces.1.1,NA,Rabbit,0.02852560101,5940
+PrayingMantis.0.Feces.1.1,aerobe,Praying Mantis,0.01085847247,266
+PrayingMantis.0.Feces.1.1,facultative anaerobe,Praying Mantis,0.9494631996,23259
+PrayingMantis.0.Feces.1.1,no taxonomic assignment,Praying Mantis,0.002285994203,56
+PrayingMantis.0.Feces.1.1,obligate anaerobe,Praying Mantis,0.02363554721,579
+PrayingMantis.0.Feces.1.1,Streptophyta,Praying Mantis,2.45E-04,6
+PrayingMantis.0.Feces.1.1,NA,Praying Mantis,0.01351185859,331
+Primate.CFpts01.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,1.02E-04,4
+Primate.CFpts01.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.01140849016,448
+Primate.CFpts01.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.2999821742,11780
+Primate.CFpts01.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.5605439405,22012
+Primate.CFpts01.Feces.1.1,Streptophyta,Eastern Chimpanzee,5.09E-04,20
+Primate.CFpts01.Feces.1.1,NA,Eastern Chimpanzee,0.127454226,5005
+Primate.GMpts759.Feces.1.1,aerobe,Eastern Chimpanzee,6.62E-05,4
+Primate.GMpts759.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,4.30E-04,26
+Primate.GMpts759.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.004536423841,274
+Primate.GMpts759.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1457781457,8805
+Primate.GMpts759.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.740910596,44751
+Primate.GMpts759.Feces.1.1,Streptophyta,Eastern Chimpanzee,8.28E-05,5
+Primate.GMpts759.Feces.1.1,NA,Eastern Chimpanzee,0.1081953642,6535
+Primate.LUpts2136.Feces.1.1,aerobe,Eastern Chimpanzee,0.014034267,240
+Primate.LUpts2136.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.2041985849,3492
+Primate.LUpts2136.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,5.26E-04,9
+Primate.LUpts2136.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.03976375651,680
+Primate.LUpts2136.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.2170048535,3711
+Primate.LUpts2136.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.001929711713,33
+Primate.LUpts2136.Feces.1.1,variable,Eastern Chimpanzee,0.004619612888,79
+Primate.LUpts2136.Feces.1.1,NA,Eastern Chimpanzee,0.5179229285,8857
+Primate.TCpts11.Feces.1.1,aerobe,Eastern Chimpanzee,3.68E-04,22
+Primate.TCpts11.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,0.001070860872,64
+Primate.TCpts11.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.001003932067,60
+Primate.TCpts11.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1909980758,11415
+Primate.TCpts11.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.7176273739,42889
+Primate.TCpts11.Feces.1.1,Streptophyta,Eastern Chimpanzee,0.02022923116,1209
+Primate.TCpts11.Feces.1.1,NA,Eastern Chimpanzee,0.0687024178,4106
+Primate.TZpts304.Feces.1.1,aerobe,Eastern Chimpanzee,1.46E-04,6
+Primate.TZpts304.Feces.1.1,facultative anaerobe,Eastern Chimpanzee,4.88E-05,2
+Primate.TZpts304.Feces.1.1,microaerobe or anaerobe,Eastern Chimpanzee,0.01441533733,591
+Primate.TZpts304.Feces.1.1,no taxonomic assignment,Eastern Chimpanzee,0.1675203668,6868
+Primate.TZpts304.Feces.1.1,obligate anaerobe,Eastern Chimpanzee,0.6752524513,27684
+Primate.TZpts304.Feces.1.1,Streptophyta,Eastern Chimpanzee,1.46E-04,6
+Primate.TZpts304.Feces.1.1,NA,Eastern Chimpanzee,0.1424703644,5841
+Rabbit.1.Feces.1.1,facultative anaerobe,Rabbit,3.40E-05,2
+Rabbit.1.Feces.1.1,no taxonomic assignment,Rabbit,0.110476676,6501
+Rabbit.1.Feces.1.1,obligate anaerobe,Rabbit,0.8707621718,51240
+Rabbit.1.Feces.1.1,Streptophyta,Rabbit,1.70E-05,1
+Rabbit.1.Feces.1.1,NA,Rabbit,0.01871017079,1101
+RedandWhiteHolsteinCow.0.Feces.1.1,aerobe,Cow,6.38E-04,67
+RedandWhiteHolsteinCow.0.Feces.1.1,facultative anaerobe,Cow,0.001190668965,125
+RedandWhiteHolsteinCow.0.Feces.1.1,microaerobe or anaerobe,Cow,7.62E-04,80
+RedandWhiteHolsteinCow.0.Feces.1.1,no taxonomic assignment,Cow,0.1029976282,10813
+RedandWhiteHolsteinCow.0.Feces.1.1,obligate anaerobe,Cow,0.8362306278,87790
+RedandWhiteHolsteinCow.0.Feces.1.1,Streptophyta,Cow,4.76E-05,5
+RedandWhiteHolsteinCow.0.Feces.1.1,NA,Cow,0.05813322157,6103
+RedColobus.KB_RC208.Feces.1.1,aerobe,Red Colobus,3.75E-04,14
+RedColobus.KB_RC208.Feces.1.1,microaerobe or anaerobe,Red Colobus,2.41E-04,9
+RedColobus.KB_RC208.Feces.1.1,no taxonomic assignment,Red Colobus,0.2092904817,7808
+RedColobus.KB_RC208.Feces.1.1,obligate anaerobe,Red Colobus,0.7216876189,26924
+RedColobus.KB_RC208.Feces.1.1,Streptophyta,Red Colobus,2.68E-05,1
+RedColobus.KB_RC208.Feces.1.1,variable,Red Colobus,3.75E-04,14
+RedColobus.KB_RC208.Feces.1.1,NA,Red Colobus,0.06800332377,2537
+RhinocerosBeetleGrub.0.Feces.1.1,aerobe,Rhinoceros Beetle,0.01585503964,238
+RhinocerosBeetleGrub.0.Feces.1.1,facultative anaerobe,Rhinoceros Beetle,0.02284991007,343
+RhinocerosBeetleGrub.0.Feces.1.1,microaerobe or anaerobe,Rhinoceros Beetle,5.33E-04,8
+RhinocerosBeetleGrub.0.Feces.1.1,no taxonomic assignment,Rhinoceros Beetle,0.4348810872,6528
+RhinocerosBeetleGrub.0.Feces.1.1,obligate anaerobe,Rhinoceros Beetle,0.4890413697,7341
+RhinocerosBeetleGrub.0.Feces.1.1,Streptophyta,Rhinoceros Beetle,9.99E-04,15
+RhinocerosBeetleGrub.0.Feces.1.1,NA,Rhinoceros Beetle,0.03584038372,538
+SandEncrustingWorm.1.Gut.1.1,aerobe,Encrusted Sand Tubed Worm,0.04605678233,73
+SandEncrustingWorm.1.Gut.1.1,facultative anaerobe,Encrusted Sand Tubed Worm,0.319873817,507
+SandEncrustingWorm.1.Gut.1.1,no taxonomic assignment,Encrusted Sand Tubed Worm,0.02460567823,39
+SandEncrustingWorm.1.Gut.1.1,obligate anaerobe,Encrusted Sand Tubed Worm,0.01703470032,27
+SandEncrustingWorm.1.Gut.1.1,variable,Encrusted Sand Tubed Worm,0.0214511041,34
+SandEncrustingWorm.1.Gut.1.1,NA,Encrusted Sand Tubed Worm,0.570977918,905
+SBUShark.LI15.Feces.1.1,aerobe,SBUShark,4.03E-05,1
+SBUShark.LI15.Feces.1.1,facultative anaerobe,SBUShark,0.3158085569,7839
+SBUShark.LI15.Feces.1.1,no taxonomic assignment,SBUShark,0.03343807912,830
+SBUShark.LI15.Feces.1.1,obligate anaerobe,SBUShark,0.2336233986,5799
+SBUShark.LI15.Feces.1.1,NA,SBUShark,0.4170896785,10353
+SBUShark.LI20.Feces.1.1,aerobe,SBUShark,0.001353129111,36
+SBUShark.LI20.Feces.1.1,facultative anaerobe,SBUShark,0.2326630333,6190
+SBUShark.LI20.Feces.1.1,microaerobe or anaerobe,SBUShark,7.52E-05,2
+SBUShark.LI20.Feces.1.1,no taxonomic assignment,SBUShark,0.04172148092,1110
+SBUShark.LI20.Feces.1.1,obligate anaerobe,SBUShark,0.6634091336,17650
+SBUShark.LI20.Feces.1.1,NA,SBUShark,0.06077804924,1617
+SBUShark.LI4.Feces.1.1,aerobe,SBUShark,4.71E-04,83
+SBUShark.LI4.Feces.1.1,facultative anaerobe,SBUShark,0.4736361108,83440
+SBUShark.LI4.Feces.1.1,microaerobe or anaerobe,SBUShark,5.68E-06,1
+SBUShark.LI4.Feces.1.1,no taxonomic assignment,SBUShark,0.01356651851,2390
+SBUShark.LI4.Feces.1.1,obligate anaerobe,SBUShark,0.2605509482,45901
+SBUShark.LI4.Feces.1.1,NA,SBUShark,0.2517696076,44354
+SBUShark.LI6.Feces.1.1,facultative anaerobe,SBUShark,0.220270917,21172
+SBUShark.LI6.Feces.1.1,no taxonomic assignment,SBUShark,0.08389687676,8064
+SBUShark.LI6.Feces.1.1,obligate anaerobe,SBUShark,0.4131796334,39714
+SBUShark.LI6.Feces.1.1,NA,SBUShark,0.2826525729,27168
+SBUShark.LI9.Feces.1.1,aerobe,SBUShark,0.02795641976,1478
+SBUShark.LI9.Feces.1.1,facultative anaerobe,SBUShark,0.8445184232,44648
+SBUShark.LI9.Feces.1.1,no taxonomic assignment,SBUShark,0.09071650148,4796
+SBUShark.LI9.Feces.1.1,obligate anaerobe,SBUShark,0.01813951729,959
+SBUShark.LI9.Feces.1.1,NA,SBUShark,0.01866913823,987
+SeaCucumber.1.Gut.1.1,aerobe,Striped Sea Cucumber,0.1615059654,3479
+SeaCucumber.1.Gut.1.1,facultative anaerobe,Striped Sea Cucumber,0.3725453786,8025
+SeaCucumber.1.Gut.1.1,no taxonomic assignment,Striped Sea Cucumber,0.02102966436,453
+SeaCucumber.1.Gut.1.1,obligate anaerobe,Striped Sea Cucumber,9.28E-05,2
+SeaCucumber.1.Gut.1.1,variable,Striped Sea Cucumber,4.18E-04,9
+SeaCucumber.1.Gut.1.1,NA,Striped Sea Cucumber,0.4444083376,9573
+SeaRobin.1.Feces.1.1,aerobe,Sea Robin,0.005346799347,252
+SeaRobin.1.Feces.1.1,facultative anaerobe,Sea Robin,0.5449916191,25686
+SeaRobin.1.Feces.1.1,no taxonomic assignment,Sea Robin,0.1289809255,6079
+SeaRobin.1.Feces.1.1,obligate anaerobe,Sea Robin,0.2230803505,10514
+SeaRobin.1.Feces.1.1,Streptophyta,Sea Robin,4.24E-05,2
+SeaRobin.1.Feces.1.1,NA,Sea Robin,0.09755787062,4598
+SeaRobin.2.Feces.1.1,aerobe,Sea Robin,0.001021193464,69
+SeaRobin.2.Feces.1.1,facultative anaerobe,Sea Robin,0.2518499882,17017
+SeaRobin.2.Feces.1.1,no taxonomic assignment,Sea Robin,0.2255949562,15243
+SeaRobin.2.Feces.1.1,obligate anaerobe,Sea Robin,0.3672596495,24815
+SeaRobin.2.Feces.1.1,Streptophyta,Sea Robin,4.44E-05,3
+SeaRobin.2.Feces.1.1,NA,Sea Robin,0.1542298129,10421
+Sheep.2.Feces.1.1,aerobe,Sheep,0.00105873883,25
+Sheep.2.Feces.1.1,facultative anaerobe,Sheep,0.008978105281,212
+Sheep.2.Feces.1.1,microaerobe or anaerobe,Sheep,3.39E-04,8
+Sheep.2.Feces.1.1,no taxonomic assignment,Sheep,0.06407487401,1513
+Sheep.2.Feces.1.1,obligate anaerobe,Sheep,0.8474145598,20010
+Sheep.2.Feces.1.1,Streptophyta,Sheep,3.39E-04,8
+Sheep.2.Feces.1.1,NA,Sheep,0.07779612925,1837
+Sheep.A1.Feces.1.1,aerobe,Sheep,5.32E-04,39
+Sheep.A1.Feces.1.1,facultative anaerobe,Sheep,0.003627041916,266
+Sheep.A1.Feces.1.1,microaerobe or anaerobe,Sheep,1.77E-04,13
+Sheep.A1.Feces.1.1,no taxonomic assignment,Sheep,0.09323952112,6838
+Sheep.A1.Feces.1.1,obligate anaerobe,Sheep,0.8602225313,63087
+Sheep.A1.Feces.1.1,Streptophyta,Sheep,6.68E-04,49
+Sheep.A1.Feces.1.1,NA,Sheep,0.04153372058,3046
+Sheep.A2.Feces.1.1,aerobe,Sheep,2.50E-04,17
+Sheep.A2.Feces.1.1,facultative anaerobe,Sheep,6.02E-04,41
+Sheep.A2.Feces.1.1,microaerobe or anaerobe,Sheep,1.32E-04,9
+Sheep.A2.Feces.1.1,no taxonomic assignment,Sheep,0.08786739877,5985
+Sheep.A2.Feces.1.1,obligate anaerobe,Sheep,0.8665325777,59023
+Sheep.A2.Feces.1.1,Streptophyta,Sheep,4.99E-04,34
+Sheep.A2.Feces.1.1,NA,Sheep,0.04411721526,3005
+Sheep.A3.Feces.1.1,aerobe,Sheep,4.41E-04,27
+Sheep.A3.Feces.1.1,facultative anaerobe,Sheep,0.001631960311,100
+Sheep.A3.Feces.1.1,microaerobe or anaerobe,Sheep,8.16E-05,5
+Sheep.A3.Feces.1.1,no taxonomic assignment,Sheep,0.09251583002,5669
+Sheep.A3.Feces.1.1,obligate anaerobe,Sheep,0.8581336902,52583
+Sheep.A3.Feces.1.1,Streptophyta,Sheep,0.001028134996,63
+Sheep.A3.Feces.1.1,NA,Sheep,0.04616815719,2829
+Sheep.Lepf1.Feces.1.1,aerobe,Sheep,5.13E-04,14
+Sheep.Lepf1.Feces.1.1,facultative anaerobe,Sheep,0.005939722813,162
+Sheep.Lepf1.Feces.1.1,microaerobe or anaerobe,Sheep,4.77E-04,13
+Sheep.Lepf1.Feces.1.1,no taxonomic assignment,Sheep,0.07292659676,1989
+Sheep.Lepf1.Feces.1.1,obligate anaerobe,Sheep,0.8679694948,23673
+Sheep.Lepf1.Feces.1.1,Streptophyta,Sheep,3.67E-05,1
+Sheep.Lepf1.Feces.1.1,NA,Sheep,0.05213756691,1422
+Shrimp.2.Gut.1.1,aerobe,Pink Shrimp,0.103500761,136
+Shrimp.2.Gut.1.1,facultative anaerobe,Pink Shrimp,0.6202435312,815
+Shrimp.2.Gut.1.1,no taxonomic assignment,Pink Shrimp,0.03881278539,51
+Shrimp.2.Gut.1.1,Streptophyta,Pink Shrimp,7.61E-04,1
+Shrimp.2.Gut.1.1,NA,Pink Shrimp,0.2366818874,311
+Skate.2.Feces.1.1,aerobe,Skate,0.006982340779,412
+Skate.2.Feces.1.1,facultative anaerobe,Skate,0.1256990814,7417
+Skate.2.Feces.1.1,microaerobe or anaerobe,Skate,1.36E-04,8
+Skate.2.Feces.1.1,no taxonomic assignment,Skate,0.7978341186,47077
+Skate.2.Feces.1.1,obligate anaerobe,Skate,0.04058909263,2395
+Skate.2.Feces.1.1,variable,Skate,3.90E-04,23
+Skate.2.Feces.1.1,NA,Skate,0.02836999627,1674
+SmallPetstoreCricket.1.Gut.1.1,aerobe,Cricket,0.04130890052,789
+SmallPetstoreCricket.1.Gut.1.1,facultative anaerobe,Cricket,0.07413612565,1416
+SmallPetstoreCricket.1.Gut.1.1,no taxonomic assignment,Cricket,0.06109947644,1167
+SmallPetstoreCricket.1.Gut.1.1,obligate anaerobe,Cricket,0.7847120419,14988
+SmallPetstoreCricket.1.Gut.1.1,variable,Cricket,0.002094240838,40
+SmallPetstoreCricket.1.Gut.1.1,NA,Cricket,0.03664921466,700
+SmallPetstoreCricket.2.Gut.1.1,aerobe,Cricket,0.0197719772,659
+SmallPetstoreCricket.2.Gut.1.1,facultative anaerobe,Cricket,0.1502550255,5008
+SmallPetstoreCricket.2.Gut.1.1,no taxonomic assignment,Cricket,0.09321932193,3107
+SmallPetstoreCricket.2.Gut.1.1,obligate anaerobe,Cricket,0.302580258,10085
+SmallPetstoreCricket.2.Gut.1.1,Streptophyta,Cricket,9.00E-05,3
+SmallPetstoreCricket.2.Gut.1.1,variable,Cricket,0.001410141014,47
+SmallPetstoreCricket.2.Gut.1.1,NA,Cricket,0.4326732673,14421
+SmallPetstoreCricket.3.Gut.1.1,aerobe,Cricket,0.1237714656,2292
+SmallPetstoreCricket.3.Gut.1.1,facultative anaerobe,Cricket,0.06733988552,1247
+SmallPetstoreCricket.3.Gut.1.1,no taxonomic assignment,Cricket,0.08575440112,1588
+SmallPetstoreCricket.3.Gut.1.1,obligate anaerobe,Cricket,0.6375958527,11807
+SmallPetstoreCricket.3.Gut.1.1,Streptophyta,Cricket,1.62E-04,3
+SmallPetstoreCricket.3.Gut.1.1,variable,Cricket,0.00210605897,39
+SmallPetstoreCricket.3.Gut.1.1,NA,Cricket,0.08327033157,1542
+SootyMangabey.anne.Feces.1.1,aerobe,Sooty Mangabey,3.98E-05,1
+SootyMangabey.anne.Feces.1.1,facultative anaerobe,Sooty Mangabey,0.002748894466,69
+SootyMangabey.anne.Feces.1.1,microaerobe or anaerobe,Sooty Mangabey,0.004342456476,109
+SootyMangabey.anne.Feces.1.1,no taxonomic assignment,Sooty Mangabey,0.132425003,3324
+SootyMangabey.anne.Feces.1.1,obligate anaerobe,Sooty Mangabey,0.7204493845,18084
+SootyMangabey.anne.Feces.1.1,Streptophyta,Sooty Mangabey,0.001075654356,27
+SootyMangabey.anne.Feces.1.1,NA,Sooty Mangabey,0.1389187682,3487
+SootyMangabey.yoko.Feces.1.1,aerobe,Sooty Mangabey,1.78E-04,9
+SootyMangabey.yoko.Feces.1.1,facultative anaerobe,Sooty Mangabey,0.006594014057,334
+SootyMangabey.yoko.Feces.1.1,microaerobe or anaerobe,Sooty Mangabey,0.001915028034,97
+SootyMangabey.yoko.Feces.1.1,no taxonomic assignment,Sooty Mangabey,0.09535655058,4830
+SootyMangabey.yoko.Feces.1.1,obligate anaerobe,Sooty Mangabey,0.7064874042,35785
+SootyMangabey.yoko.Feces.1.1,Streptophyta,Sooty Mangabey,7.90E-04,40
+SootyMangabey.yoko.Feces.1.1,variable,Sooty Mangabey,1.97E-05,1
+SootyMangabey.yoko.Feces.1.1,NA,Sooty Mangabey,0.1886598752,9556
+SSBShark.LI14.Feces.1.1,aerobe,SSBShark,0.009707529558,78
+SSBShark.LI14.Feces.1.1,facultative anaerobe,SSBShark,0.3505911637,2817
+SSBShark.LI14.Feces.1.1,no taxonomic assignment,SSBShark,0.5802115744,4662
+SSBShark.LI14.Feces.1.1,obligate anaerobe,SSBShark,0.02700684505,217
+SSBShark.LI14.Feces.1.1,NA,SSBShark,0.03248288737,261
+SSBShark.LI18.Feces.1.1,aerobe,SSBShark,0.0185000312,593
+SSBShark.LI18.Feces.1.1,facultative anaerobe,SSBShark,0.2450864167,7856
+SSBShark.LI18.Feces.1.1,microaerobe or anaerobe,SSBShark,6.24E-05,2
+SSBShark.LI18.Feces.1.1,no taxonomic assignment,SSBShark,0.1027328883,3293
+SSBShark.LI18.Feces.1.1,obligate anaerobe,SSBShark,0.5734697698,18382
+SSBShark.LI18.Feces.1.1,NA,SSBShark,0.06014849941,1928
+SSBShark.LI5.Feces.1.1,aerobe,SSBShark,0.2065729491,10830
+SSBShark.LI5.Feces.1.1,facultative anaerobe,SSBShark,0.1693783737,8880
+SSBShark.LI5.Feces.1.1,microaerobe or anaerobe,SSBShark,0.00127796746,67
+SSBShark.LI5.Feces.1.1,no taxonomic assignment,SSBShark,0.5626680909,29499
+SSBShark.LI5.Feces.1.1,obligate anaerobe,SSBShark,2.86E-04,15
+SSBShark.LI5.Feces.1.1,Streptophyta,SSBShark,1.91E-05,1
+SSBShark.LI5.Feces.1.1,NA,SSBShark,0.05979743262,3135
+SSBShark.LI7.Feces.1.1,aerobe,SSBShark,0.02348896445,1872
+SSBShark.LI7.Feces.1.1,facultative anaerobe,SSBShark,0.6527472803,52022
+SSBShark.LI7.Feces.1.1,intracellular,SSBShark,2.51E-05,2
+SSBShark.LI7.Feces.1.1,no taxonomic assignment,SSBShark,0.06850947965,5460
+SSBShark.LI7.Feces.1.1,obligate anaerobe,SSBShark,0.1436942419,11452
+SSBShark.LI7.Feces.1.1,NA,SSBShark,0.1115349386,8889
+SSBShark.LI8.Feces.1.1,aerobe,SSBShark,0.004469035965,21
+SSBShark.LI8.Feces.1.1,facultative anaerobe,SSBShark,0.419450947,1971
+SSBShark.LI8.Feces.1.1,no taxonomic assignment,SSBShark,0.1751436476,823
+SSBShark.LI8.Feces.1.1,obligate anaerobe,SSBShark,0.3794424346,1783
+SSBShark.LI8.Feces.1.1,NA,SSBShark,0.02149393488,101
+TigerShark.LI11.Feces.1.1,aerobe,TigerShark,1.45E-05,1
+TigerShark.LI11.Feces.1.1,facultative anaerobe,TigerShark,0.2405907368,16633
+TigerShark.LI11.Feces.1.1,no taxonomic assignment,TigerShark,0.00526513727,364
+TigerShark.LI11.Feces.1.1,obligate anaerobe,TigerShark,0.0649463361,4490
+TigerShark.LI11.Feces.1.1,NA,TigerShark,0.6891833251,47646
+TigerShark.LI2.Feces.1.1,facultative anaerobe,TigerShark,0.04307091159,1940
+TigerShark.LI2.Feces.1.1,no taxonomic assignment,TigerShark,0.8769592824,39500
+TigerShark.LI2.Feces.1.1,obligate anaerobe,TigerShark,0.01840504418,829
+TigerShark.LI2.Feces.1.1,NA,TigerShark,0.06156476178,2773
+Wasp.0.Gut.1.1,aerobe,Eastern Yellowjacket,0.2750992626,16975
+Wasp.0.Gut.1.1,facultative anaerobe,Eastern Yellowjacket,0.6437079653,39720
+Wasp.0.Gut.1.1,intracellular,Eastern Yellowjacket,0.001361315939,84
+Wasp.0.Gut.1.1,microaerobe or anaerobe,Eastern Yellowjacket,9.72E-05,6
+Wasp.0.Gut.1.1,no taxonomic assignment,Eastern Yellowjacket,0.005834211166,360
+Wasp.0.Gut.1.1,obligate anaerobe,Eastern Yellowjacket,0.01176565918,726
+Wasp.0.Gut.1.1,Streptophyta,Eastern Yellowjacket,3.24E-05,2
+Wasp.0.Gut.1.1,NA,Eastern Yellowjacket,0.06210193663,3832
+WesternChimpanzee.CCptv01.Feces.1.1,aerobe,Western Chimpanzee,2.03E-04,14
+WesternChimpanzee.CCptv01.Feces.1.1,facultative anaerobe,Western Chimpanzee,0.001814039212,125
+WesternChimpanzee.CCptv01.Feces.1.1,microaerobe or aerobe,Western Chimpanzee,4.35E-05,3
+WesternChimpanzee.CCptv01.Feces.1.1,microaerobe or anaerobe,Western Chimpanzee,0.006704688929,462
+WesternChimpanzee.CCptv01.Feces.1.1,no taxonomic assignment,Western Chimpanzee,0.05754132381,3965
+WesternChimpanzee.CCptv01.Feces.1.1,obligate anaerobe,Western Chimpanzee,0.8370702541,57680
+WesternChimpanzee.CCptv01.Feces.1.1,Streptophyta,Western Chimpanzee,5.51E-04,38
+WesternChimpanzee.CCptv01.Feces.1.1,NA,Western Chimpanzee,0.09607151668,6620
+Whale.AK1.Feces.1.1,aerobe,Humpback Whale,1.08E-04,79
+Whale.AK1.Feces.1.1,facultative anaerobe,Humpback Whale,0.006514516041,4784
+Whale.AK1.Feces.1.1,microaerobe or anaerobe,Humpback Whale,0.002783376001,2044
+Whale.AK1.Feces.1.1,no taxonomic assignment,Humpback Whale,0.09774089003,71777
+Whale.AK1.Feces.1.1,obligate anaerobe,Humpback Whale,0.8676003595,637131
+Whale.AK1.Feces.1.1,variable,Humpback Whale,1.36E-06,1
+Whale.AK1.Feces.1.1,NA,Humpback Whale,0.02525192004,18544
+Whale.AK2.Feces.1.1,aerobe,Humpback Whale,1.34E-05,7
+Whale.AK2.Feces.1.1,facultative anaerobe,Humpback Whale,0.005794030335,3035
+Whale.AK2.Feces.1.1,microaerobe or anaerobe,Humpback Whale,4.77E-05,25
+Whale.AK2.Feces.1.1,no taxonomic assignment,Humpback Whale,0.08831553125,46261
+Whale.AK2.Feces.1.1,obligate anaerobe,Humpback Whale,0.9021849317,472578
+Whale.AK2.Feces.1.1,NA,Humpback Whale,0.003644416445,1909
+Whale.AK3.Feces.1.1,aerobe,Humpback Whale,2.44E-05,15
+Whale.AK3.Feces.1.1,facultative anaerobe,Humpback Whale,0.1304626143,80300
+Whale.AK3.Feces.1.1,microaerobe or anaerobe,Humpback Whale,2.40E-04,148
+Whale.AK3.Feces.1.1,no taxonomic assignment,Humpback Whale,0.07272112844,44760
+Whale.AK3.Feces.1.1,obligate anaerobe,Humpback Whale,0.7876660027,484810
+Whale.AK3.Feces.1.1,NA,Humpback Whale,0.008885430104,5469
+Whale.BP2.Feces.1.1,aerobe,Fin Whale,1.22E-04,74
+Whale.BP2.Feces.1.1,facultative anaerobe,Fin Whale,0.03942630445,23891
+Whale.BP2.Feces.1.1,microaerobe or anaerobe,Fin Whale,1.11E-04,67
+Whale.BP2.Feces.1.1,no taxonomic assignment,Fin Whale,0.106540631,64560
+Whale.BP2.Feces.1.1,obligate anaerobe,Fin Whale,0.8305399973,503279
+Whale.BP2.Feces.1.1,NA,Fin Whale,0.02326038095,14095
+Whale.EG3.Feces.1.1,facultative anaerobe,Right Whale,2.57E-05,45
+Whale.EG3.Feces.1.1,microaerobe or anaerobe,Right Whale,2.85E-06,5
+Whale.EG3.Feces.1.1,no taxonomic assignment,Right Whale,0.06247349589,109459
+Whale.EG3.Feces.1.1,obligate anaerobe,Right Whale,0.9363564709,1640578
+Whale.EG3.Feces.1.1,NA,Right Whale,0.001141495828,2.00E+03
+Whale.EG4.Feces.1.1,aerobe,Right Whale,2.46E-06,3
+Whale.EG4.Feces.1.1,facultative anaerobe,Right Whale,7.45E-05,91
+Whale.EG4.Feces.1.1,microaerobe or anaerobe,Right Whale,2.46E-06,3
+Whale.EG4.Feces.1.1,no taxonomic assignment,Right Whale,0.1190826755,145419
+Whale.EG4.Feces.1.1,obligate anaerobe,Right Whale,0.8777563956,1071881
+Whale.EG4.Feces.1.1,variable,Right Whale,1.64E-06,2
+Whale.EG4.Feces.1.1,NA,Right Whale,0.003079858495,3761
+Whale.EG5.Feces.1.1,aerobe,Right Whale,1.68E-05,16
+Whale.EG5.Feces.1.1,facultative anaerobe,Right Whale,1.21E-04,115
+Whale.EG5.Feces.1.1,microaerobe or anaerobe,Right Whale,0.001923351054,1835
+Whale.EG5.Feces.1.1,no taxonomic assignment,Right Whale,0.2356078837,224785
+Whale.EG5.Feces.1.1,obligate anaerobe,Right Whale,0.7556379866,720927
+Whale.EG5.Feces.1.1,Streptophyta,Right Whale,2.10E-06,2
+Whale.EG5.Feces.1.1,NA,Right Whale,0.006691375002,6384
