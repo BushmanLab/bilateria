@@ -1,0 +1,241 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	old_id	toKeep	renamed	studyClass	study	common	kingdom	phylum	class	order	family	genus	species	subspecies	weight	habitat	diet	gut	file	mg_rast_id	metagenome_name	bp_count	sequence_count	biome	feature	material	location	country	coordinates	sequence_type	sequencing	readCount	Description
+BGS.01			BGS_01	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													372	
+BGS.02			BGS_02	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													192	
+BGS.03			BGS_03	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													251	
+BGS.04			BGS_04	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													316	
+BGS.05			BGS_05	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													185	
+BJA.01			BJA_01	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													169	
+BJA.02			BJA_02	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													332	
+BJA.03			BJA_03	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													225	
+BJA.04			BJA_04	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													261	
+BJA.05			BJA_05	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													272	
+BKS.01			BKS_01	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													174	
+BKS.02			BKS_02	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													197	
+BKS.03			BKS_03	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													134	
+BKS.04			BKS_04	keep	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													261	
+BKS.05			BKS_05	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													195	
+BSL.01			BSL_01	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													174	
+BSL.02			BSL_02	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													19	
+BSL.03			BSL_03	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													137	
+BSL.04			BSL_04	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													168	
+BSL.05			BSL_05	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													101	
+BSS.01			BSS_01	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													60	
+BSS.02			BSS_02	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													147	
+BSS.03			BSS_03	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													132	
+BSS.04			BSS_04	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													233	
+BSS.05			BSS_05	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR616202.fastq.gz													131	
+CH.011			CH_011	keep	yes	bug:Arthropoda	bug	Bemisia tabaci	Eukaryota	Arthropoda	Insecta	Hemiptera	Aleyrodidae	Bemisia	tabaci		0.0001016666667	Ground	Herbivore		SRR616204.fastq.gz													820	
+CH.015			CH_015	remove	yes	bug:Arthropoda	bug	Termitoidae	Eukaryota	Arthropoda	Insecta	Blattodea	Termitoidae				0.002707926428	Underground	Herbivore		SRR616203.fastq.gz													91	
+CH.019			CH_019	keep	yes	bug:Arthropoda	bug	Thrips palmi	Eukaryota	Arthropoda	Insecta	Thysanoptera	Thripidae	Thrips	palmi		0.00008888212526	Sky	Herbivore		SRR616202.fastq.gz													454	
+DS.002			DS_002	remove	yes	bug:Arthropoda	bug	Scarites terricola	Eukaryota	Arthropoda	Insecta	Coleoptera	Carabidae	Scarites	terricola	pacificus	0.2605416584	Underground	Carnivore		SRR611639.fastq.gz													165	
+DS.005			DS_005	keep	yes	bug:Arthropoda	bug	Mesosa myops	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Mesosa	myops		0.1226133289	Ground	Herbivore		SRR611639.fastq.gz													423	
+DS.006			DS_006	keep	yes	bug:Arthropoda	bug	Moechotypa diphysis	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Moechotypa	diphysis		0.4200800316	Ground	Herbivore		SRR611639.fastq.gz													275	
+DS.009			DS_009	remove	yes	bug:Arthropoda	bug	Smaragdina semiaurantiaca	Eukaryota	Arthropoda	Insecta	Coleoptera	Chrysomelidae	Smaragdina	semiaurantiaca		0.008849705757	Ground	Herbivore		SRR611639.fastq.gz													152	
+DS.013			DS_013	remove	yes	bug:Arthropoda	bug	Papilio macilentus	Eukaryota	Arthropoda	Insecta	Lepidoptera	Papilionidae	Papilio	macilentus		2.6535174	Sky	Herbivore		SRR611639.fastq.gz													196	
+DS.014			DS_014	remove	yes	bug:Arthropoda	bug	Davidius lunatus	Eukaryota	Arthropoda	Insecta	Odonata	Gomphidae	Davidius	lunatus		1.305771248	Sky	Carnivore		SRR611639.fastq.gz													50	
+DS.015			DS_015	keep	yes	bug:Arthropoda	bug	Lucilia sericata	Eukaryota	Arthropoda	Insecta	Diptera	Calliphoridae	Lucilia	sericata		0.02768574216	Sky	Scavenger		SRR611639.fastq.gz													272	
+DS.016			DS_016	keep	yes	bug:Arthropoda	bug	Rhopalus sapporensis	Eukaryota	Arthropoda	Insecta	Hemiptera	Rhopalidae	Rhopalus	sapporensis		0.01664697968	Ground	Herbivore		SRR611639.fastq.gz													373	
+DS.017			DS_017	keep	yes	bug:Arthropoda	bug	Sericinus montela	Eukaryota	Arthropoda	Insecta	Lepidoptera	Papilionidae	Sericinus	montela		0.3344460017	Sky	Herbivore		SRR611639.fastq.gz													546	
+DS.018			DS_018	keep	yes	bug:Arthropoda	bug	Lycaena phlaeas	Eukaryota	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Lycaena	phlaeas		0.08427721346	Sky	Herbivore		SRR611639.fastq.gz													531	
+DS.021			DS_021	keep	yes	bug:Arthropoda	bug	Polistes snelleni	Eukaryota	Arthropoda	Insecta	Hymenoptera	Vespidae	Polistes	snelleni		0.145202114	Sky	Herbivore		SRR611639.fastq.gz													326	
+DS.022			DS_022	remove	yes	bug:Arthropoda	bug	Opatrum subaratum	Eukaryota	Arthropoda	Insecta	Coleoptera	Tenebrionidae	Opatrum	subaratum		0.02768574216	Underground	Herbivore		SRR611639.fastq.gz													182	
+DS.023			DS_023	remove	yes	bug:Arthropoda	bug	Heptagenia kihada	Eukaryota	Arthropoda	Insecta	Ephemeroptera	Heptageniidae	Heptagenia	kihada		0.04238172065	Sky	-		SRR611639.fastq.gz													184	
+DS.024			DS_024	keep	yes	bug:Arthropoda	bug	Ecdyonurus levis	Eukaryota	Arthropoda	Insecta	Ephemeroptera	Heptageniidae	Ecdyonurus	levis		0.06833346596	Sky	-		SRR616202.fastq.gz													537	
+DS.025			DS_025	keep	yes	bug:Arthropoda	bug	Paridea angulicollis	Eukaryota	Arthropoda	Insecta	Coleoptera	Chrysomelidae	Paridea	angulicollis		0.008849705757	Ground	Herbivore		SRR611639.fastq.gz													334	
+DS.038			DS_038	remove	yes	bug:Arthropoda	bug	Lasioglossum	Eukaryota	Arthropoda	Insecta	Hymenoptera	Halictidae	Lasioglossum			0.03705223676	Sky	Herbivore		SRR611639.fastq.gz													251	
+DS.043			DS_043	keep	yes	bug:Arthropoda	bug	Bombus ussurensis	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	ussurensis		0.1121922223	Sky	Herbivore		SRR611639.fastq.gz													259	
+DS.044			DS_044	keep	yes	bug:Arthropoda	bug	Bombus ignitus	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	ignitus		0.1336126673	Sky	Herbivore		SRR611639.fastq.gz													333	
+DS.048			DS_048	remove	yes	bug:Arthropoda	bug	Adoretus tenuimaculatus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Adoretus	tenuimaculatus		0.0481608949	Ground	Herbivore		SRR611639.fastq.gz													169	
+DS.049			DS_049	keep	yes	bug:Arthropoda	bug	Antipalpus pedestris	Eukaryota	Arthropoda	Insecta	Diptera	Asilidae	Antipalpus	pedestris		0.2960691363	Sky	Carnivore		SRR616202.fastq.gz													608	
+DS.052			DS_052	keep	yes	bug:Arthropoda	bug	Ichneumonidae	Eukaryota	Arthropoda	Insecta	Hymenoptera	Ichneumonidae				0.1976935718	Sky	Herbivore		SRR611639.fastq.gz													262	
+DS.056			DS_056	keep	yes	bug:Arthropoda	bug	Geometra dieckmanni	Eukaryota	Arthropoda	Insecta	Lepidoptera	Geometridae	Geometra	dieckmanni		0.2960691363	Sky	Herbivore		SRR611639.fastq.gz													564	
+DS.060			DS_060	keep	yes	bug:Arthropoda	bug	Sphragifera biplagiata	Eukaryota	Arthropoda	Insecta	Lepidoptera	Noctuidae	Sphragifera	biplagiata		0.08427721346	Sky	Herbivore		SRR611639.fastq.gz													279	
+DS.065			DS_065	remove	yes	bug:Arthropoda	bug	Phyllosphingia dissimilis	Eukaryota	Arthropoda	Insecta	Lepidoptera	Sphingidae	Phyllosphingia	dissimilis		1.708725455	Sky	Herbivore		SRR616203.fastq.gz													41	
+DS.070			DS_070	remove	yes	bug:Arthropoda	bug	Cerogria janthinipennis	Eukaryota	Arthropoda	Insecta	Coleoptera	Tenebrionidae	Cerogria	janthinipennis		0.07604712828	Ground	Herbivore		SRR611639.fastq.gz													178	
+DS.072			DS_072	remove	yes	bug:Arthropoda	bug	Adrisa magna	Eukaryota	Arthropoda	Insecta	Hemiptera	Cydnidae	Adrisa	magna		0.1976935718	Underground	Herbivore		SRR616202.fastq.gz													158	
+DS.073			DS_073	keep	yes	bug:Arthropoda	bug	Acanthosoma crassicaudum	Eukaryota	Arthropoda	Insecta	Hemiptera	Acanthosomatidae	Acanthosoma	crassicaudum		0.1836277328	Ground	Herbivore		SRR616202.fastq.gz													274	
+DS.078			DS_078	remove	yes	bug:Arthropoda	bug	Prodaticus grammicus	Eukaryota	Arthropoda	Insecta	Coleoptera	Dytiscidae	Prodaticus	grammicus		0.06112331871	aquatic	Carnivore		SRR611639.fastq.gz													134	
+DS.2.032			DS_2_032	keep	yes	bug:Arthropoda	bug	Blattella nipponica	Eukaryota	Arthropoda	Insecta	Blattodea	Ectobiidae	Blattella	nipponica		0.08427721346	Ground	Omnivore		SRR616202.fastq.gz													377	
+DS.2.042			DS_2_042	keep	yes	bug:Arthropoda	bug	Aphrophora stictica	Eukaryota	Arthropoda	Insecta	Hemiptera	Aphrophoridae	Aphrophora	stictica		0.05440357256	Ground	Herbivore		SRR611639.fastq.gz													300	
+DS.2.044			DS_2_044	keep	yes	bug:Arthropoda	bug	Malachius prolongatus	Eukaryota	Arthropoda	Insecta	Coleoptera	Melyridae	Malachius	prolongatus		0.01370918317	Ground	Omnivore		SRR611639.fastq.gz													501	
+DS.2.048			DS_2_048	keep	yes	bug:Arthropoda	bug	Scarites acutidens	Eukaryota	Arthropoda	Insecta	Coleoptera	Carabidae	Scarites	acutidens		0.2779544943	Underground	Carnivore		SRR611639.fastq.gz													418	
+DS.2.049			DS_2_049	remove	yes	bug:Arthropoda	bug	Chrysanthia geniculata	Eukaryota	Arthropoda	Insecta	Coleoptera	Oedemeridae	Chrysanthia	geniculata		0.01994523211	Ground	Herbivore		SRR611639.fastq.gz													414	
+DS.2.050			DS_2_050	remove	yes	bug:Arthropoda	bug	Chlorophorus simillimus	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Chlorophorus	simillimus		0.07604712828	Ground	Herbivore		SRR611639.fastq.gz													271	
+DS.3.005			DS_3_005	remove	yes	bug:Arthropoda	bug	Isodontia nigella	Eukaryota	Arthropoda	Insecta	Hymenoptera	Sphecidae	Isodontia	nigella		0.2277786523	Sky	Herbivore		SRR616203.fastq.gz													136	
+DS.3.008			DS_3_008	remove	yes	bug:Arthropoda	bug	Palmodes occitanicus	Eukaryota	Arthropoda	Insecta	Hymenoptera	Sphecidae	Palmodes	occitanicus		0.6897017678	Sky	Herbivore		SRR616203.fastq.gz													141	
+DS.3.011			DS_3_011	remove	yes	bug:Arthropoda	bug	Trichius succinctus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Trichius	succinctus		0.05440357256	Ground	Herbivore		SRR616203.fastq.gz													158	
+DS.3.014			DS_3_014	remove	yes	bug:Arthropoda	bug	Ascalohybris subjacens	Eukaryota	Arthropoda	Insecta	Neuroptera	Ascalaphidae	Ascalohybris	subjacens		1.046293066	Sky	Carnivore		SRR616203.fastq.gz													58	
+DS.3.018			DS_3_018	keep	yes	bug:Arthropoda	bug	Gametis jucunda	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Gametis	jucunda		0.03705223676	Ground	Herbivore		SRR616204.fastq.gz													613	
+DS.3.034			DS_3_034	remove	yes	bug:Arthropoda	bug	Harmonia axyridis	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Harmonia	axyridis		0.02768574216	Ground	Carnivore		SRR616203.fastq.gz													60	
+DS.3.038			DS_3_038	remove	yes	bug:Arthropoda	bug	Prionus insularis	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Prionus	insularis		0.5446064422	Ground	Herbivore		SRR616203.fastq.gz													187	
+DS.3.046			DS_3_046	keep	yes	bug:Arthropoda	bug	Phraortes illepidus	Eukaryota	Arthropoda	Insecta	Phasmatodea	Phasmatidae	Phraortes	illepidus		10.67303491	Ground	Herbivore		SRR616202.fastq.gz													1280	
+DS.3.058.1			DS_3_058_1	remove	yes	bug:Arthropoda	bug	Dalpada cinctipes	Eukaryota	Arthropoda	Insecta	Hemiptera	Pentatomidae	Dalpada	cinctipes		0.1573934005	Ground	Herbivore		SRR616203.fastq.gz													226	
+DS.3.075			DS_3_075	remove	yes	bug:Arthropoda	bug	Atrophaneura alcinous	Eukaryota	Arthropoda	Insecta	Lepidoptera	Papilionidae	Atrophaneura	alcinous		0.6897017678	Sky	Herbivore		SRR616203.fastq.gz													39	
+DS.F.003			DS_F_003	remove	yes	bug:Arthropoda	bug	Bothrogonia japonica	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadellidae	Bothrogonia	japonica		0.09303643446	Ground	Herbivore		SRR616203.fastq.gz													101	
+DS.F.004			DS_F_004	keep	yes	bug:Arthropoda	bug	Anapodisma miramae	Eukaryota	Arthropoda	Insecta	Orthoptera	Acrididae	Anapodisma	miramae		0.5719415483	Ground	Herbivore		SRR611639.fastq.gz													308	
+DS.F.006			DS_F_006	remove	yes	bug:Arthropoda	bug	Gametis jucunda	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Gametis	jucunda		0.07604712828	Ground	Herbivore		SRR611639.fastq.gz													183	
+DS.F.011			DS_F_011	keep	yes	bug:Arthropoda	bug	Ichneumonidae	Eukaryota	Arthropoda	Insecta	Hymenoptera	Ichneumonidae				0.1121922223	Sky	Herbivore		SRR611639.fastq.gz													441	
+DS.F.013			DS_F_013	remove	yes	bug:Arthropoda	bug	Cryptocephalus koltzei	Eukaryota	Arthropoda	Insecta	Coleoptera	Chrysomelidae	Cryptocephalus	koltzei		0.005231128287	Ground	Herbivore		SRR611639.fastq.gz													319	
+DS.F.020			DS_F_020	keep	yes	bug:Arthropoda	bug	Trichius succinctus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Trichius	succinctus		0.03705223676	Ground	Herbivore		SRR616204.fastq.gz													382	
+DS.F.023			DS_F_023	remove	yes	bug:Arthropoda	bug	Ichneumonidae	Eukaryota	Arthropoda	Insecta	Hymenoptera	Ichneumonidae				0.09303643446	Sky	Herbivore		SRR616203.fastq.gz													59	
+H.007			H_007	keep	yes	bug:Arthropoda	bug	Thyreus nitidulus	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Thyreus	nitidulus		0.145202114	Sky	Herbivore		SRR616202.fastq.gz													1154	
+H.012			H_012	keep	yes	bug:Arthropoda	bug	Sphedanolestes impressicollis	Eukaryota	Arthropoda	Insecta	Hemiptera	Reduviidae	Sphedanolestes	impressicollis		0.09303643446	Ground	Carnivore		SRR616204.fastq.gz													279	
+J.001			J_001	keep	yes	bug:Arthropoda	bug	Eurydema gebleri	Eukaryota	Arthropoda	Insecta	Hemiptera	Pentatomidae	Eurydema	gebleri		0.02768574216	Ground	Herbivore		SRR611639.fastq.gz													271	
+J.002			J_002	remove	yes	bug:Arthropoda	bug	Periplaneta japonica	Eukaryota	Arthropoda	Insecta	Blattodea	Blattoidae	Periplaneta	japonica		0.5446064422	Ground	Omnivore		SRR611639.fastq.gz													143	
+J.003			J_003	remove	yes	bug:Arthropoda	bug	Periplaneta japonica	Eukaryota	Arthropoda	Insecta	Blattodea	Blattoidae	Periplaneta	japonica		0.4674997762	Ground	Omnivore		SRR616202.fastq.gz													248	
+J.005			J_005	keep	yes	bug:Arthropoda	bug	Adoretus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Adoretus			0.02768574216	Ground	Herbivore		SRR611639.fastq.gz													451	
+J.010			J_010	keep	yes	bug:Arthropoda	bug	Arichanna melanaria	Eukaryota	Arthropoda	Insecta	Lepidoptera	Geometridae	Arichanna	melanaria		0.17019812	Sky	Herbivore		SRR611639.fastq.gz													866	
+J.018			J_018	keep	yes	bug:Arthropoda	bug	Japonica lutea	Eukaryota	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Japonica	lutea		0.1023373197	Sky	Herbivore		SRR611639.fastq.gz													330	
+J.023			J_023	remove	yes	bug:Arthropoda	bug	Anomala orientalis	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Anomala	orientalis		0.01994523211	Ground	Herbivore		SRR611639.fastq.gz													194	
+J.024			J_024	keep	yes	bug:Arthropoda	bug	Sympetrum frequens	Eukaryota	Arthropoda	Insecta	Odonata	Libellulidae	Sympetrum	frequens		1.708725455	Sky	Carnivore		SRR611639.fastq.gz													1005	
+J.025			J_025	remove	yes	bug:Arthropoda	bug	Sympetrum infuscatum	Eukaryota	Arthropoda	Insecta	Odonata	Libellulidae	Sympetrum	infuscatum		2.582442299	Sky	Carnivore		SRR611639.fastq.gz													113	
+J.026			J_026	keep	yes	bug:Arthropoda	bug	Phaneroptera falcata	Eukaryota	Arthropoda	Insecta	Orthoptera	Tettigoniidae	Phaneroptera	falcata		1.708725455	Ground	Herbivore		SRR611639.fastq.gz													376	
+J.030.1			J_030_1	remove	yes	bug:Arthropoda	bug	Tetrix japonica	Eukaryota	Arthropoda	Insecta	Orthoptera	Tetrigidae	Tetrix	japonica		0.0481608949	Ground	Scavenger		SRR611639.fastq.gz													165	
+J.031			J_031	remove	yes	bug:Arthropoda	bug	Apis mellifera	Eukaryota	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	mellifera		0.07604712828	Sky	Herbivore		SRR611639.fastq.gz													181	
+J.035.2			J_035_2	remove	yes	bug:Arthropoda	bug	Conocephalus chinensis	Eukaryota	Arthropoda	Insecta	Orthoptera	Tettigoniidae	Conocephalus	chinensis		0.5719415483	Ground	Herbivore		SRR611639.fastq.gz													209	
+J.036			J_036	keep	yes	bug:Arthropoda	bug	Cupido argiades	Eukaryota	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Cupido	argiades		0.0481608949	Sky	Herbivore		SRR611639.fastq.gz													570	
+J.038			J_038	remove	yes	bug:Arthropoda	bug	Dorcus titanus	Eukaryota	Arthropoda	Insecta	Coleoptera	Lucanidae	Dorcus	titanus	castanicolor	9.060434919	Ground	Herbivore		SRR611639.fastq.gz													211	
+J.048			J_048	remove	yes	bug:Arthropoda	bug	Ptecticus tenebrifer	Eukaryota	Arthropoda	Insecta	Diptera	Stratiomyidae	Ptecticus	tenebrifer		0.1121922223	Sky	-		SRR611639.fastq.gz													147	
+J.049			J_049	keep	yes	bug:Arthropoda	bug	Blattella nipponica	Eukaryota	Arthropoda	Insecta	Blattodea	Ectobiidae	Blattella	nipponica		0.1336126673	Ground	Omnivore		SRR616204.fastq.gz													398	
+J.056			J_056	remove	yes	bug:Arthropoda	bug	Anechura japonica	Eukaryota	Arthropoda	Insecta	Dermaptera	Forficulidae	Anechura	japonica		0.145202114	Ground	Omnivore		SRR616202.fastq.gz													126	
+J.061			J_061	remove	yes	bug:Arthropoda	bug	Tetrix japonica	Eukaryota	Arthropoda	Insecta	Orthoptera	Tetrigidae	Tetrix	japonica		0.06833346596	Ground	Scavenger		SRR611639.fastq.gz													217	
+J.065			J_065	remove	yes	bug:Arthropoda	bug	Timomenus komarovi	Eukaryota	Arthropoda	Insecta	Dermaptera	Forficulidae	Timomenus	komarovi		0.3547290714	Ground	Omnivore		SRR616202.fastq.gz													166	
+J.072			J_072	keep	yes	bug:Arthropoda	bug	Pieris melete	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pieridae	Pieris	melete		0.2960691363	Sky	Herbivore		SRR611639.fastq.gz													901	
+J.074			J_074	keep	yes	bug:Arthropoda	bug	Lucilia sericata	Eukaryota	Arthropoda	Insecta	Diptera	Calliphoridae	Lucilia	sericata		0.02768574216	Sky	Scavenger		SRR611639.fastq.gz													444	
+J.075			J_075	remove	yes	bug:Arthropoda	bug	Lucilia sericata	Eukaryota	Arthropoda	Insecta	Diptera	Calliphoridae	Lucilia	sericata		0.02768574216	Sky	Scavenger		SRR611639.fastq.gz													204	
+J.082			J_082	keep	yes	bug:Arthropoda	bug	Moechotypa diphysis	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Moechotypa	diphysis		0.3757556461	Ground	Herbivore		SRR611639.fastq.gz													436	
+J.089			J_089	remove	yes	bug:Arthropoda	bug	Acroricnus ambulator	Eukaryota	Arthropoda	Insecta	Hymenoptera	Ichneumonidae	Acroricnus	ambulator		0.2960691363	Sky	Herbivore		SRR611639.fastq.gz													227	
+J.090			J_090	remove	yes	bug:Arthropoda	bug	Limacodidae	Eukaryota	Arthropoda	Insecta	Lepidoptera	Limacodidae				0.07604712828	Sky	Herbivore		SRR611639.fastq.gz													217	
+J.094			J_094	keep	yes	bug:Arthropoda	bug	Neoitamus angusticornis	Eukaryota	Arthropoda	Insecta	Diptera	Asilidae	Neoitamus	angusticornis		0.1836277328	Sky	Carnivore		SRR611639.fastq.gz													263	
+J.096			J_096	keep	yes	bug:Arthropoda	bug	Peirates turpis	Eukaryota	Arthropoda	Insecta	Hemiptera	Reduviidae	Peirates	turpis		0.1023373197	Ground	Carnivore		SRR611639.fastq.gz													426	
+J.097			J_097	remove	yes	bug:Arthropoda	bug	Staphylinidae	Eukaryota	Arthropoda	Insecta	Coleoptera	Staphylinidae				0.17019812	Ground	Carnivore		SRR616202.fastq.gz													187	
+J.099			J_099	remove	yes	bug:Arthropoda	bug	Neochauliodes meridionalis	Eukaryota	Arthropoda	Insecta	Megaloptera	Corydalidae	Neochauliodes	meridionalis		1.260044519	Sky	Carnivore		SRR616202.fastq.gz													216	
+J.103			J_103	keep	yes	bug:Arthropoda	bug	Atrocalopteryx atrata	Eukaryota	Arthropoda	Insecta	Odonata	Calopterygidae	Atrocalopteryx	atrata		5.714938735	Sky	Carnivore		SRR611639.fastq.gz													857	
+J.104			J_104	remove	yes	bug:Arthropoda	bug	Sasakia charonda	Eukaryota	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Sasakia	charonda		1.260044519	Sky	Herbivore		SRR616202.fastq.gz													225	
+J.111			J_111	remove	yes	bug:Arthropoda	bug	Cystidia stratonice	Eukaryota	Arthropoda	Insecta	Lepidoptera	Geometridae	Cystidia	stratonice		0.2779544943	Sky	Herbivore		SRR611639.fastq.gz													190	
+J.114			J_114	keep	yes	bug:Arthropoda	bug	Japonica saepestriata	Eukaryota	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Japonica	saepestriata		0.1023373197	Sky	Herbivore		SRR611639.fastq.gz													289	
+J.115			J_115	keep	yes	bug:Arthropoda	bug	Naxa seriaria	Eukaryota	Arthropoda	Insecta	Lepidoptera	Geometridae	Naxa	seriaria		0.2277786523	Sky	Herbivore		SRR611639.fastq.gz													395	
+J.118			J_118	remove	yes	bug:Arthropoda	bug	Anterhynchium flavomarginatum	Eukaryota	Arthropoda	Insecta	Hymenoptera	Vespidae	Anterhynchium	flavomarginatum	koreanum	0.1976935718	Sky	Herbivore		SRR611639.fastq.gz													134	
+J.121			J_121	remove	yes	bug:Arthropoda	bug	Neptis speyeri	Eukaryota	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Neptis	speyeri		0.2277786523	Sky	Herbivore		SRR611639.fastq.gz													183	
+J.123			J_123	keep	yes	bug:Arthropoda	bug	Ognevia longipennis	Eukaryota	Arthropoda	Insecta	Orthoptera	Acrididae	Ognevia	longipennis		1.128851621	Ground	Herbivore		SRR611639.fastq.gz													1239	
+J.124			J_124	keep	yes	bug:Arthropoda	bug	Pieris canidia	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pieridae	Pieris	canidia		0.1976935718	Sky	Herbivore		SRR611639.fastq.gz													392	
+J.126			J_126	remove	yes	bug:Arthropoda	bug	Anapodisma beybienkoi	Eukaryota	Arthropoda	Insecta	Orthoptera	Acrididae	Anapodisma	beybienkoi		0.6897017678	Ground	Herbivore		SRR611639.fastq.gz													108	
+J.132			J_132	remove	yes	bug:Arthropoda	bug	Carbula putoni	Eukaryota	Arthropoda	Insecta	Hemiptera	Pentatomidae	Carbula	putoni		0.02768574216	Ground	Herbivore		SRR611639.fastq.gz													232	
+J.133			J_133	remove	yes	bug:Arthropoda	bug	Timandra comptaria	Eukaryota	Arthropoda	Insecta	Lepidoptera	Geometridae	Timandra	comptaria		0.0481608949	Sky	Herbivore		SRR611639.fastq.gz													146	
+J.134			J_134	remove	yes	bug:Arthropoda	bug	Poecilocoris splendidulus	Eukaryota	Arthropoda	Insecta	Hemiptera	Scutelleridae	Poecilocoris	splendidulus		0.2277786523	Ground	Herbivore		SRR611639.fastq.gz													254	
+J.139			J_139	remove	yes	bug:Arthropoda	bug	Melanotus communis (Gyllenhal, 1817)	Eukaryota	Arthropoda	Insecta	Coleoptera	Elateridae	Melanotus	communis (Gyllenhal, 1817)		0.1336126673	Ground	Herbivore		SRR616204.fastq.gz													225	
+J.141			J_141	remove	yes	bug:Arthropoda	bug	Nephrotoma virgata	Eukaryota	Arthropoda	Insecta	Diptera	Tipulidae	Nephrotoma	virgata		0.145202114	Sky	-		SRR611639.fastq.gz													196	
+J.155			J_155	keep	yes	bug:Arthropoda	bug	Formica rufa	Eukaryota	Arthropoda	Insecta	Hymenoptera	Formicidae	Formica	rufa		0.03705223676	Sky	Omnivore		SRR611639.fastq.gz													405	
+J.156			J_156	keep	yes	bug:Arthropoda	bug	Gonolabis marginalis	Eukaryota	Arthropoda	Insecta	Dermaptera	Anisolabididae	Gonolabis	marginalis		0.2960691363	Ground	Omnivore		SRR616202.fastq.gz													280	
+J.163			J_163	keep	yes	bug:Arthropoda	bug	Formica rufa	Eukaryota	Arthropoda	Insecta	Hymenoptera	Formicidae	Formica	rufa		0.03705223676	Sky	Omnivore		SRR611639.fastq.gz													359	
+J.167			J_167	remove	yes	bug:Arthropoda	bug	Riptortus clavatus	Eukaryota	Arthropoda	Insecta	Hemiptera	Alydidae	Riptortus	clavatus		0.145202114	Ground	Herbivore		SRR611639.fastq.gz													163	
+J.172			J_172	keep	yes	bug:Arthropoda	bug	Pieris canidia	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pieridae	Pieris	canidia		0.1573934005	Sky	Herbivore		SRR611639.fastq.gz													334	
+J.175			J_175	keep	yes	bug:Arthropoda	bug	Minois dryas	Eukaryota	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Minois	dryas		0.4200800316	Sky	Herbivore		SRR611639.fastq.gz													327	
+J.176			J_176	remove	yes	bug:Arthropoda	bug	Calopteryx japonica	Eukaryota	Arthropoda	Insecta	Odonata	Calopterygidae	Calopteryx	japonica		3.689171383	Sky	Carnivore		SRR611639.fastq.gz													68	
+J.177			J_177	remove	yes	bug:Arthropoda	bug	Sympetrum frequens	Eukaryota	Arthropoda	Insecta	Odonata	Libellulidae	Sympetrum	frequens		1.708725455	Sky	Carnivore		SRR611639.fastq.gz													204	
+J.179.1			J_179_1	keep	yes	bug:Arthropoda	bug	Pieris rapae	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pieridae	Pieris	rapae		0.1573934005	Sky	Herbivore		SRR611639.fastq.gz													281	
+J.185			J_185	keep	yes	bug:Arthropoda	bug	Polygonia c-aureum	Eukaryota	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Polygonia	c-aureum		0.17019812	Sky	Herbivore		SRR611639.fastq.gz													251	
+J.190			J_190	keep	yes	bug:Arthropoda	bug	Cophinopoda chinensis	Eukaryota	Arthropoda	Insecta	Diptera	Asilidae	Cophinopoda	chinensis		0.3757556461	Sky	Carnivore		SRR611639.fastq.gz													286	
+J.191			J_191	keep	yes	bug:Arthropoda	bug	Tropidothorax cruciger	Eukaryota	Arthropoda	Insecta	Hemiptera	Lygaeidae	Tropidothorax	cruciger		0.0481608949	Ground	Herbivore		SRR611639.fastq.gz													418	
+J.194			J_194	remove	yes	bug:Arthropoda	bug	Pieris rapae	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pieridae	Pieris	rapae		0.17019812	Sky	Herbivore		SRR611639.fastq.gz													74	
+J.195			J_195	keep	yes	bug:Arthropoda	bug	Lycaena dispar	Eukaryota	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Lycaena	dispar		0.1023373197	Sky	Herbivore		SRR611639.fastq.gz													401	
+J.198			J_198	remove	yes	bug:Arthropoda	bug	Anomala luculenta	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Anomala	luculenta		0.1336126673	Ground	Herbivore		SRR611639.fastq.gz													220	
+J.199			J_199	remove	yes	bug:Arthropoda	bug	Glyphodes perspectalis	Eukaryota	Arthropoda	Insecta	Lepidoptera	Crambidae	Glyphodes	perspectalis		0.2960691363	Sky	Herbivore		SRR611639.fastq.gz													157	
+J.204.1			J_204_1	remove	yes	bug:Arthropoda	bug	Ischnura elegans	Eukaryota	Arthropoda	Insecta	Odonata	Coenagrionidae	Ischnura	elegans		1.128851621	Sky	Carnivore		SRR611639.fastq.gz													55	
+J.209			J_209	keep	yes	bug:Arthropoda	bug	Polistes snelleni	Eukaryota	Arthropoda	Insecta	Hymenoptera	Vespidae	Polistes	snelleni		0.05440357256	Sky	Herbivore		SRR611639.fastq.gz													489	
+J.212			J_212	keep	yes	bug:Arthropoda	bug	Aquarius paludum	Eukaryota	Arthropoda	Insecta	Hemiptera	Gerridae	Aquarius	paludum		0.1573934005	Ground	Carnivore		SRR611639.fastq.gz													399	
+J.228			J_228	keep	yes	bug:Arthropoda	bug	Episyron arrogans	Eukaryota	Arthropoda	Insecta	Hymenoptera	Pompilidae	Episyron	arrogans		0.1226133289	Sky	Herbivore		SRR611639.fastq.gz													330	
+J.230			J_230	keep	yes	bug:Arthropoda	bug	Syritta pipiens	Eukaryota	Arthropoda	Insecta	Diptera	Syrphidae	Syritta	pipiens		0.01994523211	Sky	Herbivore		SRR611639.fastq.gz													848	
+J.239			J_239	keep	yes	bug:Arthropoda	bug	Seladonia aeraria	Eukaryota	Arthropoda	Insecta	Hymenoptera	Halictidae	Seladonia	aeraria		0.01370918317	Sky	Herbivore		SRR616203.fastq.gz													409	
+J.240			J_240	keep	yes	bug:Arthropoda	bug	Chrysopa formosa	Eukaryota	Arthropoda	Insecta	Neuroptera	Chrysopidae	Chrysopa	formosa		0.0481608949	Sky	Carnivore		SRR616202.fastq.gz													314	
+J.244			J_244	remove	yes	bug:Arthropoda	bug	Coccinella septempunctata	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Coccinella	septempunctata		0.01370918317	Ground	Carnivore		SRR616203.fastq.gz													81	
+J.254			J_254	remove	yes	bug:Arthropoda	bug	Athalia kashmirensis	Eukaryota	Arthropoda	Insecta	Hymenoptera	Tenthredinidae	Athalia	kashmirensis		0.01994523211	Sky	Herbivore		SRR616203.fastq.gz													125	
+J.277			J_277	remove	yes	bug:Arthropoda	bug	Actias gnoma	Eukaryota	Arthropoda	Insecta	Lepidoptera	Saturniidae	Actias	gnoma		0.5719415483	Sky	Herbivore		SRR616203.fastq.gz													44	
+J.278			J_278	keep	yes	bug:Arthropoda	bug	Ledra auditura	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadellidae	Ledra	auditura		0.1121922223	Ground	Herbivore		SRR616203.fastq.gz													769	
+J.279			J_279	remove	yes	bug:Arthropoda	bug	Tachina luteola	Eukaryota	Arthropoda	Insecta	Diptera	Tachinidae	Tachina	luteola		0.3757556461	Sky	Herbivore		SRR616203.fastq.gz													128	
+J.286			J_286	keep	yes	bug:Arthropoda	bug	Formica japonica	Eukaryota	Arthropoda	Insecta	Hymenoptera	Formicidae	Formica	japonica		0.02768574216	Underground	Omnivore		SRR616203.fastq.gz													382	
+J.306			J_306	remove	yes	bug:Arthropoda	bug	Tachinidae	Eukaryota	Arthropoda	Insecta	Diptera	Tachinidae				0.01994523211	Sky	Herbivore		SRR616203.fastq.gz													116	
+J.317			J_317	remove	yes	bug:Arthropoda	bug	Callambulyx tatarinovi	Eukaryota	Arthropoda	Insecta	Lepidoptera	Sphingidae	Callambulyx	tatarinovi		1.046293066	Sky	Herbivore		SRR616203.fastq.gz													110	
+J.320			J_320	keep	yes	bug:Arthropoda	bug	Parachauliodes continentalis	Eukaryota	Arthropoda	Insecta	Megaloptera	Corydalidae	Parachauliodes	continentalis		1.046293066	Sky	Carnivore		SRR616202.fastq.gz													556	
+J.324			J_324	keep	yes	bug:Arthropoda	bug	Protohermes grandis	Eukaryota	Arthropoda	Insecta	Megaloptera	Corydalidae	Protohermes	grandis		2.309958107	Sky	Carnivore		SRR616202.fastq.gz													336	
+J.343			J_343	keep	yes	bug:Arthropoda	bug	Rhodoneura erecta	Eukaryota	Arthropoda	Insecta	Lepidoptera	Thyrididae	Rhodoneura	erecta		0.01994523211	Sky	Herbivore		SRR616203.fastq.gz													390	
+J.344			J_344	remove	yes	bug:Arthropoda	bug	Tiphiidae	Eukaryota	Arthropoda	Insecta	Hymenoptera	Tiphiidae				0.01994523211	Sky	Herbivore		SRR616203.fastq.gz													69	
+J.351			J_351	keep	yes	bug:Arthropoda	bug	Ecdyonurus levis	Eukaryota	Arthropoda	Insecta	Ephemeroptera	Heptageniidae	Ecdyonurus	levis		0.02768574216	Sky	-		SRR616202.fastq.gz													524	
+J.353			J_353	keep	yes	bug:Arthropoda	bug	Rhantus suturalis	Eukaryota	Arthropoda	Insecta	Coleoptera	Dytiscidae	Rhantus	suturalis		0.08427721346	aquatic	Carnivore		SRR616202.fastq.gz													305	
+J.357.1			J_357_1	remove	yes	bug:Arthropoda	bug	Chilocorus rubidus	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Chilocorus	rubidus		0.008849705757	Ground	Carnivore		SRR616203.fastq.gz													112	
+J.358			J_358	keep	yes	bug:Arthropoda	bug	Lycorma delicatula	Eukaryota	Arthropoda	Insecta	Hemiptera	Fulgoridae	Lycorma	delicatula		0.4200800316	Ground	Herbivore		SRR616204.fastq.gz													829	
+J.369			J_369	remove	yes	bug:Arthropoda	bug	Peirates turpis	Eukaryota	Arthropoda	Insecta	Hemiptera	Reduviidae	Peirates	turpis		0.1336126673	Ground	Carnivore		SRR616203.fastq.gz													88	
+J.376			J_376	keep	yes	bug:Arthropoda	bug	Onthophagus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Onthophagus			0.01994523211	Underground	Scavenger		SRR616204.fastq.gz													1424	
+J.385			J_385	keep	yes	bug:Arthropoda	bug	Gonolabis marginalis	Eukaryota	Arthropoda	Insecta	Dermaptera	Anisolabididae	Gonolabis	marginalis		0.397535927	Ground	Omnivore		SRR616202.fastq.gz													521	
+J.388			J_388	keep	yes	bug:Arthropoda	bug	Onthophagus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Onthophagus			0.03705223676	Underground	Scavenger		SRR616202.fastq.gz													275	
+J.391			J_391	keep	yes	bug:Arthropoda	bug	Illeis koebelei	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Illeis	koebelei		0.005231128287	Ground	Fungivore		SRR616204.fastq.gz													585	
+J.395			J_395	keep	yes	bug:Arthropoda	bug	Acanthonevra amurensis	Eukaryota	Arthropoda	Insecta	Diptera	Tephritidae	Acanthonevra	amurensis		0.02361969855	Sky	Herbivore		SRR616203.fastq.gz													733	
+J.396			J_396	keep	yes	bug:Arthropoda	bug	Pedetontus	Eukaryota	Arthropoda	Insecta	Archaeognatha	Machilidae	Pedetontus			0.1023373197	Ground	Omnivore		SRR616202.fastq.gz													699	
+J.402			J_402	remove	yes	bug:Arthropoda	bug	Zoraida horishana	Eukaryota	Arthropoda	Insecta	Hemiptera	Derbidae	Zoraida	horishana		0.008849705757	Sky	Herbivore		SRR616203.fastq.gz													216	
+J.403			J_403	remove	yes	bug:Arthropoda	bug	Bombyliidae	Eukaryota	Arthropoda	Insecta	Diptera	Bombyliidae				0.07604712828	Sky	Herbivore		SRR616203.fastq.gz													230	
+J.407			J_407	keep	yes	bug:Arthropoda	bug	Tenomerga anguliscutus	Eukaryota	Arthropoda	Insecta	Coleoptera	Cupedidae	Tenomerga	anguliscutus		0.07604712828	Ground	Herbivore		SRR616202.fastq.gz													463	
+J.410			J_410	remove	yes	bug:Arthropoda	bug	Anechura japonica	Eukaryota	Arthropoda	Insecta	Dermaptera	Forficulidae	Anechura	japonica		0.2277786523	Ground	Omnivore		SRR616202.fastq.gz													237	
+J.417			J_417	keep	yes	bug:Arthropoda	bug	Megopis sinica	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Megopis	sinica		2.376322178	Ground	Herbivore		SRR616202.fastq.gz													415	
+J.418			J_418	remove	yes	bug:Arthropoda	bug	Orthetrum melania	Eukaryota	Arthropoda	Insecta	Odonata	Libellulidae	Orthetrum	melania		3.958635527	Sky	Carnivore		SRR616203.fastq.gz													76	
+J.421			J_421	remove	yes	bug:Arthropoda	bug	Peirates turpis	Eukaryota	Arthropoda	Insecta	Hemiptera	Reduviidae	Peirates	turpis		0.1121922223	Ground	Carnivore		SRR616203.fastq.gz													204	
+J.425			J_425	keep	yes	bug:Arthropoda	bug	Atlanticus brunneri	Eukaryota	Arthropoda	Insecta	Orthoptera	Tettigoniidae	Atlanticus	brunneri		0.8565490457	Ground	Carnivore		SRR616203.fastq.gz													250	
+J.450			J_450	keep	yes	bug:Arthropoda	bug	Seladonia aeraria	Eukaryota	Arthropoda	Insecta	Hymenoptera	Halictidae	Seladonia	aeraria		0.05440357256	Sky	Herbivore		SRR616203.fastq.gz													267	
+J.453			J_453	remove	yes	bug:Arthropoda	bug	Lema fortunei	Eukaryota	Arthropoda	Insecta	Coleoptera	Chrysomelidae	Lema	fortunei		0.01994523211	Ground	Herbivore		SRR616203.fastq.gz													104	
+J.461			J_461	keep	yes	bug:Arthropoda	bug	Tephritidae	Eukaryota	Arthropoda	Insecta	Diptera	Tephritidae				0.2277786523	Sky	Herbivore		SRR616203.fastq.gz													405	
+J.462			J_462	remove	yes	bug:Arthropoda	bug	Baliga micans	Eukaryota	Arthropoda	Insecta	Neuroptera	Myrmeleontidae	Baliga	micans		2.309958107	Sky	Carnivore		SRR616203.fastq.gz													199	
+J.463			J_463	remove	yes	bug:Arthropoda	bug	Sinomphisa plagialis	Eukaryota	Arthropoda	Insecta	Lepidoptera	Crambidae	Sinomphisa	plagialis		0.17019812	Sky	Herbivore		SRR616203.fastq.gz													170	
+J.464			J_464	remove	yes	bug:Arthropoda	bug	Lamelligomphus ringens	Eukaryota	Arthropoda	Insecta	Odonata	Gomphidae	Lamelligomphus	ringens		5.375832703	Sky	Carnivore		SRR616203.fastq.gz													30	
+J.475.1			J_475_1	keep	yes	bug:Arthropoda	bug	Lamelligomphus ringens	Eukaryota	Arthropoda	Insecta	Odonata	Gomphidae	Lamelligomphus	ringens		5.049458545	Sky	Carnivore		SRR616203.fastq.gz													261	
+J.481			J_481	remove	yes	bug:Arthropoda	bug	Atylotus horvathi	Eukaryota	Arthropoda	Insecta	Diptera	Tabanidae	Atylotus	horvathi		0.09303643446	Sky	Carnivore		SRR616203.fastq.gz													124	
+J.501			J_501	remove	yes	bug:Arthropoda	bug	Paratachycines ussuriensis	Eukaryota	Arthropoda	Insecta	Orthoptera	Rhaphidophoridae	Paratachycines	ussuriensis		0.4200800316	Ground	Omnivore		SRR616203.fastq.gz													107	
+J.523			J_523	remove	yes	bug:Arthropoda	bug	Euborellia plebeja	Eukaryota	Arthropoda	Insecta	Dermaptera	Anisolabididae	Euborellia	plebeja		0.4200800316	Ground	Omnivore		SRR616202.fastq.gz													161	
+J.527			J_527	keep	yes	bug:Arthropoda	bug	Staphylinidae	Eukaryota	Arthropoda	Insecta	Coleoptera	Staphylinidae				0.07604712828	Ground	Carnivore		SRR616202.fastq.gz													814	
+J.529			J_529	keep	yes	bug:Arthropoda	bug	Rhagastis mongoliana	Eukaryota	Arthropoda	Insecta	Lepidoptera	Sphingidae	Rhagastis	mongoliana		0.9296361221	Sky	Herbivore		SRR616203.fastq.gz													656	
+J.548			J_548	keep	yes	bug:Arthropoda	bug	Osmylidae	Eukaryota	Arthropoda	Insecta	Neuroptera	Osmylidae				0.03215836494	Sky	Carnivore		SRR616202.fastq.gz													562	
+J.558			J_558	remove	yes	bug:Arthropoda	bug	Bombyliidae	Eukaryota	Arthropoda	Insecta	Diptera	Bombyliidae				0.1226133289	Sky	Herbivore		SRR616203.fastq.gz													105	
+J.570			J_570	keep	yes	bug:Arthropoda	bug	Timomenus komarovi	Eukaryota	Arthropoda	Insecta	Dermaptera	Forficulidae	Timomenus	komarovi		0.3757556461	Ground	Omnivore		SRR616202.fastq.gz													393	
+J.571			J_571	remove	yes	bug:Arthropoda	bug	Megachile sculpturalis	Eukaryota	Arthropoda	Insecta	Hymenoptera	Megachilidae	Megachile	sculpturalis		0.4674997762	Sky	Herbivore		SRR616203.fastq.gz													151	
+J.573			J_573	keep	yes	bug:Arthropoda	bug	Numenes disparilis	Eukaryota	Arthropoda	Insecta	Lepidoptera	Erebidae	Numenes	disparilis		0.243819966	Sky	Herbivore		SRR616203.fastq.gz													1036	
+J.574			J_574	keep	yes	bug:Arthropoda	bug	Carabus jankowskii	Eukaryota	Arthropoda	Insecta	Coleoptera	Carabidae	Carabus	jankowskii		1.498883418	Ground	Carnivore		SRR616203.fastq.gz													288	
+J.578			J_578	remove	yes	bug:Arthropoda	bug	Paratlanticus ussuriensis	Eukaryota	Arthropoda	Insecta	Orthoptera	Tettigoniidae	Paratlanticus	ussuriensis		0.821383969	Ground	Omnivore		SRR616203.fastq.gz													187	
+J.580			J_580	remove	yes	bug:Arthropoda	bug	Syritta pipiens	Eukaryota	Arthropoda	Insecta	Diptera	Syrphidae	Syritta	pipiens		0.0481608949	Sky	Herbivore		SRR616203.fastq.gz													66	
+J.581			J_581	remove	yes	bug:Arthropoda	bug	Coelioxys pieliana	Eukaryota	Arthropoda	Insecta	Hymenoptera	Megachilidae	Coelioxys	pieliana		0.0481608949	Sky	Herbivore		SRR616203.fastq.gz													133	
+J.589			J_589	remove	yes	bug:Arthropoda	bug	Sympetrum pedemontanum	Eukaryota	Arthropoda	Insecta	Odonata	Libellulidae	Sympetrum	pedemontanum		1.046293066	Sky	Carnivore		SRR616203.fastq.gz													199	
+J.595			J_595	remove	yes	bug:Arthropoda	bug	Zombrus sjoestedtis	Eukaryota	Arthropoda	Insecta	Hymenoptera	Braconidae	Zombrus	sjoestedtis		0.0481608949	Sky	Herbivore		SRR616203.fastq.gz													182	
+J.598			J_598	keep	yes	bug:Arthropoda	bug	Graptopsaltria nigrofuscata	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadidae	Graptopsaltria	nigrofuscata		1.498883418	Ground	Herbivore		SRR616203.fastq.gz													459	
+J.600			J_600	keep	yes	bug:Arthropoda	bug	Oncotympana fuscata	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadidae	Oncotympana	fuscata		1.171593274	Ground	Herbivore		SRR616203.fastq.gz													505	
+J.624			J_624	remove	yes	bug:Arthropoda	bug	Anoplophora chinensis	Eukaryota	Arthropoda	Insecta	Coleoptera	Cerambycidae	Anoplophora	chinensis		1.128851621	Ground	Herbivore		SRR616203.fastq.gz													192	
+J.625			J_625	remove	yes	bug:Arthropoda	bug	Sceliphron deforme	Eukaryota	Arthropoda	Insecta	Hymenoptera	Sphecidae	Sceliphron	deforme		0.2124068474	Sky	Herbivore		SRR616203.fastq.gz													74	
+J.630			J_630	remove	yes	bug:Arthropoda	bug	Silpha perforata	Eukaryota	Arthropoda	Insecta	Coleoptera	Silphidae	Silpha	perforata		0.1976935718	Ground	Carnivore		SRR616203.fastq.gz													80	
+J.633			J_633	remove	yes	bug:Arthropoda	bug	Epicopeia mencia	Eukaryota	Arthropoda	Insecta	Lepidoptera	Epicopeiidae	Epicopeia	mencia		0.4200800316	Sky	Herbivore		SRR616203.fastq.gz													203	
+J.640			J_640	remove	yes	bug:Arthropoda	bug	Lepisma saccharina	Eukaryota	Arthropoda	Insecta	Zygentoma	Lepismatidae	Lepisma	saccharina		0.02768574216	Ground	Omnivore		SRR616202.fastq.gz													219	
+J.655			J_655	remove	yes	bug:Arthropoda	bug	Oncotympana fuscata	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadidae	Oncotympana	fuscata		0.821383969	Ground	Herbivore		SRR616202.fastq.gz													107	
+J.658			J_658	keep	yes	bug:Arthropoda	bug	Torymidae	Eukaryota	Arthropoda	Insecta	Hymenoptera	Torymidae				0.008849705757	Sky	Herbivore		SRR616203.fastq.gz													280	
+J.668			J_668	keep	yes	bug:Arthropoda	bug	Lycorma delicatula	Eukaryota	Arthropoda	Insecta	Hemiptera	Fulgoridae	Lycorma	delicatula		0.492395253	Ground	Herbivore		SRR616202.fastq.gz													812	
+J.669			J_669	keep	yes	bug:Arthropoda	bug	Lycorma delicatula	Eukaryota	Arthropoda	Insecta	Hemiptera	Fulgoridae	Lycorma	delicatula		0.492395253	Ground	Herbivore		SRR616202.fastq.gz													610	
+J.676			J_676	remove	yes	bug:Arthropoda	bug	Diostrombus politus	Eukaryota	Arthropoda	Insecta	Hemiptera	Derbidae	Diostrombus	politus		0.005231128287	Ground	Herbivore		SRR616203.fastq.gz													70	
+J.691			J_691	keep	yes	bug:Arthropoda	bug	Ephemera orientalis	Eukaryota	Arthropoda	Insecta	Ephemeroptera	Ephemeridae	Ephemera	orientalis		0.1023373197	Sky	-		SRR616202.fastq.gz													304	
+J.693			J_693	remove	yes	bug:Arthropoda	bug	Panorpa orientalis	Eukaryota	Arthropoda	Insecta	Mecoptera	Panorpidae	Panorpa	orientalis		0.1121922223	Sky	Carnivore		SRR616202.fastq.gz													141	
+J.695			J_695	keep	yes	bug:Arthropoda	bug	Pheidole fervida	Eukaryota	Arthropoda	Insecta	Hymenoptera	Formicidae	Pheidole	fervida		0.008849705757	Sky	Omnivore		SRR616203.fastq.gz													471	
+J.698.2			J_698_2	remove	yes	bug:Arthropoda	bug	Pterophoridae	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pterophoridae				0.01994523211	Sky	Herbivore		SRR616203.fastq.gz													90	
+J.701			J_701	keep	yes	bug:Arthropoda	bug	Bactrocera depressa	Eukaryota	Arthropoda	Insecta	Diptera	Tephritidae	Bactrocera	depressa		0.1121922223	Sky	Herbivore		SRR616203.fastq.gz													1624	
+J.705			J_705	remove	yes	bug:Arthropoda	bug	Onthophagus	Eukaryota	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Onthophagus			0.03705223676	Underground	Scavenger		SRR616203.fastq.gz													227	
+J.706			J_706	remove	yes	bug:Arthropoda	bug	Orybina regalis	Eukaryota	Arthropoda	Insecta	Lepidoptera	Pyralidae	Orybina	regalis		0.07604712828	Sky	Herbivore		SRR616203.fastq.gz													166	
+J.717			J_717	keep	yes	bug:Arthropoda	bug	Pheidole fervida	Eukaryota	Arthropoda	Insecta	Hymenoptera	Formicidae	Pheidole	fervida		0.01370918317	Sky	Omnivore		SRR616202.fastq.gz													1207	
+J.718			J_718	keep	yes	bug:Arthropoda	bug	Dictyophara patruelis	Eukaryota	Arthropoda	Insecta	Hemiptera	Dictyopharidae	Dictyophara	patruelis		0.04238172065	Ground	Herbivore		SRR616202.fastq.gz													356	
+J.722			J_722	remove	yes	bug:Arthropoda	bug	Chironomidae	Eukaryota	Arthropoda	Insecta	Diptera	Chironomidae				0.01370918317	Sky	-		SRR616203.fastq.gz													59	
+J.728			J_728	keep	yes	bug:Arthropoda	bug	Comibaena delicatior	Eukaryota	Arthropoda	Insecta	Lepidoptera	Geometridae	Comibaena	delicatior		0.06112331871	Sky	Herbivore		SRR616203.fastq.gz													1011	
+J.733			J_733	keep	yes	bug:Arthropoda	bug	Meimuna mongolica	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadidae	Meimuna	mongolica		1.046293066	Ground	Herbivore		SRR616202.fastq.gz													420	
+J.734			J_734	remove	yes	bug:Arthropoda	bug	Graptopsaltria nigrofuscata	Eukaryota	Arthropoda	Insecta	Hemiptera	Cicadidae	Graptopsaltria	nigrofuscata		1.877403319	Ground	Herbivore		SRR616202.fastq.gz													46	
+J.737			J_737	remove	yes	bug:Arthropoda	bug	Odonestis pruni	Eukaryota	Arthropoda	Insecta	Lepidoptera	Lasiocampidae	Odonestis	pruni		0.2124068474	Sky	Herbivore		SRR616203.fastq.gz													162	
+J.744			J_744	remove	yes	bug:Arthropoda	bug	Agrius convolvuli	Eukaryota	Arthropoda	Insecta	Lepidoptera	Sphingidae	Agrius	convolvuli		3.958635527	Sky	Herbivore		SRR616202.fastq.gz													194	
+J.745			J_745	keep	yes	bug:Arthropoda	bug	Illeis koebelei	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Illeis	koebelei		0.008849705757	Ground	Fungivore		SRR616202.fastq.gz													470	
+J.746			J_746	remove	yes	bug:Arthropoda	bug	Illeis koebelei	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Illeis	koebelei		0.008849705757	Ground	Fungivore		SRR616202.fastq.gz													211	
+J.747			J_747	keep	yes	bug:Arthropoda	bug	Illeis koebelei	Eukaryota	Arthropoda	Insecta	Coleoptera	Coccinellidae	Illeis	koebelei		0.008849705757	Ground	Fungivore		SRR616202.fastq.gz													465	
+J.753			J_753	keep	yes	bug:Arthropoda	bug	Chrysopidia ciliata	Eukaryota	Arthropoda	Insecta	Neuroptera	Chrysopidae	Chrysopidia	ciliata		0.03705223676	Sky	Carnivore		SRR616202.fastq.gz													482	
+J.754			J_754	keep	yes	bug:Arthropoda	bug	Lycorma delicatula	Eukaryota	Arthropoda	Insecta	Hemiptera	Fulgoridae	Lycorma	delicatula		0.492395253	Ground	Herbivore		SRR616202.fastq.gz													452	
+JH10			JH10	remove	no	bug:Arthropoda	bug	Parachauliodes continentalis	Eukaryota	Arthropoda	Insecta	Megaloptera	Corydalidae	Parachauliodes	continentalis		1.128851621	Sky	Carnivore		SRR616204.fastq.gz													118	
+JH11			JH11	keep	no	bug:Arthropoda	bug	Lepidoptera	Eukaryota	Arthropoda	Insecta	Lepidoptera					0.2605416584	Sky	Herbivore		SRR616204.fastq.gz													281	
+JH7			JH7	remove	no	bug:Arthropoda	bug	Tenodera sinensis	Eukaryota	Arthropoda	Insecta	Mantodea	Mantidae	Tenodera	sinensis		4.239942117	Ground	Carnivore		SRR616204.fastq.gz													104	
+JH8			JH8	remove	no	bug:Arthropoda	bug	Tenodera angustipennis	Eukaryota	Arthropoda	Insecta	Mantodea	Mantidae	Tenodera	angustipennis		5.265635879	Ground	Carnivore		SRR616204.fastq.gz													46	
+JH9			JH9	remove	no	bug:Arthropoda	bug	Myrmeleontidae	Eukaryota	Arthropoda	Insecta	Neuroptera	Myrmeleontidae				3.516011083	Sky	Carnivore		SRR616204.fastq.gz													74	
