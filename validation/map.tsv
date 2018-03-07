@@ -1,0 +1,94 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	old_id	toKeep	renamed	studyClass	study	common	kingdom	phylum	class	order	family	genus	species	subspecies	weight	habitat	diet	gut	file	mg_rast_id	metagenome_name	bp_count	sequence_count	biome	feature	material	location	country	coordinates	sequence_type	sequencing	readCount	Description
+ERR327974			ERR327974.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	14919	
+ERR327975			ERR327975.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	16528	
+ERR327976			ERR327976.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	13970	
+ERR327977			ERR327977.fastq.gz	keep	yes	anteater:Chordata	anteater	Southern three-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Tolypeutes	matacus		1300																	17688	
+ERR327978			ERR327978.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	16934	
+ERR327979			ERR327979.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Priodontes	maximus		25600																	11195	
+ERR327980			ERR327980.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	15326	
+ERR327981			ERR327981.fastq.gz	keep	yes	anteater:Chordata	anteater	Southern tamandua	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Tamandua	tetradactyla		5000																	19180	
+ERR327982			ERR327982.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13570	
+ERR327983			ERR327983.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	11392	
+ERR327984			ERR327984.fastq.gz	keep	yes	anteater:Chordata	anteater	Southern tamandua	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Tamandua	tetradactyla		5000																	19760	
+ERR327985			ERR327985.fastq.gz	keep	yes	anteater:Chordata	anteater	Hoffmann two-toed sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	hoffmanni		5500																	17550	
+ERR327986			ERR327986.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	16446	
+ERR327987			ERR327987.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	9570	
+ERR327988			ERR327988.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	16864	
+ERR327989			ERR327989.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	16311	
+ERR327990			ERR327990.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13645	
+ERR327991			ERR327991.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	18312	
+ERR327992			ERR327992.fastq.gz	keep	yes	anteater:Chordata	anteater	Linnaeus two-toed Sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	didactylus		6250																	18436	
+ERR327993			ERR327993.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13867	
+ERR327994			ERR327994.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	20286	
+ERR327995			ERR327995.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardwolf	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		8500																	14753	
+ERR327996			ERR327996.fastq.gz	keep	yes	anteater:Chordata	anteater	Hoffmann two-toed sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	hoffmanni		5500																	17024	
+ERR327997			ERR327997.fastq.gz	keep	yes	anteater:Chordata	anteater	Six-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Euphractus	sexcinctus		6000																	11096	
+ERR327998			ERR327998.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	15615	
+ERR327999			ERR327999.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	18504	
+ERR328000			ERR328000.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardwolf	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		8500																	14209	
+ERR328001			ERR328001.fastq.gz	keep	yes	anteater:Chordata	anteater	Hoffmann two-toed sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	hoffmanni		5500																	16094	
+ERR328002			ERR328002.fastq.gz	keep	yes	anteater:Chordata	anteater	Southern three-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Tolypeutes	matacus		1300																	17070	
+ERR328003			ERR328003.fastq.gz	remove	yes	anteater:Chordata	anteater	Giant armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Priodontes	maximus		25600																	4	
+ERR328004			ERR328004.fastq.gz	keep	yes	anteater:Chordata	anteater	Hoffmann two-toed sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	hoffmanni		5500																	16720	
+ERR328005			ERR328005.fastq.gz	keep	yes	anteater:Chordata	anteater	Six-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Euphractus	sexcinctus		6000																	15850	
+ERR328006			ERR328006.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	10776	
+ERR328007			ERR328007.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	15058	
+ERR328008			ERR328008.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	14928	
+ERR328009			ERR328009.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	16356	
+ERR328010			ERR328010.fastq.gz	keep	yes	anteater:Chordata	anteater	Chinese pangolin	Eukaryota	Chordata	Mammalia	Pholidota	Manidae	Manis	pentadactyla		4500																	16664	
+ERR328011			ERR328011.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	12996	
+ERR328012			ERR328012.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13968	
+ERR328013			ERR328013.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	15294	
+ERR328014			ERR328014.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	7055	
+ERR328015			ERR328015.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	12664	
+ERR328016			ERR328016.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	11014	
+ERR328017			ERR328017.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	16017	
+ERR328018			ERR328018.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	28095	
+ERR328019			ERR328019.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13591	
+ERR328020			ERR328020.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	15261	
+ERR328021			ERR328021.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13433	
+ERR328022			ERR328022.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	17475	
+ERR328023			ERR328023.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	19250	
+ERR328024			ERR328024.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	10723	
+ERR328025			ERR328025.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	15619	
+ERR328026			ERR328026.fastq.gz	keep	yes	anteater:Chordata	anteater	Linnaeus two-toed Sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	didactylus		6250																	21355	
+ERR328027			ERR328027.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	14495	
+ERR328028			ERR328028.fastq.gz	keep	yes	anteater:Chordata	anteater	Tax: Zaedyus pichiy	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Zaedyus	pichiy		1100																	15393	
+ERR328029			ERR328029.fastq.gz	keep	yes	anteater:Chordata	anteater	Screaming hairy armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Chaetophractus	vellerosus		840																	18193	
+ERR328030			ERR328030.fastq.gz	keep	yes	anteater:Chordata	anteater	Tax: Zaedyus pichiy	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Zaedyus	pichiy		1100																	15926	
+ERR328031			ERR328031.fastq.gz	keep	yes	anteater:Chordata	anteater	Six-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Euphractus	sexcinctus		6000																	18568	
+ERR328032			ERR328032.fastq.gz	keep	yes	anteater:Chordata	anteater	Screaming hairy armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Chaetophractus	vellerosus		840																	17763	
+ERR328033			ERR328033.fastq.gz	keep	yes	anteater:Chordata	anteater	Chinese pangolin	Eukaryota	Chordata	Mammalia	Pholidota	Manidae	Manis	pentadactyla		4500																	13846	
+ERR328034			ERR328034.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	13309	
+ERR328035			ERR328035.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	19740	
+ERR328036			ERR328036.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	15195	
+ERR328037			ERR328037.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	17850	
+ERR328038			ERR328038.fastq.gz	keep	yes	anteater:Chordata	anteater	Southern three-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Tolypeutes	matacus		1300																	21005	
+ERR328039			ERR328039.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	15904	
+ERR328040			ERR328040.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	14997	
+ERR328041			ERR328041.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	17324	
+ERR328042			ERR328042.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	19432	
+ERR328043			ERR328043.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Priodontes	maximus		25600																	14349	
+ERR328044			ERR328044.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	16790	
+ERR328045			ERR328045.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	16934	
+ERR328046			ERR328046.fastq.gz	keep	yes	anteater:Chordata	anteater	Linnaeus two-toed Sloth	Eukaryota	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	didactylus		6250																	22048	
+ERR328047			ERR328047.fastq.gz	keep	yes	anteater:Chordata	anteater	Sri Lankan sloth bear	Eukaryota	Chordata	Mammalia	Carnivora	Ursidae	Melursus	ursinus		130000																	15219	
+ERR328048			ERR328048.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	14825	
+ERR328049			ERR328049.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	20671	
+ERR328050			ERR328050.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	18238	
+ERR328051			ERR328051.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	17466	
+ERR328052			ERR328052.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Priodontes	maximus		25600																	11808	
+ERR328053			ERR328053.fastq.gz	keep	yes	anteater:Chordata	anteater	Nine-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	novemcinctus		4500																	15858	
+ERR328054			ERR328054.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	10489	
+ERR328055			ERR328055.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	12822	
+ERR328056			ERR328056.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	30856	
+ERR328057			ERR328057.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	20412	
+ERR328058			ERR328058.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	11539	
+ERR328059			ERR328059.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	16359	
+ERR328060			ERR328060.fastq.gz	keep	yes	anteater:Chordata	anteater	Pink fairy armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Chlamyphorus	truncatus		120																	13658	
+ERR328061			ERR328061.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant anteater	Eukaryota	Chordata	Mammalia	Pilosa	Myrmecophagidae	Myrmecophaga	tridactyla		34000																	15913	
+ERR328062			ERR328062.fastq.gz	keep	yes	anteater:Chordata	anteater	Six-banded armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Euphractus	sexcinctus		6000																	18589	
+ERR328063			ERR328063.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	18283	
+ERR328064			ERR328064.fastq.gz	keep	yes	anteater:Chordata	anteater	Screaming hairy armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Chaetophractus	vellerosus		840																	13820	
+ERR328065			ERR328065.fastq.gz	keep	yes	anteater:Chordata	anteater	Aardvark	Eukaryota	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	afer		70000																	16294	
+ERR328066			ERR328066.fastq.gz	keep	yes	anteater:Chordata	anteater	Giant armadillo	Eukaryota	Chordata	Mammalia	Cingulata	Chlamyphoridae	Priodontes	maximus		25600																	13415	
