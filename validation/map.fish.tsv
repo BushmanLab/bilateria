@@ -1,0 +1,67 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	old_id	toKeep	renamed	studyClass	study	common	kingdom	phylum	class	order	family	genus	species	subspecies	weight	habitat	diet	gut	file	mg_rast_id	metagenome_name	bp_count	sequence_count	biome	feature	material	location	country	coordinates	sequence_type	sequencing	readCount	Description
+Fish.A03			Fish.A03	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	132	
+Fish.E02.P55			Fish.E02.P55	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	772	
+Fish.H11			Fish.H11	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	1765	
+Fish2A3			Fish2A3	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	3945	
+Fish2H12			Fish2H12	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	20492	
+Fish3A4			Fish3A4	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	2412	
+Fish3H12			Fish3H12	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	19717	
+Fish4A2			Fish4A2	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	231	
+Fish4H10			Fish4H10	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	11231	
+Fish5A2			Fish5A2	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	4747	
+Fish5H11			Fish5H11	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	8640	
+Fish7A3			Fish7A3	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	1	
+Fish7H11			Fish7H11	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	7	
+Fish8H11			Fish8H11	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	905	
+FishA02			FishA02	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	99	
+FishG10			FishG10	remove	no	bushman:Chordata	bushman	fish	Eukaryota	Chordata	unknown_fish						1000																	12	
+SRR1042107			data/fish/SRR1042107.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	21989	
+SRR1042108			data/fish/SRR1042108.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	13707	
+SRR1042109			data/fish/SRR1042109.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	15348	
+SRR1042110			data/fish/SRR1042110.fastq	keep	yes	fish:Chordata	fish	Mahi-mahi	Eukaryota	Chordata	Actinopteri	Carangiformes	Coryphaenidae	Coryphaena	hippurus		13000																	55723	
+SRR1042111			data/fish/SRR1042111.fastq	keep	yes	fish:Chordata	fish	Red drum	Eukaryota	Chordata	Actinopteri	Perciformes	Sciaenidae	Sciaenops	ocellatus		10000																	13869	
+SRR1042112			data/fish/SRR1042112.fastq	keep	yes	fish:Chordata	fish	Silver perch	Eukaryota	Chordata	Actinopteri	Perciformes	Sciaenidae	Bairdiella	chrysoura		100																	18567	
+SRR1042113			data/fish/SRR1042113.fastq	keep	yes	fish:Chordata	fish	Great barracuda	Eukaryota	Chordata	Actinopteri	Perciformes	Sphyraenidae	Sphyraena	barracuda		9000																	44966	
+SRR1042114			data/fish/SRR1042114.fastq	keep	yes	fish:Chordata	fish	Black sea bass	Eukaryota	Chordata	Actinopteri	Perciformes	Serranidae	Centropristis	striata		1000																	33207	
+SRR1042115			data/fish/SRR1042115.fastq	keep	yes	fish:Chordata	fish	Red drum	Eukaryota	Chordata	Actinopteri	Perciformes	Sciaenidae	Sciaenops	ocellatus		10000																	48261	
+SRR1042116			data/fish/SRR1042116.fastq	keep	yes	fish:Chordata	fish	Crevalle jack	Eukaryota	Chordata	Actinopteri	Carangiformes	Carangidae	Caranx	hippos		10000																	12647	
+SRR1042117			data/fish/SRR1042117.fastq	keep	yes	fish:Chordata	fish	King mackerel	Eukaryota	Chordata	Actinopteri	Scombriformes	Scombridae	Scomberomorus	cavalla		15000																	15196	
+SRR1042118			data/fish/SRR1042118.fastq	keep	yes	fish:Chordata	fish	Spanish mackerel	Eukaryota	Chordata	Actinopteri	Scombriformes	Scombridae	Scomberomorus	maculatus		2500																	21699	
+SRR1042119			data/fish/SRR1042119.fastq	keep	yes	fish:Chordata	fish	Hogchoker	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Achiridae	Trinectes	maculatus		110																	8497	
+SRR1042120			data/fish/SRR1042120.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	18528	
+SRR1042121			data/fish/SRR1042121.fastq	keep	yes	fish:Chordata	fish	Mahi-mahi	Eukaryota	Chordata	Actinopteri	Carangiformes	Coryphaenidae	Coryphaena	hippurus		13000																	16197	
+SRR1042122			data/fish/SRR1042122.fastq	keep	yes	fish:Chordata	fish	Southern flounder	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Paralichthys	lethostigma		1500																	20215	
+SRR1042123			data/fish/SRR1042123.fastq	keep	yes	fish:Chordata	fish	Southern flounder	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Paralichthys	lethostigma		1500																	7714	
+SRR1042124			data/fish/SRR1042124.fastq	keep	yes	fish:Chordata	fish	Sandbar shark	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Carcharhinus	plumbeus		65000																	28933	
+SRR1042125			data/fish/SRR1042125.fastq	keep	yes	fish:Chordata	fish	Spinner shark	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Carcharhinus	brevipinna		56000																	10305	
+SRR1042126			data/fish/SRR1042126.fastq	keep	yes	fish:Chordata	fish	Sharpnose shark	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Rhizoprionodon	terraenovae		7250																	25905	
+SRR1042127			data/fish/SRR1042127.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	19295	
+SRR1042128			data/fish/SRR1042128.fastq	keep	yes	fish:Chordata	fish	Spinner shark	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Carcharhinus	brevipinna		56000																	42092	
+SRR1042129			data/fish/SRR1042129.fastq	keep	yes	fish:Chordata	fish	Sandbar shark	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Carcharhinus	plumbeus		65000																	14645	
+SRR1042130			data/fish/SRR1042130.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	42532	
+SRR1042131			data/fish/SRR1042131.fastq	keep	yes	fish:Chordata	fish	Sharpnose shark	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Rhizoprionodon	terraenovae		7250																	36686	
+SRR1042132			data/fish/SRR1042132.fastq	keep	yes	fish:Chordata	fish	Southern flounder	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Paralichthys	lethostigma		1500																	26650	
+SRR1042133			data/fish/SRR1042133.fastq	keep	yes	fish:Chordata	fish	Hogchoker	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Achiridae	Trinectes	maculatus		110																	27031	
+SRR1042134			data/fish/SRR1042134.fastq	keep	yes	fish:Chordata	fish	Crevalle jack	Eukaryota	Chordata	Actinopteri	Carangiformes	Carangidae	Caranx	hippos		10000																	25777	
+SRR1042135			data/fish/SRR1042135.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	16790	
+SRR1042136			data/fish/SRR1042136.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	13358	
+SRR1042137			data/fish/SRR1042137.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	57552	
+SRR1042138			data/fish/SRR1042138.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	17644	
+SRR1042139			data/fish/SRR1042139.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	35207	
+SRR1042140			data/fish/SRR1042140.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	17247	
+SRR1042141			data/fish/SRR1042141.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	15876	
+SRR1042142			data/fish/SRR1042142.fastq	keep	yes	fish:Chordata	fish	Great barracuda	Eukaryota	Chordata	Actinopteri	Perciformes	Sphyraenidae	Sphyraena	barracuda		9000																	9624	
+SRR1042143			data/fish/SRR1042143.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	23023	
+SRR1042144			data/fish/SRR1042144.fastq	keep	yes	fish:Chordata	fish	Hogchoker	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Achiridae	Trinectes	maculatus		110																	22971	
+SRR1042145			data/fish/SRR1042145.fastq	keep	yes	fish:Chordata	fish	Spanish mackerel	Eukaryota	Chordata	Actinopteri	Scombriformes	Scombridae	Scomberomorus	maculatus		2500																	21901	
+SRR1042146			data/fish/SRR1042146.fastq	keep	yes	fish:Chordata	fish	Mummichog	Eukaryota	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	heteroclitus		5.5																	18165	
+SRR1042147			data/fish/SRR1042147.fastq	keep	yes	fish:Chordata	fish	Pinfish	Eukaryota	Chordata	Actinopteri	Spariformes	Sparidae	Lagodon	rhomboides		276000																	8347	
+SRR1042148			data/fish/SRR1042148.fastq	keep	yes	fish:Chordata	fish	Great barracuda	Eukaryota	Chordata	Actinopteri	Perciformes	Sphyraenidae	Sphyraena	barracuda		9000																	7437	
+SRR1042149			data/fish/SRR1042149.fastq	keep	yes	fish:Chordata	fish	Black sea bass	Eukaryota	Chordata	Actinopteri	Perciformes	Serranidae	Centropristis	striata		1000																	21666	
+SRR1042150			data/fish/SRR1042150.fastq	keep	yes	fish:Chordata	fish	Black sea bass	Eukaryota	Chordata	Actinopteri	Perciformes	Serranidae	Centropristis	striata		1000																	14770	
+SRR1042151			data/fish/SRR1042151.fastq	keep	yes	fish:Chordata	fish	King mackerel	Eukaryota	Chordata	Actinopteri	Scombriformes	Scombridae	Scomberomorus	cavalla		15000																	11988	
+SRR1042152			data/fish/SRR1042152.fastq	keep	yes	fish:Chordata	fish	Crevalle jack	Eukaryota	Chordata	Actinopteri	Carangiformes	Carangidae	Caranx	hippos		10000																	14486	
+SRR1042153			data/fish/SRR1042153.fastq	keep	yes	fish:Chordata	fish	Red drum	Eukaryota	Chordata	Actinopteri	Perciformes	Sciaenidae	Sciaenops	ocellatus		10000																	20302	
+SRR1042154			data/fish/SRR1042154.fastq	keep	yes	fish:Chordata	fish	Mahi-mahi	Eukaryota	Chordata	Actinopteri	Carangiformes	Coryphaenidae	Coryphaena	hippurus		13000																	43865	
+SRR1042155			data/fish/SRR1042155.fastq	keep	yes	fish:Chordata	fish	Silver perch	Eukaryota	Chordata	Actinopteri	Perciformes	Sciaenidae	Bairdiella	chrysoura		100																	7977	
+SRR1042156			data/fish/SRR1042156.fastq	keep	yes	fish:Chordata	fish	Silver perch	Eukaryota	Chordata	Actinopteri	Perciformes	Sciaenidae	Bairdiella	chrysoura		100																	18422	

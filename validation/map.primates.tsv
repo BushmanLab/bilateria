@@ -1,0 +1,201 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	old_id	toKeep	renamed	studyClass	study	common	kingdom	phylum	class	order	family	genus	species	subspecies	weight	habitat	diet	gut	file	mg_rast_id	metagenome_name	bp_count	sequence_count	biome	feature	material	location	country	coordinates	sequence_type	sequencing	readCount	Description
+AG.MB1			AG.MB1	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	59357	
+AG.MB2			AG.MB2	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	74243	
+AG.MB3			AG.MB3	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73935	
+AG.MB4			AG.MB4	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	71438	
+AG.MB5			AG.MB5	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	69122	
+AG.MB6			AG.MB6	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	71219	
+AG.MB7			AG.MB7	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	69082	
+CZ.MB100			CZ.MB100	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	88150	
+CZ.MB105			CZ.MB105	keep	no	primates:Chordata	primates	Orangutan	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Pongo	abelii		55000																	89973	
+CZ.MB11			CZ.MB11	keep	no	primates:Chordata	primates	Black-handed spider monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Ateles	geoffroyi		7500																	81179	
+CZ.MB113			CZ.MB113	keep	no	primates:Chordata	primates	Black-handed spider monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Ateles	geoffroyi		7500																	83068	
+CZ.MB115			CZ.MB115	keep	no	primates:Chordata	primates	Black-handed spider monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Ateles	geoffroyi		7500																	136407	
+CZ.MB123			CZ.MB123	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	108948	
+CZ.MB125			CZ.MB125	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	72971	
+CZ.MB129			CZ.MB129	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	102988	
+CZ.MB135			CZ.MB135	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	145252	
+CZ.MB136			CZ.MB136	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	79609	
+CZ.MB18			CZ.MB18	keep	no	primates:Chordata	primates	Blue-eyed black lemur	Eukaryota	Chordata	Mammalia	Primates	Lemuridae	Eulemur	flavifrons		1800																	76476	
+CZ.MB2			CZ.MB2	keep	no	primates:Chordata	primates	Western lowland gorilla	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Gorilla	gorilla	gorilla	125000																	106266	
+CZ.MB23			CZ.MB23	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	81870	
+CZ.MB26			CZ.MB26	keep	no	primates:Chordata	primates	Western lowland gorilla	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Gorilla	gorilla	gorilla	125000																	84357	
+CZ.MB31			CZ.MB31	keep	no	primates:Chordata	primates	Orangutan	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Pongo	abelii		55000																	92378	
+CZ.MB35			CZ.MB35	keep	no	primates:Chordata	primates	Black-handed spider monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Ateles	geoffroyi		7500																	127226	
+CZ.MB38			CZ.MB38	keep	no	primates:Chordata	primates	Black-handed spider monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Ateles	geoffroyi		7500																	86464	
+CZ.MB41			CZ.MB41	keep	no	primates:Chordata	primates	White-faced saki	Eukaryota	Chordata	Mammalia	Primates	Pitheciidae	Pithecia	pithecia		1800																	131586	
+CZ.MB48			CZ.MB48	keep	no	primates:Chordata	primates	Geoffroys tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	geoffroyi		500																	76388	
+CZ.MB57			CZ.MB57	keep	no	primates:Chordata	primates	De Brazzas monkey	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Cercopithecus	neglectus		5500																	90465	
+CZ.MB64			CZ.MB64	keep	no	primates:Chordata	primates	White-faced saki	Eukaryota	Chordata	Mammalia	Primates	Pitheciidae	Pithecia	pithecia		1800																	91262	
+CZ.MB65			CZ.MB65	keep	no	primates:Chordata	primates	White-faced saki	Eukaryota	Chordata	Mammalia	Primates	Pitheciidae	Pithecia	pithecia		1800																	84154	
+CZ.MB66			CZ.MB66	keep	no	primates:Chordata	primates	White-faced saki	Eukaryota	Chordata	Mammalia	Primates	Pitheciidae	Pithecia	pithecia		1800																	67153	
+CZ.MB67			CZ.MB67	keep	no	primates:Chordata	primates	White-faced saki	Eukaryota	Chordata	Mammalia	Primates	Pitheciidae	Pithecia	pithecia		1800																	109197	
+CZ.MB7			CZ.MB7	keep	no	primates:Chordata	primates	Sumatran Orangutan	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Pongo	abelii		77000																	64800	
+CZ.MB70			CZ.MB70	keep	no	primates:Chordata	primates	Blue-eyed black lemur	Eukaryota	Chordata	Mammalia	Primates	Lemuridae	Eulemur	flavifrons		1800																	166480	
+CZ.MB75			CZ.MB75	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	76749	
+CZ.MB76			CZ.MB76	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	66381	
+CZ.MB77			CZ.MB77	keep	no	primates:Chordata	primates	Geoffroys tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	geoffroyi		500																	168092	
+CZ.MB82			CZ.MB82	keep	no	primates:Chordata	primates	Western lowland gorilla	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Gorilla	gorilla	gorilla	125000																	94656	
+CZ.MB84			CZ.MB84	keep	no	primates:Chordata	primates	Orangutan	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Pongo	abelii		55000																	144739	
+CZ.MB9			CZ.MB9	keep	no	primates:Chordata	primates	De Brazzas monkey	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Cercopithecus	neglectus		5500																	106794	
+CZ.MB99			CZ.MB99	keep	no	primates:Chordata	primates	Emperor tamarin	Eukaryota	Chordata	Mammalia	Primates	Cebidae	Saguinus	imperator	subgrisescens	500																	71350	
+EPRC.MB1			EPRC.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78974	
+EPRC.MB10			EPRC.MB10	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	88857	
+EPRC.MB11			EPRC.MB11	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	73302	
+EPRC.MB12			EPRC.MB12	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	74574	
+EPRC.MB13			EPRC.MB13	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78033	
+EPRC.MB14			EPRC.MB14	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	77640	
+EPRC.MB15			EPRC.MB15	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81249	
+EPRC.MB16			EPRC.MB16	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	77493	
+EPRC.MB17			EPRC.MB17	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	82507	
+EPRC.MB18			EPRC.MB18	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	76971	
+EPRC.MB2			EPRC.MB2	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78577	
+EPRC.MB3			EPRC.MB3	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	80098	
+EPRC.MB4			EPRC.MB4	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	83954	
+EPRC.MB5			EPRC.MB5	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	73521	
+EPRC.MB6			EPRC.MB6	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	69961	
+EPRC.MB7			EPRC.MB7	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	70975	
+EPRC.MB8			EPRC.MB8	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	64860	
+EPRC.MB9			EPRC.MB9	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	62230	
+FRC.MB1			FRC.MB1	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73007	
+FRC.MB2			FRC.MB2	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	60811	
+FRC.MB3			FRC.MB3	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	61015	
+FRC.MB4			FRC.MB4	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	66473	
+FRC.MB5			FRC.MB5	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	60328	
+G12.MB1			G12.MB1	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73762	
+G12.MB10			G12.MB10	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	77272	
+G12.MB11			G12.MB11	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	67874	
+G12.MB13			G12.MB13	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	82665	
+G12.MB14			G12.MB14	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	74539	
+G12.MB16			G12.MB16	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	80929	
+G12.MB17			G12.MB17	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	61275	
+G12.MB2			G12.MB2	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	67147	
+G12.MB3			G12.MB3	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	82315	
+G12.MB4			G12.MB4	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	80952	
+G12.MB5			G12.MB5	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	79128	
+G12.MB6			G12.MB6	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	67521	
+G12.MB7			G12.MB7	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	71582	
+G12.MB8			G12.MB8	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	69225	
+G12.MB9			G12.MB9	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	65915	
+G2.MB1			G2.MB1	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	74789	
+G2.MB10			G2.MB10	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	72230	
+G2.MB11			G2.MB11	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	69753	
+G2.MB12			G2.MB12	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	81256	
+G2.MB13			G2.MB13	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73937	
+G2.MB14			G2.MB14	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	70393	
+G2.MB15			G2.MB15	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73225	
+G2.MB2			G2.MB2	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	72433	
+G2.MB3			G2.MB3	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	71804	
+G2.MB4			G2.MB4	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	77385	
+G2.MB5			G2.MB5	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	67891	
+G2.MB6			G2.MB6	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	68587	
+G2.MB7			G2.MB7	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	67510	
+G2.MB8			G2.MB8	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	69836	
+G2.MB9			G2.MB9	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73560	
+LFG.MB1			LFG.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	104237	
+LSG.MB1			LSG.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	79460	
+LSG.MB10			LSG.MB10	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81914	
+LSG.MB11			LSG.MB11	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	103577	
+LSG.MB12			LSG.MB12	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81258	
+LSG.MB13			LSG.MB13	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	80503	
+LSG.MB14			LSG.MB14	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	76441	
+LSG.MB15			LSG.MB15	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	82938	
+LSG.MB16			LSG.MB16	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	94283	
+LSG.MB17			LSG.MB17	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	90995	
+LSG.MB18			LSG.MB18	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	86208	
+LSG.MB19			LSG.MB19	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	86635	
+LSG.MB2			LSG.MB2	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	87145	
+LSG.MB20			LSG.MB20	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	73145	
+LSG.MB3			LSG.MB3	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	71794	
+LSG.MB4			LSG.MB4	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	94053	
+LSG.MB5			LSG.MB5	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	91570	
+LSG.MB6			LSG.MB6	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	85738	
+LSG.MB7			LSG.MB7	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	88834	
+LSG.MB8			LSG.MB8	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	92009	
+LSG.MB9			LSG.MB9	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	96769	
+PZ.MB1			PZ.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	96068	
+PZ.MB10			PZ.MB10	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	69591	
+PZ.MB11			PZ.MB11	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	66387	
+PZ.MB12			PZ.MB12	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	74402	
+PZ.MB2			PZ.MB2	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	72929	
+PZ.MB3			PZ.MB3	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	84462	
+PZ.MB4			PZ.MB4	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	68489	
+PZ.MB5			PZ.MB5	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	74451	
+PZ.MB6			PZ.MB6	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	72564	
+PZ.MB7			PZ.MB7	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	80817	
+PZ.MB8			PZ.MB8	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	79727	
+PZ.MB9			PZ.MB9	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	75115	
+RSG.MB1			RSG.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	86970	
+RSG.MB2			RSG.MB2	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	90820	
+RSG.MB3			RSG.MB3	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	92158	
+RSG.MB4			RSG.MB4	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81260	
+RSG.MB5			RSG.MB5	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	73155	
+RSG.MB6			RSG.MB6	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	82309	
+RSG.MB7			RSG.MB7	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78534	
+SZ.MB1			SZ.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	73536	
+SZ.MB10			SZ.MB10	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	72728	
+SZ.MB11			SZ.MB11	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	77734	
+SZ.MB12			SZ.MB12	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	65238	
+SZ.MB13			SZ.MB13	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	86377	
+SZ.MB14			SZ.MB14	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78564	
+SZ.MB15			SZ.MB15	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	69346	
+SZ.MB2			SZ.MB2	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	72675	
+SZ.MB3			SZ.MB3	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	76205	
+SZ.MB4			SZ.MB4	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81270	
+SZ.MB5			SZ.MB5	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	79053	
+SZ.MB6			SZ.MB6	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81049	
+SZ.MB7			SZ.MB7	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78315	
+SZ.MB8			SZ.MB8	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	83968	
+SZ.MB9			SZ.MB9	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	74807	
+UNKG.MB1			UNKG.MB1	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	82760	
+UNKG.MB10			UNKG.MB10	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	70681	
+UNKG.MB11			UNKG.MB11	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	68860	
+UNKG.MB12			UNKG.MB12	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	102375	
+UNKG.MB13			UNKG.MB13	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	89643	
+UNKG.MB14			UNKG.MB14	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	80310	
+UNKG.MB15			UNKG.MB15	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	87604	
+UNKG.MB16			UNKG.MB16	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	99364	
+UNKG.MB17			UNKG.MB17	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	96469	
+UNKG.MB18			UNKG.MB18	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	92094	
+UNKG.MB19			UNKG.MB19	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78188	
+UNKG.MB2			UNKG.MB2	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	90626	
+UNKG.MB20			UNKG.MB20	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	70231	
+UNKG.MB21			UNKG.MB21	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	86335	
+UNKG.MB22			UNKG.MB22	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	83897	
+UNKG.MB23			UNKG.MB23	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	57115	
+UNKG.MB24			UNKG.MB24	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	78695	
+UNKG.MB25			UNKG.MB25	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	89861	
+UNKG.MB26			UNKG.MB26	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	68191	
+UNKG.MB27			UNKG.MB27	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	89773	
+UNKG.MB28			UNKG.MB28	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	92850	
+UNKG.MB29			UNKG.MB29	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	76896	
+UNKG.MB3			UNKG.MB3	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	90159	
+UNKG.MB30			UNKG.MB30	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	90042	
+UNKG.MB31			UNKG.MB31	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	76171	
+UNKG.MB32			UNKG.MB32	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	100694	
+UNKG.MB33			UNKG.MB33	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	82723	
+UNKG.MB34			UNKG.MB34	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	82128	
+UNKG.MB35			UNKG.MB35	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	84347	
+UNKG.MB36			UNKG.MB36	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	81932	
+UNKG.MB37			UNKG.MB37	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	100370	
+UNKG.MB38			UNKG.MB38	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	71358	
+UNKG.MB4			UNKG.MB4	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	85306	
+UNKG.MB5			UNKG.MB5	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	91521	
+UNKG.MB6			UNKG.MB6	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	89836	
+UNKG.MB7			UNKG.MB7	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	88633	
+UNKG.MB8			UNKG.MB8	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	80863	
+UNKG.MB9			UNKG.MB9	keep	no	primates:Chordata	primates	red-shanked douc	Eukaryota	Chordata	Mammalia	Primates	Cercopithecidae	Pygathrix	nemaeus		10000																	80083	
+URG.MB1			URG.MB1	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	70310	
+URG.MB10			URG.MB10	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	56496	
+URG.MB11			URG.MB11	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	58110	
+URG.MB12			URG.MB12	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	52216	
+URG.MB13			URG.MB13	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	63194	
+URG.MB14			URG.MB14	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	53315	
+URG.MB2			URG.MB2	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	73969	
+URG.MB3			URG.MB3	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	65590	
+URG.MB4			URG.MB4	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	67192	
+URG.MB5			URG.MB5	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	64870	
+URG.MB6			URG.MB6	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	71940	
+URG.MB7			URG.MB7	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	57287	
+URG.MB8			URG.MB8	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	63613	
+URG.MB9			URG.MB9	keep	no	primates:Chordata	primates	mantled howling monkey	Eukaryota	Chordata	Mammalia	Primates	Atelidae	Alouatta	palliata		6000																	70496	
