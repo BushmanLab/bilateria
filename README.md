@@ -1,5 +1,5 @@
 # bilateria
-Code for generating figures and statistics for bilaterian animal microbiome project
+Code for generating figures and statistics for bilaterian animal microbiome project.
 The bulk of the code for this project can be found in bilateria.R.
 
 # R libraries
