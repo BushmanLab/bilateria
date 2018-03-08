@@ -7,16 +7,12 @@ source('functions.R')
 source('readInfo.R')
 if(!dir.exists('out'))dir.create('out')
 if(!file.exists('work/speciesAbund.Rdat'))source('readData.R')
-load('work/speciesAbund.Rdat')
+
+commonOrder<-c("Encrusted Sand Tubed Worm", "Giant Millipede", "Woodlouse", "Pink Shrimp", "Crab", "Hermit Crab", "Cricket", "Hissing Cockroach", "Praying Mantis", "Boxelder Bug", "Bedbug", "Eastern Yellowjacket", "European Wool Carder Bee", "Two-spotted Bumble Bee", "Long-horned Bee", "Western Honey Bee", "Mealworm", "Rhinoceros Beetle", "Hornworm", "Dagger Moth", "Mosquito", "Drosophila", "Fly", "Striped Sea Cucumber", "Skate", "Tiger Shark", "Lemon Shark", "Sandbar Shark", "Bull Shark", "Sea Robin", "Fluke", "Bearded Dragon", "Eagle Owl", "Cockatiel", "Parakeet", "Horse", "Cat", "Ferret", "Dog", "Alpaca", "Pig", "Cow", "Sheep", "Goat", "Right Whale", "Humpback Whale", "Fin Whale", "Rabbit", "Guinea Pig", "Hamster", "Gerbil", "Mouse", "Rat", "Red Colobus", "Macaque", "Sooty Mangabey", "Mandrill", "Gorilla", "Bonobo", "Western Chimpanzee", "Eastern Chimpanzee", "Nigeria-Cameroon Chimpanzee", "Central Chimpanzee", "Human")
+if(any(!commonOrder %in% info$common))stop('Problem ordering commons')
+
 
 fitters<-c('Broken stick'=fitbs2,'Geometric'=fitgeom2,'Log series'=fitls2,'Neutral (MZSM)'=fitmzsm2,'Power'=fitpower,'Power bend'=fitpowbend2,'Log normal'=fitlnorm,'Poisson lognormal'=fitpoilog2,'Gamma'=fitgamma2,'Weibull'=fitweibull) 
-fits<-mclapply(speciesAbund[goodIds],function(xx){
-  cat('.')
-  out<-lapply(fitters,function(func,xx){
-    tryCatch(func(xx),error=function(e)return(NULL))
-  },xx)
-  return(out)
-},mc.cores=50,mc.preschedule=FALSE)
 
 plotBics<-function(fits,speciesAbund,info,outFile,speciesOrder=NULL){
   bics<-do.call(rbind,lapply(fits,function(xx){
@@ -98,10 +94,15 @@ plotBics<-function(fits,speciesAbund,info,outFile,speciesOrder=NULL){
   dev.off()
 }
 
-commonOrder<-c("Encrusted Sand Tubed Worm", "Giant Millipede", "Woodlouse", "Pink Shrimp", "Crab", "Hermit Crab", "Cricket", "Hissing Cockroach", "Praying Mantis", "Boxelder Bug", "Bedbug", "Eastern Yellowjacket", "European Wool Carder Bee", "Two-spotted Bumble Bee", "Long-horned Bee", "Western Honey Bee", "Mealworm", "Rhinoceros Beetle", "Hornworm", "Dagger Moth", "Mosquito", "Drosophila", "Fly", "Striped Sea Cucumber", "Skate", "Tiger Shark", "Lemon Shark", "Sandbar Shark", "Bull Shark", "Sea Robin", "Fluke", "Bearded Dragon", "Eagle Owl", "Cockatiel", "Parakeet", "Horse", "Cat", "Ferret", "Dog", "Alpaca", "Pig", "Cow", "Sheep", "Goat", "Right Whale", "Humpback Whale", "Fin Whale", "Rabbit", "Guinea Pig", "Hamster", "Gerbil", "Mouse", "Rat", "Red Colobus", "Macaque", "Sooty Mangabey", "Mandrill", "Gorilla", "Bonobo", "Western Chimpanzee", "Eastern Chimpanzee", "Nigeria-Cameroon Chimpanzee", "Central Chimpanzee", "Human")
-if(any(!commonOrder %in% info$common))stop('Problem ordering commons')
+load('work/speciesAbund.Rdat')
+fits<-mclapply(speciesAbund[goodIds],function(xx){
+  cat('.')
+  out<-lapply(fitters,function(func,xx){
+    tryCatch(func(xx),error=function(e)return(NULL))
+  },xx)
+  return(out)
+},mc.cores=50,mc.preschedule=FALSE)
 
-#dada2
 load('work/dadaAbund.Rdat')
 dadaFits<-mclapply(dadaAbund[goodIds],function(xx){
   cat('.')
