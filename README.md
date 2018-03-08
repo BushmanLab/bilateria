@@ -1,6 +1,6 @@
 # bilateria
 Code for generating figures and statistics for bilaterian animal microbiome project.
-The bulk of the code for this project can be found in bilateria.R.
+The bulk of the code for this project can be found in bilateria.R with additional code in the `speciesArea` directory. 
 
 # R libraries
 You will need to have the following R libraries installed for various code chunks:
@@ -31,4 +31,6 @@ Replace "/home/kevin/projects/bilateria" with your working directory on line 24 
 Running the code under sections "Libraries", "Setup", and "Functions" is necessary before running any analysis code.
 
 # Running analysis code
-The code from each analysis code chunk (e.g. "Figure 1") can be run independently from each other.  Data is reset (re-loaded from OTU table and sample sheet) within each code chunk.
+The code from each analysis code chunk (e.g. "Figure 1") can be run independently from each other.  Data is reset (re-loaded from OTU table and sample sheet) within each code chunk. 
+
+The `speciesArea` code can be run by calling `make` within that directory.
