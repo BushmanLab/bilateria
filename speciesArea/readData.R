@@ -15,8 +15,6 @@ otuFiles<-list.files('../validation','^om.*\\.csv\\.gz$',full.names=TRUE)
 otu2<-do.call(rbind,lapply(otuFiles,read.csv,stringsAsFactors=FALSE))
 rareN2<-tapply(otu2$count,otu2$SampleID,rareEquation,rareN)
 write.csv(cbind(names(rareN2),'rare'=rareN2),'work/rareN2.csv',row.names=FALSE)
-speciesAbund2<-tapply(otu2$count,otu2$SampleID,function(xx)sort(xx[xx>0]))
-save(speciesAbund2,file='work/speciesAbund2.Rdat')
 
 
 dada<-read.csv('../om.dada.csv.gz',stringsAsFactors=FALSE)
