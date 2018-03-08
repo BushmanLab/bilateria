@@ -6,6 +6,7 @@ library(vioplot)
 options(mc.cores = parallel::detectCores())
 #cache compilations (doesn't actually work that well, at least with model_code=)
 rstan_options(auto_write = TRUE)
+if(!dir.exists('out'))dir.create('out')
 
 source('readCombo.R')
 stanCode<-'
