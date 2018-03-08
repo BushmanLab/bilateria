@@ -1,0 +1,168 @@
+TaxonRank	TaxonName	AerobicStatus	Explanation
+Class	Clostridia	obligate anaerobe	Inferred: Overwhelming majority of lower-level taxa detected were obligately anaerobic
+Family	Acetobacteraceae	aerobe	Family description
+Family	Bacillaceae	facultative anaerobe	Family description ('aerobic or facultatively anaerobic')
+Family	Bacteroidaceae	obligate anaerobe	Family description
+Family	Caulobacteraceae	aerobe	Family description
+Family	Clostridiaceae	obligate anaerobe	Family description ('generally obligately anaerobic rods')
+Family	Coriobacteriaceae	obligate anaerobe	Inferred: all lower-level taxa detected were obligately anaerobic
+Family	Enterobacteriaceae	facultative anaerobe	Family description
+Family	Erysipelotrichaceae	variable	Family description
+Family	Flavobacteriaceae	aerobe	Family description ('usually aerobic')
+Family	Lachnospiraceae	obligate anaerobe	Family description
+Family	Lactobacillaceae	facultative anaerobe	By inspection: three constituent genera are facultative, microaerophilic, or aerobic
+Family	Marinilabiaceae	facultative anaerobe	By inspection: sole constituent genus is facultatively anaerobic
+Family	Mycoplasmataceae	facultative anaerobe	Family description ('facultatively anaerobic in most cases')
+Family	Phyllobacteriaceae	aerobe	Family description
+Family	Prevotellaceae	obligate anaerobe	Family description
+Family	Rhodobacteraceae	facultative anaerobe	By inspection: Family description is either facultative anaerobe or aerobic
+Family	Rhodospirillaceae	variable	Genus definition for the type genus is variable, thus the family is variable
+Family	Rikenellaceae	obligate anaerobe	By inspection: both constituent genera are obligately anaerobic
+Family	Ruminococcaceae	obligate anaerobe	Family description
+Family	S24-7	obligate anaerobe	Sole cultured isolate is obligately anaerobic (PMID 27670113), genomic analysis indicates an obligately anaerobic lifestyle (PMID 27388460)
+Genus	[Eubacterium]	obligate anaerobe	By inspection: species E biforme and E. cylindroides are anaerobic according to species definition
+Genus	[Prevotella]	obligate anaerobe	Genus definition (for Alloprevotella)
+Genus	Abiotrophia	facultative anaerobe	Genus definition
+Genus	Achromobacter	aerobe	Genus definition
+Genus	Acidaminococcus	obligate anaerobe	Genus definition
+Genus	Acidovorax	aerobe	Genus definition
+Genus	Adlercreutzia	obligate anaerobe	Genus definition
+Genus	Aerococcus	facultative anaerobe	Genus definition
+Genus	Aeromicrobium	aerobe	Genus definition
+Genus	Aggregatibacter	facultative anaerobe	Genus definition
+Genus	Agrobacterium	aerobe	Genus definition
+Genus	Akkermansia	obligate anaerobe	Genus definition
+Genus	Alistipes	obligate anaerobe	Genus definition
+Genus	Alkaliphilus	obligate anaerobe	Genus definition
+Genus	Anaerococcus	obligate anaerobe	Genus definition
+Genus	Anaerotruncus	obligate anaerobe	Genus definition
+Genus	Aquabacterium	microaerobe	Genus definition
+Genus	Arthrobacter	aerobe	Genus definition
+Genus	Atopobium	obligate anaerobe	Genus definition
+Genus	Aurantimonas	obligate anaerobe	Genus definition
+Genus	Azospira	microaerobe	Genus definition
+Genus	Bacillus	aerobe	Genus definition
+Genus	Bacteroides	obligate anaerobe	Genus definition
+Genus	Beutenbergia	microaerobe or aerobe	Genus definition
+Genus	Bifidobacterium	obligate anaerobe	Genus definition
+Genus	Blautia	obligate anaerobe	Genus definition
+Genus	Bosea	aerobe	Genus definition
+Genus	Bradyrhizobium	aerobe	Genus definition
+Genus	Brevibacillus	aerobe	Genus definition
+Genus	Brevundimonas	aerobe	Genus definition
+Genus	Bulleidia	obligate anaerobe	Genus definition
+Genus	Butyricicoccus	obligate anaerobe	Genus definition
+Genus	Butyricimonas	obligate anaerobe	Genus definition
+Genus	Caloramator	obligate anaerobe	Genus definition
+Genus	Catenibacterium	obligate anaerobe	Genus definition
+Genus	Catonella	obligate anaerobe	Genus definition
+Genus	Cellulosimicrobium	facultative anaerobe	Genus definition
+Genus	Christensenella	obligate anaerobe	Genus definition
+Genus	Chryseobacterium	aerobe	Genus definition
+Genus	Clostridium	obligate anaerobe	Genus definition
+Genus	Clostridium	obligate anaerobe	Genus definition
+Genus	Clostridium	obligate anaerobe	Genus definition
+Genus	Clostridium	obligate anaerobe	Genus definition
+Genus	Collinsella	obligate anaerobe	Genus definition
+Genus	Comamonas	aerobe	Genus definition
+Genus	Corynebacterium	facultative anaerobe	Genus definition
+Genus	Cronobacter	facultative anaerobe	Genus definition
+Genus	Deinococcus	aerobe	Genus definition
+Genus	Delftia	obligate anaerobe	Genus definition
+Genus	Desulfosporosinus	obligate anaerobe	Genus definition
+Genus	Desulfotomaculum	obligate anaerobe	Genus definition
+Genus	Devosia	aerobe	Genus definition
+Genus	Dialister	obligate anaerobe	Genus definition
+Genus	Dorea	obligate anaerobe	Genus definition
+Genus	Dyadobacter	aerobe	Genus definition
+Genus	Dysgonomonas	obligate anaerobe	Genus definition
+Genus	Eggerthella	obligate anaerobe	Genus definition
+Genus	Eikenella	facultative anaerobe	Genus definition
+Genus	Enhydrobacter	facultative anaerobe	Genus definition
+Genus	Enterobacter	facultative anaerobe	Genus definition
+Genus	Enterococcus	facultative anaerobe	Genus definition
+Genus	Facklamia	facultative anaerobe	Genus definition
+Genus	Faecalibacterium	obligate anaerobe	Genus definition
+Genus	Fructobacillus	facultative anaerobe	Genus definition
+Genus	Fusibacter	obligate anaerobe	Genus definition
+Genus	Fusobacterium	obligate anaerobe	Genus definition
+Genus	Garciella	obligate anaerobe	Genus definition
+Genus	Gemella	facultative anaerobe	Genus definition
+Genus	Granulicatella	facultative anaerobe	Genus definition
+Genus	Granulicatella	facultative anaerobe	Genus definition
+Genus	Helcococcus	facultative anaerobe	Genus definition
+Genus	Helicobacter	microaerobe or anaerobe	Genus definition
+Genus	Herbaspirillum	microaerobe or anaerobe	Genus definition
+Genus	Holdemania	obligate anaerobe	Genus definition
+Genus	Janthinobacterium	aerobe	Genus definition
+Genus	Kingella	aerobe	Genus definition
+Genus	Kocuria	aerobe	Genus definition
+Genus	Lachnobacterium	obligate anaerobe	Genus definition
+Genus	Lachnospira	obligate anaerobe	Genus definition
+Genus	Lactobacillus	facultative anaerobe	Genus definition
+Genus	Lactococcus	facultative anaerobe	Genus definition
+Genus	Leptotrichia	variable	Genus definition
+Genus	Megasphaera	obligate anaerobe	Genus definition
+Genus	Mesorhizobium	aerobe	Genus definition
+Genus	Microbacterium	aerobe	Genus definition
+Genus	Micrococcus	aerobe	Genus definition
+Genus	Microlunatus	aerobe	Genus definition
+Genus	Mobiluncus	obligate anaerobe	Genus definition
+Genus	Mogibacterium	obligate anaerobe	Genus definition
+Genus	Moryella	obligate anaerobe	Genus definition
+Genus	Neisseria	aerobe	Genus definition
+Genus	Novosphingobium	obligate anaerobe	Genus definition
+Genus	Ochrobactrum	obligate anaerobe	Genus definition
+Genus	Odoribacter	obligate anaerobe	Genus definition
+Genus	Olivibacter	obligate anaerobe	Genus definition
+Genus	Oribacterium	obligate anaerobe	Genus definition
+Genus	Paludibacter	obligate anaerobe	Genus definition
+Genus	Parabacteroides	obligate anaerobe	Genus definition
+Genus	Paracoccus	obligate anaerobe	Genus definition
+Genus	Paraprevotella	obligate anaerobe	Genus definition
+Genus	Patulibacter	aerobe	Genus definition
+Genus	Pedobacter	obligate anaerobe	Genus definition
+Genus	Peptoniphilus	obligate anaerobe	Genus definition
+Genus	Photobacterium	facultative anaerobe	Genus definition
+Genus	Polaromonas	aerobe	Genus definition
+Genus	Porphyromonas	obligate anaerobe	Genus definition
+Genus	Prevotella	obligate anaerobe	Genus definition
+Genus	Propionibacterium	microaerobe or anaerobe	Genus definition
+Genus	Pseudobutyrivibrio	obligate anaerobe	Genus definition
+Genus	Pseudomonas	variable	Genus definition
+Genus	Pseudoxanthomonas	aerobe	Genus definition
+Genus	Psychrobacter	aerobe	Genus definition
+Genus	Pyramidobacter	obligate anaerobe	Genus definition
+Genus	Ralstonia	aerobe	Genus definition
+Genus	Rikenella	obligate anaerobe	Genus definition
+Genus	Roseburia	obligate anaerobe	Genus definition
+Genus	Rothia	microaerobe or aerobe	Genus definition
+Genus	Ruminococcus	obligate anaerobe	Genus definition
+Genus	Schwartzia	obligate anaerobe	Genus definition
+Genus	Sediminibacterium	obligate anaerobe	Genus definition
+Genus	Shuttleworthia	obligate anaerobe	Genus definition
+Genus	Slackia	obligate anaerobe	Genus definition
+Genus	Sneathia	obligate anaerobe	Genus definition
+Genus	Sphaerochaeta	obligate anaerobe	Genus definition
+Genus	Sphingobium	aerobe	Genus definition
+Genus	Sphingomonas	aerobe	Genus definition
+Genus	Sphingopyxis	aerobe	Genus definition
+Genus	Staphylococcus	facultative anaerobe	Genus definition
+Genus	Streptococcus	facultative anaerobe	Genus definition
+Genus	Succinivibrio	obligate anaerobe	Genus definition
+Genus	Sulfuritalea	facultative anaerobe	Genus definition
+Genus	Sutterella	microaerobe or anaerobe	Genus definition
+Genus	Tannerella	obligate anaerobe	Genus definition
+Genus	Tepidibacter	obligate anaerobe	Genus definition
+Genus	Tepidimicrobium	obligate anaerobe	Genus definition
+Genus	Tsukamurella	aerobe	Genus definition
+Genus	Turicibacter	obligate anaerobe	Genus definition
+Genus	Variovorax	aerobe	Genus definition
+Genus	Veillonella	obligate anaerobe	Genus definition
+Genus	Vibrio	facultative anaerobe	Genus definition
+Genus	Wautersiella	aerobe	Genus definition
+Genus	Wolbachia	intracellular	Genus definition
+Kingdom	Unassigned	no taxonomic assignment	Special label
+Order	Bacteroidales	obligate anaerobe	Inferred: Overwhelming majority of lower-level taxa detected were obligately anaerobic
+Order	Pseudomonadales	aerobe	Order description
+Order	Streptophyta	Streptophyta	Special label

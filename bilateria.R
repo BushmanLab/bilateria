@@ -30,114 +30,20 @@ wu_fp <- file.path(work_dir, "beta_diversity/weighted_unifrac_otu_table.original
 
 # Functions----
 
-E <- new.env()
-data_dir=paste0(work_dir, "validation/anteater/")
-
-resetValidationData <- function(E, data_dir, filterbyweight=T) {
-  library(qiimer)
-  E$otuTableFile <- paste0(data_dir, "otu/otu_table.txt")
-  E$mapFile <- paste0(data_dir, "map/map.tsv")
-  
-  E$o <- read_qiime_otu_table(E$otuTableFile)
-  E$s <- read_qiime_mapping_file(E$mapFile)
-  E$s <- E$s[E$s$toKeep=="keep",]
-  if(filterbyweight) {
-    E$s <- E$s[!is.na(E$s$weight),]
-  }
-
-  alignQiimeData(E)
-  E$o$metadata <- E$o$metadata[!grepl("*Chloroplast*",E$o$metadata)]
-  E$o$counts <- E$o$counts[names(E$o$metadata),]
-  E$o$otu_ids <- names(E$o$metadata)
-  
-  E$sampleOrdering <- with(E$s,order(ave(1:nrow(E$s),E$s$phylum,FUN=length),phylum,
-                                         ave(1:nrow(E$s),E$s$class,FUN=length),class,
-                                         ave(1:nrow(E$s),E$s$order,FUN=length),order,
-                                         ave(1:nrow(E$s),E$s$family,FUN=length),family,
-                                         ave(1:nrow(E$s),E$s$genus,FUN=length),genus,
-                                         ave(1:nrow(E$s),E$s$species,FUN=length),species,
-                                         ave(1:nrow(E$s),E$s$common,FUN=length),common))
-  
-  E$speciesTax <- unique(E$s[,c("phylum","class","order","family","genus","common")])
-  E$speciesTax <- unique(E$speciesTax)
-  E$speciesOrdering <- with(E$speciesTax,
-                              order(ave(1:nrow(E$speciesTax),E$speciesTax$phylum,FUN=length),phylum,
-                                    ave(1:nrow(E$speciesTax),E$speciesTax$class,FUN=length),class,
-                                    ave(1:nrow(E$speciesTax),E$speciesTax$order,FUN=length),order,
-                                    ave(1:nrow(E$speciesTax),E$speciesTax$family,FUN=length),family,
-                                    ave(1:nrow(E$speciesTax),E$speciesTax$genus,FUN=length),genus))
-  
-  #  E$figure1SpeciesOrdering <- match(E$,E$speciesTax$common)
-  E$s$weight <- as.numeric(E$s$weight)
-  E$s$log.weight <- log10(E$s$weight)
-  E$s$numOtus <- colSums(E$o$counts>0)
-  E$s$filteredReadCount <- colSums(E$o$counts)
-  
-  md <- sub("(; [kpcofgs]__)+$", "", E$o$metadata, perl=T)
-  library(tibble)
-  
-  adf <- split_assignments(md) %>% 
-    mutate_all(funs(sub("[kpcofgs]__", "", .))) %>%
-    mutate_all(funs(ifelse(. %in% "", NA, .))) %>%
-    mutate(Phylum = ifelse(Genus %in% "Enterococcus", "Firmicutes", Phylum)) %>%
-    mutate(Class = ifelse(Genus %in% "Enterococcus", "Bacilli", Class)) %>%
-    mutate(Order = ifelse(Genus %in% "Enterococcus", "Lactobacillales", Order)) %>%
-    mutate(Family = ifelse(Genus %in% "Enterococcus", "Enterococcaceae", Family))
-  E$a <- simplify_assignments(adf)
-  names(E$a) <- rownames(E$o$counts)
-  
-  adf <- adf %>% rownames_to_column("OtuID") %>%
-    mutate(OtuID = rownames(E$o$counts))
-  
-  library(dplyr)
-  library(readr)
-  aero <- read_tsv(paste0(work_dir, "oxygen/bilaterian_aerobic_status_data.tsv")) %>%
-    mutate(TaxonRank = factor(TaxonRank, levels=rev(taxonomic_ranks))) %>%
-    arrange(TaxonRank, TaxonName)
-  
-  E$adf_aero <- adf %>%
-    mutate(aerobic_status = NA, explanation = NA)
-  for (row_idx in seq_len(nrow(aero))) {
-    taxon_rank <- as.character(aero$TaxonRank[row_idx])
-    taxon_name <- aero$TaxonName[row_idx]
-    taxon_status <- aero$AerobicStatus[row_idx]
-    explanation <- aero$Explanation[row_idx]
-    is_taxon <- E$adf_aero[[taxon_rank]] %in% taxon_name
-    is_unlabeled <- is.na(E$adf_aero$aerobic_status)
-    E$adf_aero$aerobic_status[is_taxon & is_unlabeled] <- taxon_status
-    E$adf_aero$explanation[is_taxon & is_unlabeled] <- explanation
-  }
-  
-  E$cts_df <- E$o$counts %>%
-    reshape2:::melt.array(
-      varnames = c("OtuID", "SampleID"), 
-      value.name = "Counts",
-      as.is=TRUE) %>%
-    filter(Counts > 0) %>%
-    group_by(SampleID) %>%
-    mutate(Proportion = Counts / sum(Counts)) %>%
-    ungroup() %>%
-    left_join(E$adf_aero, by="OtuID") %>%
-    mutate(., Assignment = simplify_assignments(.[,taxonomic_ranks])) %>%
-    left_join(E$s[,c("SampleID","common")], by="SampleID")
-  
-  E$samples_aero <- E$cts_df %>%
-    filter(!aerobic_status %in% c("NA", "no taxonomic assignment", "Streptophyta")) %>%
-    group_by(SampleID, aerobic_status, common) %>%
-    summarize(Proportion = sum(Proportion), Counts = sum(Counts))
-
-  E$s <- E$s %>% left_join(E$samples_aero %>%
-                             filter(aerobic_status=="obligate anaerobe") %>%
-                             ungroup() %>%
-                             select(SampleID, Proportion), by="SampleID") %>%
-    rename(obligateAnaerobeProp = Proportion) %>%
-    mutate_at(.vars=vars(obligateAnaerobeProp),
-              funs(replace(obligateAnaerobeProp, which(is.na(.)), 0)))
-    
-  # Load phylogenetic diversity
-  E$pdwt_fp <- file.path(data_dir, "alpha_diversity.tsv")
-  E$pdwt <- read.table(E$pdwt_fp)
-  E$s$phyDiv <- E$pdwt[E$s$SampleID,"PD_whole_tree"]
+readOtuFromOmFile <- function(omFile) {
+  # Code to read in om.csv and create G$o object  
+  om <- read.csv(omFile)
+  o <- dcast(data = om,formula = OTU~SampleID,fun.aggregate = sum,value.var = "count")
+  rownames(o) <- o$OTU
+  o$OTU <- NULL
+  newO <- list()
+  newO$counts <- as.matrix(o)
+  uniq_metadata <- unique(om[,c("OTU","metadata")])
+  newO$sample_ids <- colnames(newO$counts)
+  newO$otu_ids <- rownames(newO$counts)
+  newO$metadata <- as.character(uniq_metadata$metadata)
+  names(newO$metadata) <- as.character(uniq_metadata$OTU)
+  return(newO)
 }
 
 resetData <- function(status = "all") {
@@ -157,20 +63,12 @@ resetData <- function(status = "all") {
                                                            "Dissection_blank", "PCR_H2O"),]
   }
 
-  # Code to read in om.csv and create G$o object  
-  # om <- read.csv(paste0(work_dir,"om.csv"))
-  # o <- dcast(data = om,formula = OTU~SampleID,fun.aggregate = sum,value.var = "count")
-  # rownames(o) <- o$OTU
-  # G$o$counts <- as.matrix(o)
-  # uniq_metadata <- unique(om[,c("OTU","metadata")])
-  # G$o$sample_ids <- colnames(G$o$counts)
-  # G$o$otu_ids <- rownames(G$o$counts)
-  # G$o$metadata <- as.character(uniq_metadata$metadata)
-  # names(G$o$metadata) <- as.character(uniq_metadata$OTU)
-  # rm(uniq_metadata)
-  # rm(o)
-  # rm(om)
+  G$s$Weight_to_use <- as.numeric(G$s$Weight_to_use)
+  G$s$log.weight <- log10(G$s$Weight_to_use)
   
+  # Read in om.csv and create G$o object  
+  G$o <- readOtuFromOmFile(paste0(work_dir,"om.csv"))
+
   # Use this code to create OTU table to save time on future loads
   # write.table(cbind(G$o$counts,G$o$metadata),
   #            paste0(work_dir,"otu/otu_table.txt"), quote=FALSE, sep = "\t")
@@ -178,25 +76,28 @@ resetData <- function(status = "all") {
   # system(paste0("sed -i '2s/$/Consensus Lineage/' ",work_dir,"otu/otu_table.txt"))
   
   # Use this line in place of the above code block defining G$o if you have already created OTU table
-  G$o <- read_qiime_otu_table(otu_table_fp)
+  # G$o <- read_qiime_otu_table(otu_table_fp)
+
+  # Code used to create om.csv (om = OTU melted)
+  # om <- melt(G$o$counts)
+  # om <- om[om$value>0,]
+  # om$metadata <- G$o$metadata[om$Var1]
+  # colnames(om) <- c("OTU","SampleID","count","metadata")
+  # write.csv(om, paste0(work_dir,"om.csv"), row.names = F)
   
   alignQiimeData(G)
+
   rownames(G$s) <- G$s$SampleID
   colnames(G$o$counts) <- G$s$SampleID
   G$o$sample_ids <- G$s$SampleID
+  
+  # Remove chloroplast reads (unless doing analysis on all samples, all reads)
   if(!status=="all") {
     G$o$metadata <- G$o$metadata[!grepl("*Chloroplast*",G$o$metadata)]
   }
   G$o$counts <- G$o$counts[names(G$o$metadata),]
   G$o$otu_ids <- names(G$o$metadata)
  
-  # Code used to create om.csv (om = OTU melted)
-  #om <- melt(G$o$counts)
-  #om <- om[om$value>0,]
-  #om$metadata <- G$o$metadata[om$Var1]
-  #colnames(om) <- c("OTU","SampleID","count","metadata")
-  #write.csv(om, paste0(work_dir,"om.csv"), row.names = F)
-  
   G$sampleOrdering <- with(G$s,order(ave(1:nrow(G$s),G$s$phylum,FUN=length),phylum,
                                      ave(1:nrow(G$s),G$s$supersuperclass,FUN=length),supersuperclass,
                                      ave(1:nrow(G$s),G$s$superclass,FUN=length),superclass,
@@ -244,24 +145,28 @@ resetData <- function(status = "all") {
                  G$newick$tip.label[G$newick$edge[,2][G$newick$edge[,2]<=length(G$newick$tip.label)]]))
   
   G$figure1SpeciesOrdering <- match(G$timetreeLabels,G$speciesTax$timetree_proxy)
-  G$s$Weight_to_use <- as.numeric(G$s$Weight_to_use)
-  G$s$log.weight <- log10(G$s$Weight_to_use)
   
+  library(dplyr)  
   G$species <- G$s %>%
     select(common,phylum,class,order,family,diet,specificDiet,timetree_proxy) %>%
     filter(common %in% G$speciesTax$common) %>%
     slice(match(G$speciesTax$common[G$figure1SpeciesOrdering],common)) %>%
     as.data.frame
   rownames(G$species) <- G$species$common
+  
+  G$classColors <- structure(
+    c('#8dd3c7','#ffed6f','#bc80bd','#fccde5','#80b1d3','#fdb462','#b3de69','#fb8072','#bebada','#ccebc5'),
+    .Names = c("Actinopteri", "Aves", "Chondrichthyes", "Diplopoda", "Holothuroidea", "Insecta", "Malacostraca", "Mammalia", "Polychaeta", "Reptilia")
+  )
 }
 
 resetUnifracData <- function(){
   library(qiimer)
-  G$uur_fp <- file.path(work_dir, "bd_uur", "unweighted_unifrac_otu_rare.txt")
+  G$uur_fp <- file.path(work_dir, "unweighted_unifrac_otu_rare.txt")
   G$uur <- read_qiime_distmat(G$uur_fp)
   G$uur <- dist_subset(G$uur, G$s$SampleID)
 
-  G$wnu_fp <- file.path(work_dir, "bd_wnu", "weighted_normalized_unifrac_otu_table.txt")
+  G$wnu_fp <- file.path(work_dir, "weighted_normalized_unifrac_otu_table.txt")
   G$wnu <- read_qiime_distmat(G$wnu_fp)
   G$wnu <- dist_subset(G$wnu, G$s$SampleID)
 }
@@ -293,59 +198,127 @@ alignQiimeData <- function(E) {
   E$o <- o
 }
 
-expandTree <- function(tree,replacingLabel,newLabel,newEdgeLength){
-  replacingTip <- which(tree$tip.label==replacingLabel)
-  replacingEdge <- which(tree$edge[,2]==replacingTip)
+resetValidationData <- function(E, filterbyweight=T) {
+  library(qiimer)
+  E$mapFile <- paste0(work_dir,"validation/map.",E$dataSetName,".tsv")
   
-  numNodes <- max(tree$edge)
-  newNode <- numNodes + 2
-  newTip <- replacingTip + 1
-  numTips <- length(tree$tip.label)
+  # Code used when reading in original Qiime output
+  # E$otuTableFile <- paste0(work_dir, "validation",E$dataSetName,"otu/otu_table.txt")
+  # E$o <- read_qiime_otu_table(E$otuTableFile)
   
-  tree$edge[tree$edge > replacingTip] <- tree$edge[tree$edge > replacingTip] + 1
-  tree$edge[tree$edge==replacingTip] <- newNode
-  tree$edge <- cbind(append(append(tree$edge[,1],newNode,replacingEdge),newNode,replacingEdge),
-                     append(append(tree$edge[,2],newTip,replacingEdge),replacingTip,replacingEdge))
+  # Code used when reading in OM files (Otu melted)
+  E$omFile <- paste0(work_dir,"validation/om.",E$dataSetName,".csv")
+  E$o <- readOtuFromOmFile(E$omFile)
   
-  tree$edge.length[replacingEdge] <- tree$edge.length[replacingEdge] - newEdgeLength
-  tree$edge.length <- append(append(tree$edge.length,newEdgeLength,replacingEdge),newEdgeLength,replacingEdge)
+  E$s <- read_qiime_mapping_file(E$mapFile)
+  E$s <- E$s[E$s$toKeep=="keep",]
+  if(filterbyweight) {
+    E$s <- E$s[!is.na(E$s$weight),]
+  }
   
-  tree$tip.label <- append(tree$tip.label,newLabel,replacingTip)
-  tree$Nnode <- tree$Nnode + 1
-  tree$node.label <- c(tree$node.label, paste0("'",max(as.numeric(gsub("'","",tree$node.label[-1])))+1,"'"))
+  alignQiimeData(E)
+  E$o$metadata <- E$o$metadata[!grepl("*Chloroplast*",E$o$metadata)]
+  E$o$counts <- E$o$counts[names(E$o$metadata),]
+  E$o$otu_ids <- names(E$o$metadata)
   
-  return(tree)
+  E$sampleOrdering <- with(E$s,order(ave(1:nrow(E$s),E$s$phylum,FUN=length),phylum,
+                                     ave(1:nrow(E$s),E$s$class,FUN=length),class,
+                                     ave(1:nrow(E$s),E$s$order,FUN=length),order,
+                                     ave(1:nrow(E$s),E$s$family,FUN=length),family,
+                                     ave(1:nrow(E$s),E$s$genus,FUN=length),genus,
+                                     ave(1:nrow(E$s),E$s$species,FUN=length),species,
+                                     ave(1:nrow(E$s),E$s$common,FUN=length),common))
+  
+  E$speciesTax <- unique(E$s[,c("phylum","class","order","family","genus","common")])
+  E$speciesTax <- unique(E$speciesTax)
+  E$speciesOrdering <- with(E$speciesTax,
+                            order(ave(1:nrow(E$speciesTax),E$speciesTax$phylum,FUN=length),phylum,
+                                  ave(1:nrow(E$speciesTax),E$speciesTax$class,FUN=length),class,
+                                  ave(1:nrow(E$speciesTax),E$speciesTax$order,FUN=length),order,
+                                  ave(1:nrow(E$speciesTax),E$speciesTax$family,FUN=length),family,
+                                  ave(1:nrow(E$speciesTax),E$speciesTax$genus,FUN=length),genus))
+  
+  #  E$figure1SpeciesOrdering <- match(E$,E$speciesTax$common)
+  E$s$weight <- as.numeric(E$s$weight)
+  E$s$log.weight <- log10(E$s$weight)
+  E$s$numOtus <- colSums(E$o$counts>0)
+  E$s$filteredReadCount <- colSums(E$o$counts)
+  
+  md <- sub("(; [kpcofgs]__)+$", "", E$o$metadata, perl=T)
+  library(tibble)
+  
+  adf <- split_assignments(md) %>% 
+    mutate_all(funs(sub("[kpcofgs]__", "", .))) %>%
+    mutate_all(funs(ifelse(. %in% "", NA, .))) %>%
+    mutate(Phylum = ifelse(Genus %in% "Enterococcus", "Firmicutes", Phylum)) %>%
+    mutate(Class = ifelse(Genus %in% "Enterococcus", "Bacilli", Class)) %>%
+    mutate(Order = ifelse(Genus %in% "Enterococcus", "Lactobacillales", Order)) %>%
+    mutate(Family = ifelse(Genus %in% "Enterococcus", "Enterococcaceae", Family))
+  E$a <- simplify_assignments(adf)
+  names(E$a) <- rownames(E$o$counts)
+  
+  adf <- adf %>% rownames_to_column("OtuID") %>%
+    mutate(OtuID = rownames(E$o$counts))
+  
+  library(dplyr)
+  library(readr)
+  aero <- read_tsv(paste0(work_dir, "bilaterian_aerobic_status_data.tsv")) %>%
+    mutate(TaxonRank = factor(TaxonRank, levels=rev(taxonomic_ranks))) %>%
+    arrange(TaxonRank, TaxonName)
+  
+  E$adf_aero <- adf %>%
+    mutate(aerobic_status = NA, explanation = NA)
+  for (row_idx in seq_len(nrow(aero))) {
+    taxon_rank <- as.character(aero$TaxonRank[row_idx])
+    taxon_name <- aero$TaxonName[row_idx]
+    taxon_status <- aero$AerobicStatus[row_idx]
+    explanation <- aero$Explanation[row_idx]
+    is_taxon <- E$adf_aero[[taxon_rank]] %in% taxon_name
+    is_unlabeled <- is.na(E$adf_aero$aerobic_status)
+    E$adf_aero$aerobic_status[is_taxon & is_unlabeled] <- taxon_status
+    E$adf_aero$explanation[is_taxon & is_unlabeled] <- explanation
+  }
+  
+  E$cts_df <- E$o$counts %>%
+    reshape2:::melt.array(
+      varnames = c("OtuID", "SampleID"), 
+      value.name = "Counts",
+      as.is=TRUE) %>%
+    filter(Counts > 0) %>%
+    group_by(SampleID) %>%
+    mutate(Proportion = Counts / sum(Counts)) %>%
+    ungroup() %>%
+    left_join(E$adf_aero, by="OtuID") %>%
+    mutate(., Assignment = simplify_assignments(.[,taxonomic_ranks])) %>%
+    left_join(E$s[,c("SampleID","common")], by="SampleID")
+  
+  E$samples_aero <- E$cts_df %>%
+    filter(!aerobic_status %in% c("NA", "no taxonomic assignment", "Streptophyta")) %>%
+    group_by(SampleID, aerobic_status, common) %>%
+    summarize(Proportion = sum(Proportion), Counts = sum(Counts))
+  
+  E$s <- E$s %>% left_join(E$samples_aero %>%
+                             filter(aerobic_status=="obligate anaerobe") %>%
+                             ungroup() %>%
+                             select(SampleID, Proportion), by="SampleID") %>%
+    rename(obligateAnaerobeProp = Proportion) %>%
+    mutate_at(.vars=vars(obligateAnaerobeProp),
+              funs(replace(obligateAnaerobeProp, which(is.na(.)), 0)))
+  
+  # Load phylogenetic diversity
+  E$pdwt_fp <- file.path(paste0(work_dir, "validation/alpha_diversity.",E$dataSetName,".tsv"))
+  E$pdwt <- read.table(E$pdwt_fp)
+  E$s$phyDiv <- E$pdwt[E$s$SampleID,"PD_whole_tree"]
 }
 
-expandTreeInternal <- function(tree,replacingNode,newLabel,newTipEdgeLength){
-  replacingEdge <- which(tree$edge[,2]==replacingNode)
-  replacingNodeLeaves <- as(subset(as(tree,"phylo4"),node.subtree=replacingNode),"phylo")$tip.label
-  newTip <- max(match(replacingNodeLeaves,tree$tip.label)) + 1
-  
-  numNodes <- max(tree$edge)
-  newNode <- numNodes + 2
-  numTips <- length(tree$tip.label)
-  replacingNodeHeight <- max(node.depth.edgelength(as(subset(as(tree,"phylo4"),
-                                                             node.subtree=replacingNode),"phylo")))
-  newInternalEdgeLength <- newTipEdgeLength - replacingNodeHeight
-  newReplacingEdgeLength <- tree$edge.length[replacingEdge] - newInternalEdgeLength
-  
-  
-  tree$edge[tree$edge >= newTip] <- tree$edge[tree$edge >= newTip] + 1
-  replacingNode <- replacingNode + 1
-  tree$edge[tree$edge[,1]==replacingNode,1] <- newNode
-  tree$edge <- cbind(append(append(tree$edge[,1],replacingNode,replacingEdge),replacingNode,replacingEdge),
-                     append(append(tree$edge[,2],newNode,replacingEdge),newTip,replacingEdge))
-  
-  tree$edge.length <- append(append(tree$edge.length,newInternalEdgeLength,replacingEdge),
-                             newTipEdgeLength,replacingEdge)
-  tree$edge.length[replacingEdge] <- newReplacingEdgeLength
-  
-  tree$tip.label <- append(tree$tip.label,newLabel,newTip - 1)
-  tree$Nnode <- tree$Nnode + 1
-  tree$node.label <- c(tree$node.label, paste0("'",max(as.numeric(gsub("'","",tree$node.label[-1])))+1,"'"))
-  
-  return(tree)
+saveOtuTable <- function(E) {
+  # Code used to create "melted" (compact) OTU table
+  # for each validation set
+  # om = OTU melted
+  om <- melt(E$o$counts, varnames=c("OTU","SampleID"),value.name = "count")
+  om$metadata <- E$o$metadata[om$OTU]
+  om <- om[om$count>0,]
+  write.csv(om, paste0(work_dir,"om.",E$dataSetName,".csv"), row.names = F)
 }
 
 shannonDiv <- function(data){
@@ -361,7 +334,7 @@ shannonDiv <- function(data){
   return(cbind(colnames(data),H))
 }
 
-plotFigure1 <- function(E, study) {
+plotFigure1 <- function(E) {
   
   library(reshape2)
   library(dplyr)
@@ -370,6 +343,8 @@ plotFigure1 <- function(E, study) {
   library(grid)
   
   E$aPhylum <- sub("; c__(.)*$", "", E$o$metadata, perl=T)
+  E$aPhylum <- sub("; p__", " ", E$aPhylum, perl=T)
+  E$aPhylum <- sub("k__", "", E$aPhylum, perl=T)
   E$oByPhylum <- rowsum(E$o$counts,E$aPhylum)
   
   E$obpProp <- apply(E$oByPhylum,2,function(x) ifelse (x,x / sum(x),0))
@@ -585,7 +560,7 @@ plotFigure1 <- function(E, study) {
   vplayout <- function(x, y) viewport(layout.pos.row = x, layout.pos.col = y)
 
   library(grid)
-  pdf(paste0(paste0(work_dir, "R_plots/figure1.",study,".pdf")),
+  pdf(paste0(paste0(work_dir, "R_plots/figure1.",E$dataSetName,".pdf")),
       height=15, width=20, onefile = FALSE)
   grid.newpage()
   pushViewport(viewport(layout = grid.layout(1000, 14)))
@@ -708,6 +683,14 @@ getCdCommon <- function(m,s,common1,common2) {
             rownames(m)[rownames(m) %in% s$SampleID[s$common==common2]]))
 }
 
+getEdgeLeaves <- function(tree, node, root=NULL) {
+  if(is.null(root)) {
+    root <- length(tree$tip.label) + 1
+  }
+  if(node < root) return(node)
+  return(unlist(sapply(tree$edge[tree$edge[,1]==node,2],function(X) getEdgeLeaves(tree,X,root=root))))
+}
+
 makeLegendColors <- function(vector) {
   legendColors <- rainbow(length(unique(vector)))
   names(legendColors) <- sort(unique(vector))
@@ -754,13 +737,6 @@ makeHeatmapColorsLog <- function (..., na.value = "white", scale = 1, threshold 
                                 values = 1 + breaks / 8, breaks = legendBreaks,
                                 ...)
 }
-
-isoTax <- function(metadata, tax, counts) {
-  taxOtus <- names(metadata[grep(tax,metadata)])
-  percentBySample <- apply(counts, 2, function(X) sum(X[names(X) %in% taxOtus]) / sum(X))
-  return(percentBySample)
-}
-
 
 
 # Export OTU tables----
@@ -813,6 +789,8 @@ newickPlot <- plot_tree(G$newick,"treeonly",nodeplotblank,base.spacing=0.55)
 # Heatmap of OTUs by phylum grouped by species
 
 G$aPhylum <- sub("; c__(.)*$", "", G$o$metadata, perl=T)
+G$aPhylum <- sub("; p__", " ", G$aPhylum, perl=T)
+G$aPhylum <- sub("k__", "", G$aPhylum, perl=T)
 G$oByPhylum <- rowsum(G$o$counts,G$aPhylum)
 
 G$obpProp <- apply(G$oByPhylum,2,function(x) ifelse (x,x / sum(x),0))
@@ -1073,46 +1051,6 @@ print(plotUnassigned, vp = vplayout(35:923, 14))
 dev.off()
 
 
-# Figure 2 (tSNE)----
-# PCoA, tsne, heatmaps for final figures
-
-resetData("toUse")
-resetUnifracData()
-
-set.seed(1001)
-library(Rtsne)
-G$uur_tsne <- Rtsne(G$uur,is_distance=TRUE,perplexity=10,max_iter=3000)
-
-#G$classColors <- makeLegendColors(G$s$class)
-G$classColors <- structure(
-  c('#8dd3c7','#ffed6f','#bc80bd','#fccde5','#80b1d3','#fdb462','#b3de69','#fb8072','#bebada','#ccebc5'),
-  .Names = c("Actinopteri", "Aves", "Chondrichthyes", "Diplopoda", "Holothuroidea", "Insecta", "Malacostraca", "Mammalia", "Polychaeta", "Reptilia")
-)
-G$s$classColor <- G$classColors[G$s$class]
-
-G$classOrderNumber <-
-  unlist(sapply(unique(G$s$class),function(X) makeLegendShapes(G$s$order[G$s$class==X])))
-
-G$s$orderShape <- as.numeric(G$classOrderNumber[as.character(G$s$order)])
-
-pdf(paste0(work_dir, "R_plots/figure2.tsne.uur.pdf"),
-    width=11,height=8,useDingbats = FALSE)
-par(mar=c(4,4,1,12)) # need to leave margin room
-plot(G$uur_tsne$Y, col=G$s$classColor, pch=as.numeric(G$s$orderShape),
-     xlab="t-SNE 1",ylab="t-SNE 2",lwd=2)
-plotTsneLegends()
-dev.off()
-
-pdf(paste0(work_dir, "R_plots/figure2.tsne.uur.extra.pdf"),
-    width=11,height=8,useDingbats = FALSE)
-par(mar=c(4,4,1,12)) # need to leave margin room
-plot(G$uur_tsne$Y, col=G$s$classColor, pch=as.numeric(G$s$orderShape),
-     xlab="t-SNE 1",ylab="t-SNE 2",lwd=2)
-plotExtraTsneLegends()
-dev.off()
-
-
-
 
 # Figure 1G/H----
 # plotDNA for unassigned vs assigned reads, both 5' and 3'
@@ -1202,6 +1140,38 @@ plotDNA(GH$repSetAUsample$seq, res=4000)
 dev.off()
 
 
+# Figure 2 (tSNE)----
+# PCoA, tsne, heatmaps for final figures
+
+resetData("toUse")
+resetUnifracData()
+
+set.seed(1001)
+library(Rtsne)
+G$uur_tsne <- Rtsne(G$uur,is_distance=TRUE,perplexity=10,max_iter=3000)
+
+G$s$classColor <- G$classColors[G$s$class]
+
+G$classOrderNumber <-
+  unlist(sapply(unique(G$s$class),function(X) makeLegendShapes(G$s$order[G$s$class==X])))
+
+G$s$orderShape <- as.numeric(G$classOrderNumber[as.character(G$s$order)])
+
+pdf(paste0(work_dir, "R_plots/figure2.tsne.uur.pdf"),
+    width=11,height=8,useDingbats = FALSE)
+par(mar=c(4,4,1,12)) # need to leave margin room
+plot(G$uur_tsne$Y, col=G$s$classColor, pch=as.numeric(G$s$orderShape),
+     xlab="t-SNE 1",ylab="t-SNE 2",lwd=2)
+plotTsneLegends()
+dev.off()
+
+pdf(paste0(work_dir, "R_plots/figure2.tsne.uur.extra.pdf"),
+    width=11,height=8,useDingbats = FALSE)
+par(mar=c(4,4,1,12)) # need to leave margin room
+plot(G$uur_tsne$Y, col=G$s$classColor, pch=as.numeric(G$s$orderShape),
+     xlab="t-SNE 1",ylab="t-SNE 2",lwd=2)
+plotExtraTsneLegends()
+dev.off()
 
 
 
@@ -1230,6 +1200,7 @@ G$sampleMetadataDf$count.Var1 <-
                     unique(as.character(G$speciesTax$common[G$figure1SpeciesOrdering]))))
 G$sampleMetadataDf <- G$sampleMetadataDf[match(levels(G$sampleMetadataDf$count.Var1),
                                                G$sampleMetadataDf$count.Var1),]
+library(dplyr)
 G$sampleMetadataDf <- G$sampleMetadataDf %>% group_by(level) %>%
   mutate(cum.freq = cumsum(count.Freq) - 0.5*count.Freq)
 pal <- sapply(table(G$sampleMetadataDf$level),
@@ -1243,6 +1214,7 @@ pal <- unname(unlist(pal))
 
 G$sampleMetadataDf$labelSize <- sapply(G$sampleMetadataDf$count.Freq, function(X) 2 * min(X,3))
 
+library(ggplot2)
 pdf(paste0(work_dir, "R_plots/A1.final.pdf"),
     height=30, width=15, onefile = FALSE)
 ggplot(G$sampleMetadataDf, aes(x = level, y = count.Freq, fill = count.Var1)) + 
@@ -1261,8 +1233,11 @@ dev.off()
 
 # Figure A2----
 
+# Must recreate this from raw FASTQ (from SRA)
+# Cannot recreate this from OTU table from github
 resetData("all")
 
+library(dnar)
 pdf(paste0(work_dir, "R_plots/A2.boxplot.readCounts.pdf"),
     width=11,height=8,useDingbat=FALSE)
 par(mar=c(5,7,6,6))
@@ -1282,6 +1257,8 @@ resetData("toUse")
 #load(paste0(work_dir, "R//good.20170830.RData")
 
 G$aPhylum <- sub("; c__(.)*$", "", G$o$metadata, perl=T)
+G$aPhylum <- sub("; p__", " ", G$aPhylum, perl=T)
+G$aPhylum <- sub("k__", "", G$aPhylum, perl=T)
 G$oByPhylum <- rowsum(G$o$counts,G$aPhylum)
 
 dataToPlot <- sort(rowSums(G$oByPhylum), decreasing = T)[1:9]
@@ -1292,7 +1269,8 @@ dataToPlot[10,] <- cbind(sum(sort(rowSums(G$oByPhylum), decreasing = T)[-c(1:9)]
 
 dataToPlot$value <- as.numeric(dataToPlot$value) / 1e6
 
-pdf(paste0(work_dir, "R_plots/supp3.pdf"), width = 10, height = 7)
+library(ggplot2)
+pdf(paste0(work_dir, "R_plots/A3.phylum.barplot.pdf"), width = 10, height = 7)
 ggplot(dataToPlot, aes(x=phylum, y=value)) + geom_bar(stat="identity") +
   coord_flip() + theme_bw() +
   labs(y = "Number of reads (in millions)", x = "OTU Phylum") +
@@ -1306,46 +1284,66 @@ dev.off()
 ### Figures A4-A13 (Val.)----
 
 VA <- new.env()
-resetValidationData(VA, paste0(work_dir, "validation/anteater/"))
-plotFigure1(VA, "anteater")
+VA$dataSetName <- "anteater"
+resetValidationData(VA)
+saveOtuTable(VA)
+plotFigure1(VA)
 
 VBi <- new.env()
-resetValidationData(VBi, paste0(work_dir, "validation/bird/"))
-plotFigure1(VBi, "bird")
+VBi$dataSetName <- "bird"
+resetValidationData(VBi)
+saveOtuTable(VBi)
+plotFigure1(VBi)
 
 VBu <- new.env()
-resetValidationData(VBu, paste0(work_dir, "validation/bug/"))
-plotFigure1(VBu, "bug")
+VBu$dataSetName <- "bug"
+resetValidationData(VBu)
+saveOtuTable(VBu)
+plotFigure1(VBu)
 
 VBR <- new.env()
-resetValidationData(VBR, paste0(work_dir, "validation/bugRev/"))
-plotFigure1(VBR, "bugRev")
+VBR$dataSetName <- "bugRev"
+resetValidationData(VBR)
+saveOtuTable(VBR)
+plotFigure1(VBR)
 
 VF <- new.env()
-resetValidationData(VF, paste0(work_dir, "validation/fish/"))
-plotFigure1(VF, "fish")
+VF$dataSetName <- "fish"
+resetValidationData(VF)
+saveOtuTable(VF)
+plotFigure1(VF)
 
 VM <- new.env()
-resetValidationData(VM, paste0(work_dir, "validation/muegge/"))
-plotFigure1(VM, "muegge454")
+VM$dataSetName <- "muegge454"
+resetValidationData(VM)
+saveOtuTable(VM)
+plotFigure1(VM)
 
 VMI <- new.env()
-resetValidationData(VMI, paste0(work_dir, "validation/mueggeIllumina/"))
-plotFigure1(VMI, "mueggeIllumina")
+VMI$dataSetName <- "mueggeIllumina"
+resetValidationData(VMI)
+saveOtuTable(VMI)
+plotFigure1(VMI)
 
 VP <- new.env()
-resetValidationData(VP, paste0(work_dir, "validation/primates/"))
-plotFigure1(VP, "primates")
+VP$dataSetName <- "primates"
+resetValidationData(VP)
+saveOtuTable(VP)
+plotFigure1(VP)
 
 VW <- new.env()
-resetValidationData(VW, paste0(work_dir, "validation/whale454/"))
+VW$dataSetName <- "whale454"
+resetValidationData(VW)
 VW$s$phyDiv <- VW$pdwt[VW$s$old_id, "PD_whole_tree"]
-plotFigure1(VW, "whale454")
+saveOtuTable(VW)
+plotFigure1(VW)
 
 VWI <- new.env()
-resetValidationData(VWI, paste0(work_dir, "validation/whaleIllumina/"))
+VWI$dataSetName <- "whaleIllumina"
+resetValidationData(VWI)
 VWI$s$phyDiv <- VWI$pdwt[VWI$s$old_id, "PD_whole_tree"]
-plotFigure1(VWI, "whaleIllumina")
+saveOtuTable(VWI)
+plotFigure1(VWI)
 
 
 
@@ -1364,7 +1362,6 @@ G$anaerobeTable <- G$anaerobeTable %>%
   mutate(Proportion=ave(Counts,SampleID,
                         FUN=function(X) X / sum(X)))
 
-
 G$aerobeTable <-
   G$anaerobeTable[G$anaerobeTable$aerobic_status_corrected=="aerobe",]
 G$s <- G$s %>% left_join(G$aerobeTable[,c("SampleID","Proportion")] %>%
@@ -1372,9 +1369,6 @@ G$s <- G$s %>% left_join(G$aerobeTable[,c("SampleID","Proportion")] %>%
   mutate_at(.vars=vars(aerobeProp),
             funs(replace(aerobeProp, which(is.na(.)), 0)))
 
-G$s$aerobeToObligateAnaerobeRatio <- log10((G$s$aerobeProp + 0.00001) / (G$s$obligateAnaerobeProp + 0.00001))
-
-G$classColors <- makeLegendColors(G$s$class)
 G$s$classColor <- G$classColors[G$s$class]
 
 G$s <- G$s %>%
@@ -1394,6 +1388,7 @@ G$anaerobeTableSpecies$Proportion <-
   ave(G$anaerobeTableSpecies$Counts,G$anaerobeTableSpecies$common,
       FUN=function(X) X / sum(X))
 
+library(dplyr)
 pdf(paste0(work_dir, "R_plots/A14_aerobic_status_species.pdf"),
     height=11, width=8, onefile = FALSE)
 G$anaerobeTableSpecies %>%
@@ -1408,24 +1403,12 @@ G$anaerobeTableSpecies %>%
 dev.off()
 
 
-pdf(paste0(work_dir, "R_plots/A15_aerobe_ratio_samples.pdf"),
-    height=8, width=11, onefile = FALSE)
-plot(G$s$log.weight,G$s$aerobeToObligateAnaerobeRatio,
-     col=G$s$classColor,xlab="Weight (grams, log10)",
-     ylab="Ratio of aerobic reads to anaerobic reads",
-     main="Ratio of aerobic/anaerobic reads vs sample weight.\nColored by host class.")
-dev.off()
-
 G$species$aerobeToObligateAnaerobeRatio <-
   with(aggregate(aerobeToObligateAnaerobeRatio ~ common,G$s, mean),
        aerobeToObligateAnaerobeRatio[match(G$species$common,common)])
 G$species$log.weight <-
   with(aggregate(log.weight ~ common,G$s, mean),
        log.weight[match(G$species$common,common)])
-G$classColors<-structure(
-  c('#8dd3c7','#ffed6f','#bc80bd','#fccde5','#80b1d3','#fdb462','#b3de69','#fb8072','#bebada','#ccebc5'),
-  .Names = c("Actinopteri", "Aves", "Chondrichthyes", "Diplopoda", "Holothuroidea", "Insecta", "Malacostraca", "Mammalia", "Polychaeta", "Reptilia")
-)
 G$species$classColor <- G$classColors[G$species$class]
 
 
@@ -1453,65 +1436,9 @@ dev.off()
 
 # Figure A16----
 # Phylogenetic Diversity
+# Heatmap of remote OTUs
 
-pdf("/home/kevin/projects/bilateria/R_plots/diet_vs_phyDiv.mammals.pdf",
-    height=8, width=11, onefile = FALSE)
-G$s %>% filter(class=="Mammalia") %>%
-  ggplot(aes(x=diet, y=phyDiv)) + geom_boxplot(aes(fill=diet)) +
-  scale_y_log10() +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  ggtitle("Phylogenetic diversity of mammals by diet")
-dev.off()
-
-pdf("/home/kevin/projects/bilateria/R_plots/diet_vs_phyDiv.arthropods.pdf",
-    height=8, width=11, onefile = FALSE)
-G$s %>% filter(phylum=="Arthropoda") %>%
-  ggplot(aes(x=diet, y=phyDiv)) + geom_boxplot(aes(fill=diet)) +
-  scale_y_log10() +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  ggtitle("Phylogenetic diversity of arthropods by diet")
-dev.off()
-
-
-library(ggplot2)
-library(scales)
-
-G$host.el <- data.frame(el=G$newick$edge.length)
-
-ggplot(G$el, aes(x=el)) +
-  stat_density(aes(y=..count..), color="black", fill="blue", alpha=0.3) +
-  scale_x_continuous(breaks=c(0,1,10,30,100,300,1000), trans="log1p", expand=c(0,0)) +
-  scale_y_continuous(breaks=c(0,5,10,25,50), expand=c(0,0)) +
-  theme_bw()
-
-library(phyloseq)
-library(dnaplotr)
-library(dnar)
-library(ape)
-
-G$otuTree <- read.tree(paste0(work_dir, "otu/rep_set.tre"))
-
-G$otu.el <- data.frame(el=G$otuTree$edge.length)
-
-ggplot(G$otu.el, aes(x=el)) +
-  stat_density(aes(y=..count..), color="black", fill="blue", alpha=0.3) +
-  scale_x_continuous(breaks=c(0,0.001,0.01,0.1,0.5), trans="log1p", expand=c(0,0)) +
-  scale_y_continuous(breaks=c(0,100,1000,10000,100000), trans="log",expand=c(0,0)) +
-  theme_bw()
-
-ggplot(G$otu.el,aes(x=el)) + geom_histogram(colour="darkblue", size=1, fill="blue") +
-  scale_x_log10(breaks = c(0,0.001,0.01,0.1,0.5,1))
-
-#sapply(seq(1,length(tempTree$tip.label),100000), function(X) maxEdgeLength(G$otuTree, X))
-
-#library(parallel)
-
-#cluster <- makeCluster(24)
-#tempTree <- G$otuTree
-#clusterExport(cl=cluster, varlist=c("maxEdgeLength", "tempTree"))
-#maxOtuEdgeLengths <- parLapply(cluster, seq(1,length(tempTree$tip.label),100000),
-#                               function(X) maxEdgeLength(tempTree,X))
-#stopCluster(cluster)
+G$otuTree <- read.tree(paste0(work_dir, "rep_set.tre"))
 
 G$remoteOtus <- unlist(sapply(G$otuTree$edge[G$otuTree$edge.length > 0.1,2],
                               function(X) getEdgeLeaves(G$otuTree,X), simplify=TRUE))
@@ -1521,14 +1448,6 @@ G$ROTaxa <- G$a[G$RONames]
 
 G$ROUnassigned <- G$RONames[G$ROTaxa=="Unassigned"]
 
-# Heatmap of remote OTUs
-
-# Do we want "% OTUS by Phylum for all REMOTE Otus"...
-#G$ROPhyla <- sub("; c__(.)*$", "", G$o$metadata[G$RONames], perl=T)
-#G$ROCounts <- G$o$counts[G$RONames,]
-#G$ROCbyPhylum <- rowsum(G$ROCounts,G$ROPhyla)
-
-# or "% OTUs by Phylum for ALL Otus" ?
 G$ROmetadata <- G$a
 G$ROmetadata <- sapply(G$ROmetadata, function(X) "non-remote")
 G$ROmetadata[G$RONames] <- G$a[G$RONames]
@@ -1554,8 +1473,6 @@ G$rocbtPropBySpeciesToUse <-
   G$rocbtPropBySpecies[,names(G$rocbtPropBySpecies) == 'common' |
                          names(G$rocbtPropBySpecies) %in% G$ROTaxaToUse]
 
-#G$rocbtPropBySpeciesToUse <-
-#  G$rocbtPropBySpeciesToUse[,c(1,rev(order(colSums(G$rocbtPropBySpeciesToUse[-1])))+1)]
 G$rocbtPropBySpeciesToUse <-
   G$rocbtPropBySpeciesToUse[,c(1,rev(order(colSums(G$rocbtPropBySpeciesToUse[-1]>0)))+1)]
 
@@ -1588,67 +1505,11 @@ ggplot(G$rocbtHeatmapData, aes(x=variable, y=common, fill=value)) +
 dev.off()
 
 
-
-# Run blast on unassigned reads
-library(dnar)
-G$repSet <- read.fa(paste0(work_dir,"/otu/rep_set/seqs_rep_set.fasta"))
-rownames(G$repSet) <- sapply(G$repSet$name,function(X) strsplit(X," ")[[1]][1])
-G$repSet$id <- paste(">",rownames(G$repSet),sep="")
-
-# Rep Set Remote Unassigned
-G$rsru <- G$repSet[rownames(G$repSet) %in% ROUnassigned,c("id","seq")]
-
-write.table(G$rsru,row.names = FALSE,col.names = FALSE,
-            paste0(work_dir,"unassigned/rsru.fasta"),sep="\n",quote = FALSE)
-
-system(paste0("blastn -db /home/common/blastdbs/nt ",
-              "-query ", work_dir,"unassigned/rsru.fasta -outfmt 6 ",
-              "-num_threads 30 -culling_limit 10 | gzip > ",
-              work_dir,"/unassigned/rsru.blast_results.txt.gz"))
-
-
-#Load Blast Results
-G$br <- read.blast(paste0(work_dir,"/unassigned/rsru.blast_results.txt.gz"))
-#blastResults$accession <- sapply(strsplit(blastResults$tName,'\\|'),'[[',3)
-G$br$maxBit <- ave(G$br$score,G$br$qName,FUN=max)
-# could also do e.g. >.95*blastResults$maxBit to get close hits
-G$brf <- G$br[G$br$score>0.95*G$br$maxBit,]
-library(taxonomizr)
-G$brf$taxa <- accessionToTaxa(G$brf$tName,"/home/common/taxonomizr/accessionTaxa.sql")
-
-taxaNodes<-read.nodes('/home/common/taxonomizr/nodes.dmp')
-taxaNames<-read.names('/home/common/taxonomizr/names.dmp')
-
-G$brf$taxonomy <-
-  getTaxonomy(G$brf$taxa,taxaNodes,taxaNames,mc.cores=5)
-
-write.csv(G$brf, row.names = FALSE, "/home/kevin/projects/placenta/blastResultsFiltered.csv")
-
-G$brf <- read.csv("/home/kevin/projects/placenta/blastResultsFiltered.csv")
-#humanOtus <-G$brf$qName[grep("Homo sapiens", G$brf$taxonomy[,"species"])]
-G$humanOtus <- as.character(G$brf$qName[grep("Homo sapiens", G$brf$taxonomy.species)])
-
-
 # Figure A17----
 # UniFrac analysis of sample sets
 resetData("toUse")
 resetUnifracData()
 
-G$s$common <- as.character(G$s$common)
-G$s$common[G$s$species=="stephensi"] <- "Mosquito"
-G$s$common[G$s$species=="molitor"] <- "Mealworm"
-G$s$common[G$s$species=="leucas"] <- "Bull Shark"
-G$s$common[G$s$species=="plumbeus"] <- "Sandbar Shark"
-G$s$common[G$s$species=="brevirostris"] <- "Lemon Shark"
-G$s$common[G$s$species=="cuvier"] <- "Tiger Shark"
-G$s$common[G$s$species=="americana"] <- "Dagger Moth"
-G$s$common[G$s$species=="trivittata"] <- "Boxelder Bug"
-
-#G$classColors <- makeLegendColors(G$s$class)
-G$classColors <- structure(
-  c('#8dd3c7','#ffed6f','#bc80bd','#fccde5','#80b1d3','#fdb462','#b3de69','#fb8072','#bebada','#ccebc5'),
-  .Names = c("Actinopteri", "Aves", "Chondrichthyes", "Diplopoda", "Holothuroidea", "Insecta", "Malacostraca", "Mammalia", "Polychaeta", "Reptilia")
-)
 G$species$classColor <- G$classColors[G$species$class]
 
 G$uurMatrix <- as.matrix(G$uur)
@@ -1791,64 +1652,28 @@ write.table(t(D2$seqtab.nochim),file="/home/kevin/projects/islandGut/toShare/dad
 
 
 
-
-
-
-
-
-
-
-
 # Marine bacteria----
+# Resulting table below shows % of reads in each sample
+# mapping to seawater bacteria as well as species average
 
 resetData("toUse")
 
 marineBacteriaStrings <- c("Synechococcales","Pelagibac","hodobacter")
 
-G$percentSynechocoBySample <- isoTax(G$o$metadata,"Synechococcales",G$o$counts)
-G$percentSynechocoBySample <-
-  G$percentSynechocoBySample[match(G$s$SampleID[G$sampleOrdering],
-                                   names(G$percentSynechocoBySample))]
+G$marineOtus <- names(G$o$metadata[grep(paste(marineBacteriaStrings,
+                                              collapse="|"),
+                                        G$o$metadata)])
 
+G$om <- melt(G$o$counts, varnames = c("OTU","SampleID"),value.name = "count") %>%
+  left_join(G$s %>% select(SampleID, common),by="SampleID")
 
-G$percentSynechocoBySpecies <-
-  tapply(G$percentSynechocoBySample[match(G$s$SampleID, names(G$percentSynechocoBySample))],
-         G$s$common,mean)
-G$percentSynechocoBySpecies <-
-  G$percentSynechocoBySpecies[match(G$speciesTax$common[G$figure1SpeciesOrdering],
-                                    names(G$percentSynechocoBySpecies))]
+G$om %>% group_by(SampleID, common) %>%
+  summarize(percentMarine=sum(count[OTU %in% G$marineOtus])/sum(count)) %>%
+  group_by(common) %>%
+  mutate(speciesAverage=mean(percentMarine)) %>%
+  arrange(-speciesAverage)
 
-G$percentPelagibacBySample <- isoTax(G$o$metadata,"Pelagibac",G$o$counts)
-G$percentPelagibacBySample <-
-  G$percentPelagibacBySample[match(G$s$SampleID[G$sampleOrdering],
-                                   names(G$percentPelagibacBySample))]
-G$percentPelagibacBySpecies <-
-  tapply(G$percentPelagibacBySample[match(G$s$SampleID, names(G$percentPelagibacBySample))],
-         G$s$common,mean)
-G$percentPelagibacBySpecies <-
-  G$percentPelagibacBySpecies[match(G$speciesTax$common[G$figure1SpeciesOrdering],
-                                    names(G$percentPelagibacBySpecies))]
-
-G$percentRoseobacterBySample <- isoTax(G$o$metadata,"hodobacter",G$o$counts)
-G$percentRoseobacterBySample <-
-  G$percentRoseobacterBySample[match(G$s$SampleID[G$sampleOrdering],
-                                     names(G$percentRoseobacterBySample))]
-G$percentRoseobacterBySpecies <-
-  tapply(G$percentRoseobacterBySample[match(G$s$SampleID, names(G$percentRoseobacterBySample))],
-         G$s$common,mean)
-G$percentRoseobacterBySpecies <-
-  G$percentRoseobacterBySpecies[match(G$speciesTax$common[G$figure1SpeciesOrdering],
-                                      names(G$percentRoseobacterBySpecies))]
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
@@ -1865,41 +1690,32 @@ nperm <- 1e6
 adonis(G$uur ~ phylum + class + order + family + genus + common,
        G$s[match(G$s$SampleID,attr(G$uur,"Labels")),],
        permutations = nperm)
-
 adonis(G$uur ~ diet,
        G$s[match(G$s$SampleID,attr(G$uur,"Labels")),],
        permutations = nperm)
-
 adonis(G$uur ~ phylum + diet,
        G$s[match(G$s$SampleID,attr(G$uur,"Labels")),],
        permutations = nperm)
-
 adonis(G$uur ~ diet + phylum,
        G$s[match(G$s$SampleID,attr(G$uur,"Labels")),],
        permutations = nperm)
 
-
-
-G$uurMammal <- as.dist(as.matrix(G$uur)[match(G$s$SampleID[G$s$class=="Mammalia"],attr(G$uur,"Labels")),
-                                        match(G$s$SampleID[G$s$class=="Mammalia"],attr(G$uur,"Labels"))])
-
-
-G$sUurMammal <- G$s[match(attr(G$uurMammal,"Labels"),G$s$SampleID),]
-G$mammalOrders <- G$s %>% filter(class=="Mammalia") %>%
-  distinct(order) %>% pull(order)
-
-
-
-adonis(G$uurMammal ~ order == "Carnivora",G$s[match(attr(G$uurMammal,"Labels"),G$s$SampleID),],
-       permutations = nperm)
-
 adonis(G$uur ~ order == "Carnivora",G$s[match(attr(G$uur,"Labels"),G$s$SampleID),],
        permutations = nperm)
-
 adonis(G$uur ~ class == "Chondrichthyes",G$s[match(attr(G$uur,"Labels"),G$s$SampleID),],
        permutations = nperm)
 
+# Create mammal subset of unweighted Unifrac distances
+G$uurMammal <- as.dist(as.matrix(G$uur)[match(G$s$SampleID[G$s$class=="Mammalia"],attr(G$uur,"Labels")),
+                                        match(G$s$SampleID[G$s$class=="Mammalia"],attr(G$uur,"Labels"))])
+G$sUurMammal <- G$s[match(attr(G$uurMammal,"Labels"),G$s$SampleID),]
+G$mammalOrders <- G$s %>% filter(class=="Mammalia") %>%
+  distinct(order) %>% pull(order)
+adonis(G$uurMammal ~ order == "Carnivora",G$s[match(attr(G$uurMammal,"Labels"),G$s$SampleID),],
+       permutations = nperm)
 
+# Code to run adonis (PERMANOVA) on whales from validation studies
+# Requires running Qiime beta diversity analysis
 library(qiimer)
 VW$uur_fp <- file.path(work_dir, "validation/whale454/beta_diversity", "unweighted_unifrac_otu_table.txt")
 VW$uur <- read_qiime_distmat(VW$uur_fp)
@@ -1914,11 +1730,6 @@ attr(VWI$uur,"Labels") <- VWI$s$SampleID[match(attr(VWI$uur,"Labels"),VWI$s$old_
 VWI$uur <- dist_subset(VWI$uur, VWI$s$SampleID)
 adonis(VWI$uur ~ (order == "Cetacea") + (family=="Delphinidae"|family=="Monodontidae"),
        VWI$s[match(attr(VWI$uur,"Labels"),VWI$s$SampleID),], permutations = nperm)
-
-
-
-
-
 
 
 
@@ -1945,8 +1756,28 @@ adonis(G$phyDist ~ phylum, G$species, permutations = nperm)
 adonis(G$phyDist ~ class, G$species, permutations = nperm)
 
 
+resetUnifracData()
 
+G$uurMatrix <- as.matrix(G$uur)
 
+G$uurSpeciesMatrix <- matrix(nrow=length(unique(G$s$common)),
+                    ncol=length(unique(G$s$common)))
+G$uurSpeciesMatrix[,] <- 0
+rownames(G$uurSpeciesMatrix) <- unique(G$s$common)
+colnames(G$uurSpeciesMatrix) <- unique(G$s$common)
+for(i in rownames(G$uurSpeciesMatrix)) {
+  for(j in colnames(G$uurSpeciesMatrix)) {
+    if(i==j) {
+      G$uurSpeciesMatrix[i,j] <- 0
+    } else {
+      G$uurSpeciesMatrix[i,j] <- getCdCommon(G$uurMatrix,G$s,i,j)
+    }
+  }
+}
+
+G$uurSpeciesMatrix <- G$uurSpeciesMatrix[G$figure1SpeciesOrdering,G$figure1SpeciesOrdering]
+
+mantel.test(G$uurSpeciesMatrix,G$phyMatrix,nperm=1e6)
 
 
 
